@@ -1,5 +1,5 @@
 .container {
-    padding: 1rem;
+    padding: 0 4px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -31,6 +31,7 @@
 .toolbarRight {
     display: flex;
     justify-content: center;
+    gap: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -141,6 +142,7 @@
 
 @media (min-width: 1024px) {
     .container {
-        max-width: 1400px; /* Equivalent to max-w-7xl */
+        max-width: 1400px;
+        /* Equivalent to max-w-7xl */
     }
 }

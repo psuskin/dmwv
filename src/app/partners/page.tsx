@@ -56,24 +56,35 @@ const AllPartnersPage = () => {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-8 text-primary-800">Alle Wellness-Partner</h1>
+      <h1 className="text-4xl font-bold mb-8 text-primary-800">
+        Alle Wellness-Partner
+      </h1>
 
-      <div className="mb-12 flex gap-4">
-        <input
-          type="text"
-          placeholder="Suche nach Hotels oder Orten"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="flex-grow max-w-md px-4 py-2 border border-primary-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
-        />
-        <button className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg transition-colors duration-300 flex items-center">
-          <Search className="mr-2 h-4 w-4" /> Suchen
-        </button>
+      <div className="mb-12">
+        <div className="flex flex-row gap-4 max-w-3xl mx-auto">
+          <div className="relative flex-grow">
+            <input
+              type="text"
+              placeholder="Suche nach Hotels oder Orten"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full px-4 py-3 border border-primary-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all duration-300 pl-12"
+            />
+            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-primary-400" />
+          </div>
+          <button className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center sm:justify-start whitespace-nowrap">
+            <Search className="mr-2 h-5 w-5" />
+            <span>Suchen</span>
+          </button>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {filteredHotels.map((hotel) => (
-          <div key={hotel.id} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+          <div
+            key={hotel.id}
+            className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
+          >
             <div className="relative h-64">
               <Image
                 src={hotel.image}
@@ -83,17 +94,24 @@ const AllPartnersPage = () => {
               />
               <div className="absolute top-4 right-4 bg-white bg-opacity-90 rounded-full px-3 py-1 flex items-center">
                 <Star className="text-yellow-400 mr-1 h-4 w-4" />
-                <span className="font-semibold text-primary-800">{hotel.rating.toFixed(1)}</span>
+                <span className="font-semibold text-primary-800">
+                  {hotel.rating.toFixed(1)}
+                </span>
               </div>
             </div>
             <div className="p-6">
-              <h2 className="text-xl font-bold text-primary-700 mb-2">{hotel.name}</h2>
+              <h2 className="text-xl font-bold text-primary-700 mb-2">
+                {hotel.name}
+              </h2>
               <p className="flex items-center text-primary-500 mb-4">
                 <MapPin className="mr-1 h-4 w-4" /> {hotel.location}
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 {hotel.features.map((feature, index) => (
-                  <span key={index} className="bg-primary-100 text-primary-700 text-sm px-3 py-1 rounded-full">
+                  <span
+                    key={index}
+                    className="bg-primary-100 text-primary-700 text-sm px-3 py-1 rounded-full"
+                  >
                     {feature}
                   </span>
                 ))}
