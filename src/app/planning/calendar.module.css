@@ -1,0 +1,146 @@
+.container {
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.gridContainer {
+    display: grid;
+    gap: 1rem;
+}
+
+.calendarCard,
+.detailsCard {
+    margin-bottom: 1rem;
+}
+
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.toolbarLeft,
+.toolbarRight {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.toolbarButton {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+.toolbarButtonText {
+    display: none;
+}
+
+.toolbarLabel {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.calendar {
+    font-size: 0.75rem;
+}
+
+.eventTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.eventDate {
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.eventBadge {
+    margin-bottom: 0.5rem;
+}
+
+.eventDescription {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.noEventSelected {
+    color: #666;
+}
+
+@media (min-width: 640px) {
+    .container {
+        padding: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .gridContainer {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .toolbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .toolbarLeft,
+    .toolbarRight {
+        margin-bottom: 0;
+    }
+
+    .toolbarButton {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .toolbarButtonText {
+        display: inline;
+    }
+
+    .toolbarLabel {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+
+    .calendar {
+        font-size: 1rem;
+    }
+
+    .eventTitle {
+        font-size: 1.5rem;
+    }
+
+    .eventDate {
+        font-size: 0.875rem;
+    }
+
+    .eventDescription {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1400px; /* Equivalent to max-w-7xl */
+    }
+}
