@@ -7,52 +7,22 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 
 const menuItems = [
+  { name: "Home", href: "/" },
   { name: "News", href: "/news" },
   {
     name: "Verband",
     href: "/verband",
     submenu: [
-      { name: "Über uns", href: "/verband/uber-uns" },
+      { name: "Organisation", href: "/verband/organisation" },
+      { name: "Expertise", href: "/verband/expertise" },
+      { name: "Kooperation", href: "/verband/kooperation" },
       { name: "Mitgliedschaft", href: "/verband/mitgliedschaft" },
-      { name: "Vorstand", href: "/verband/vorstand" },
+      { name: "Kompetenzfelder", href: "/verband/kompetenzfelder" },
+      { name: "Partners", href: "/verband/partners" },
     ],
   },
-  {
-    name: "Zertifizierung",
-    href: "/zertifizierung",
-    submenu: [
-      { name: "Prozess", href: "/zertifizierung/prozess" },
-      { name: "Kriterien", href: "/zertifizierung/kriterien" },
-      { name: "Anmeldung", href: "/zertifizierung/anmeldung" },
-    ],
-  },
-  {
-    name: "Medical Wellness",
-    href: "##",
-    submenu: [
-      { name: "Definition", href: "/medical-wellness/definition" },
-      { name: "Angebote", href: "/medical-wellness/angebote" },
-      { name: "Studien", href: "/medical-wellness/studien" },
-    ],
-  },
-  {
-    name: "Presse",
-    href: "#",
-    submenu: [
-      { name: "Pressemitteilungen", href: "/presse/pressemitteilungen" },
-      { name: "Mediathek", href: "/presse/mediathek" },
-      { name: "Kontakt", href: "/presse/kontakt" },
-    ],
-  },
-  {
-    name: "Service",
-    href: "###",
-    submenu: [
-      { name: "FAQ", href: "/service/faq" },
-      { name: "Downloads", href: "/service/downloads" },
-      { name: "Support", href: "/service/support" },
-    ],
-  },
+  { name: "Zertifizierung", href: "/zertifizierung" },
+  { name: "Medical Wellness", href: "/medical-wellness" },
   { name: "Planung", href: "/planning" },
 ];
 
@@ -62,11 +32,24 @@ export default function Navbar() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const submenuTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const pathname = usePathname();
   const router = useRouter();
 
-  const toggleSubmenu = (itemName: string) => {
-    setActiveSubmenu(activeSubmenu === itemName ? null : itemName);
+  const openSubmenu = (itemName: string) => {
+    if (submenuTimeoutRef.current) {
+      clearTimeout(submenuTimeoutRef.current);
+    }
+    setActiveSubmenu(itemName);
+  };
+
+  const closeSubmenu = () => {
+    if (submenuTimeoutRef.current) {
+      clearTimeout(submenuTimeoutRef.current);
+    }
+    submenuTimeoutRef.current = setTimeout(() => {
+      setActiveSubmenu(null);
+    }, 300); // 300ms delay before closing
   };
 
   const handleMobileItemClick = (href: string, hasSubmenu: boolean) => {
@@ -74,7 +57,7 @@ export default function Navbar() {
       router.push(href);
       setIsOpen(false);
     } else {
-      toggleSubmenu(href);
+      setActiveSubmenu(activeSubmenu === href ? null : href);
     }
   };
 
@@ -84,13 +67,16 @@ export default function Navbar() {
         dropdownRef.current &&
         !dropdownRef.current.contains(event.target as Node)
       ) {
-        setActiveSubmenu(null);
+        closeSubmenu();
       }
     };
 
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+      if (submenuTimeoutRef.current) {
+        clearTimeout(submenuTimeoutRef.current);
+      }
     };
   }, []);
 
@@ -104,7 +90,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-primary-500 text-white shadow-lg">
+    <nav className="bg-primary-500 text-white shadow-lg relative z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -130,12 +116,22 @@ export default function Navbar() {
                         ? "bg-primary-400"
                         : ""
                     }`}
+                    onMouseEnter={() => item.submenu && openSubmenu(item.name)}
+                    onMouseLeave={() => item.submenu && closeSubmenu()}
                   >
                     {item.name}
                     {item.submenu && <ChevronDown className="ml-1 h-4 w-4" />}
                   </Link>
                   {item.submenu && (
-                    <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                    <div
+                      className={`absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 transition-opacity duration-200 ${
+                        activeSubmenu === item.name
+                          ? "opacity-100 visible"
+                          : "opacity-0 invisible"
+                      }`}
+                      onMouseEnter={() => openSubmenu(item.name)}
+                      onMouseLeave={() => closeSubmenu()}
+                    >
                       <div
                         className="py-1"
                         role="menu"
@@ -152,6 +148,7 @@ export default function Navbar() {
                                 : ""
                             }`}
                             role="menuitem"
+                            onClick={() => closeSubmenu()}
                           >
                             {subItem.name}
                           </Link>

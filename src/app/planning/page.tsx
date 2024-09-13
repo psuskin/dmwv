@@ -33,6 +33,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import SubHeader from "@/components/SubHeader";
 
 const localizer = momentLocalizer(moment);
 
@@ -194,62 +195,75 @@ const CongressPlanningCalendar: React.FC = () => {
   };
 
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Congress Planning Calendar</h1>
-      <div className={styles.gridContainer}>
-        <Card className={styles.calendarCard}>
-          <CardHeader>
-            <CardTitle>Upcoming Events</CardTitle>
-            <CardDescription>
-              Plan your attendance for our upcoming congresses and workshops.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Calendar
-              localizer={localizer}
-              events={events}
-              startAccessor="start"
-              endAccessor="end"
-              style={{ height: 500 }}
-              onSelectEvent={handleSelectEvent}
-              view={view}
-              onView={handleViewChange}
-              date={date}
-              onNavigate={handleNavigate}
-              components={{
-                toolbar: CustomToolbar,
-              }}
-              className={styles.calendar}
-            />
-          </CardContent>
-        </Card>
-        <Card className={styles.detailsCard}>
-          <CardHeader>
-            <CardTitle>Event Details</CardTitle>
-          </CardHeader>
-          <CardContent>
-            {selectedEvent ? (
-              <>
-                <h2 className={styles.eventTitle}>{selectedEvent.title}</h2>
-                <p className={styles.eventDate}>
-                  {moment(selectedEvent.start).format("MMMM D, YYYY")} -{" "}
-                  {moment(selectedEvent.end).format("MMMM D, YYYY")}
+    <>
+      <SubHeader
+        title="Veranstaltungsplanung"
+        subtitle="Organisieren Sie Ihre Kongresse und Wellness-Events effizient"
+        backgroundImage="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Planung", href: "/planning" },
+        ]}
+      />
+
+      <div className={styles.container}>
+        <div className={styles.gridContainer}>
+          <Card className={styles.calendarCard}>
+            <CardHeader>
+              <CardTitle>Upcoming Events</CardTitle>
+              <CardDescription>
+                Plan your attendance for our upcoming congresses and workshops.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Calendar
+                localizer={localizer}
+                events={events}
+                startAccessor="start"
+                endAccessor="end"
+                style={{ height: 500 }}
+                onSelectEvent={handleSelectEvent}
+                view={view}
+                onView={handleViewChange}
+                date={date}
+                onNavigate={handleNavigate}
+                components={{
+                  toolbar: CustomToolbar,
+                }}
+                className={styles.calendar}
+              />
+            </CardContent>
+          </Card>
+          <Card className={styles.detailsCard}>
+            <CardHeader>
+              <CardTitle>Event Details</CardTitle>
+            </CardHeader>
+            <CardContent>
+              {selectedEvent ? (
+                <>
+                  <h2 className={styles.eventTitle}>{selectedEvent.title}</h2>
+                  <p className={styles.eventDate}>
+                    {moment(selectedEvent.start).format("MMMM D, YYYY")} -{" "}
+                    {moment(selectedEvent.end).format("MMMM D, YYYY")}
+                  </p>
+                  <Badge className={styles.eventBadge}>
+                    {selectedEvent.type}
+                  </Badge>
+                  <p className={styles.eventDescription}>
+                    {selectedEvent.desc}
+                  </p>
+                  <EventDialog event={selectedEvent} />
+                </>
+              ) : (
+                <p className={styles.noEventSelected}>
+                  Select an event to view details
                 </p>
-                <Badge className={styles.eventBadge}>
-                  {selectedEvent.type}
-                </Badge>
-                <p className={styles.eventDescription}>{selectedEvent.desc}</p>
-                <EventDialog event={selectedEvent} />
-              </>
-            ) : (
-              <p className={styles.noEventSelected}>
-                Select an event to view details
-              </p>
-            )}
-          </CardContent>
-        </Card>
+              )}
+            </CardContent>
+          </Card>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -4,12 +4,6 @@
     margin: 0 auto;
 }
 
-.title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
 .gridContainer {
     display: grid;
     gap: 1rem;

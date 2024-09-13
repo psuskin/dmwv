@@ -111,13 +111,6 @@ const WellnessHotels: React.FC = () => {
                     </span>
                   ))}
                 </div>
-                <a
-                  href="#"
-                  className="group inline-flex items-center text-primary-500 hover:text-primary-00 transition-colors duration-300 text-lg"
-                >
-                  Mehr erfahren
-                  <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-                </a>
               </div>
             </div>
           </div>
@@ -125,7 +118,7 @@ const WellnessHotels: React.FC = () => {
 
         <div className="mt-12 text-end">
           <Link
-            href="/partners"
+            href="/wellness-partners"
             className="group bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 inline-flex items-center"
           >
             Alle Partner anzeigen
