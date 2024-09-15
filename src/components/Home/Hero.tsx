@@ -81,13 +81,16 @@ const Hero: React.FC = () => {
       {/* Left side: Content */}
       <div className="lg:w-1/2 flex flex-col justify-center px-8 py-12 lg:px-16">
         <h1 className="text-4xl lg:text-5xl font-bold text-primary-800 mb-6">
-          Deutsche Medical Wellness Vereinigung
+          Deutscher Medical Wellness Verband
         </h1>
         <p className="text-xl text-primary-600 mb-8">
           Ihr Partner für Gesundheit, Vitalität und Lebensfreude
         </p>
         <div className="flex space-x-4 mb-12">
-          <Button text="Mehr erfahren" />
+          <Button
+            text="Mehr erfahren"
+            onClick={() => window.location.href = 'https://dmwv-new.vercel.app/medical-wellness'}
+          />
         </div>
       </div>
 
@@ -129,11 +132,10 @@ const Hero: React.FC = () => {
             <button
               key={index}
               onClick={() => emblaApi?.scrollTo(index)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                index === selectedIndex
-                  ? "bg-white w-4"
-                  : "bg-white bg-opacity-50"
-              }`}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${index === selectedIndex
+                ? "bg-white w-4"
+                : "bg-white bg-opacity-50"
+                }`}
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}

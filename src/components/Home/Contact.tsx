@@ -140,9 +140,9 @@ const ContactPage: React.FC = () => {
                 <div>
                   <p className="font-semibold">Adresse</p>
                   <p>
-                    Musterstraße 123
+                    Heideläuferweg 75a
                     <br />
-                    12345 Berlin
+                    12353 Berlin
                     <br />
                     Deutschland
                   </p>

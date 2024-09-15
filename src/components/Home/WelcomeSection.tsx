@@ -70,7 +70,10 @@ const WelcomeSection: React.FC = () => {
                 </li>
               ))}
             </ul>
-            <button className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-200">
+            <button
+              className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-200"
+              onClick={() => window.location.href = 'https://dmwv-new.vercel.app/medical-wellness'}
+            >
               Mehr erfahren
               <ArrowRight className="ml-2 h-5 w-5" />
             </button>

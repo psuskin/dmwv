@@ -96,7 +96,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 text-primary-300 mt-0.5" />
-                <span className="text-sm">Bundesallee 115, 12161 Berlin</span>
+                <span className="text-sm">Heideläuferweg 75a, 12353 Berlin</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-primary-300" />
