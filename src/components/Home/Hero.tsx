@@ -4,6 +4,7 @@ import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Link from 'next/link';
 import Button from "../Buttons/Button";
 
 const slides = [
@@ -87,10 +88,9 @@ const Hero: React.FC = () => {
           Ihr Partner für Gesundheit, Vitalität und Lebensfreude
         </p>
         <div className="flex space-x-4 mb-12">
-          <Button
-            text="Mehr erfahren"
-            onClick={() => window.location.href = 'https://dmwv-new.vercel.app/medical-wellness'}
-          />
+          <Link href="/medical-wellness" passHref>
+            <Button text="Mehr erfahren" />
+          </Link>
         </div>
       </div>
 

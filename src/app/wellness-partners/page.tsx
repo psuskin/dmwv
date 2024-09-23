@@ -71,19 +71,19 @@ const AllPartnersPage = () => {
           Alle Wellness-Partner
         </h1>
 
-        <div className="mb-12">
-          <div className="flex flex-row gap-4 max-w-3xl mx-auto">
+        <div className="mb-8 sm:mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 max-w-3xl mx-auto">
             <div className="relative flex-grow">
               <input
                 type="text"
                 placeholder="Suche nach Hotels oder Orten"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-3 border border-primary-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all duration-300 pl-12"
+                className="w-full px-4 py-3 border border-primary-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all duration-300 pl-12 text-sm sm:text-base"
               />
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-primary-400" />
             </div>
-            <button className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center sm:justify-start whitespace-nowrap">
+            <button className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center whitespace-nowrap text-sm sm:text-base">
               <Search className="mr-2 h-5 w-5" />
               <span>Suchen</span>
             </button>

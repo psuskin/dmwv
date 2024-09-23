@@ -57,10 +57,10 @@ const ContactPage: React.FC = () => {
         <div className="flex flex-col md:flex-row">
           {/* Contact Form */}
           <div className="md:w-2/3 p-8 lg:p-12">
-            <h2 className="text-3xl font-bold text-primary-800 mb-6">
+            <h2 className="text-4xl font-bold text-primary-800 mb-6">
               Kontaktieren Sie uns
             </h2>
-            <p className="text-gray-600 mb-8">
+            <p className="text-lg text-gray-600 mb-8">
               Wir freuen uns, von Ihnen zu hören! Füllen Sie das Formular aus,
               und wir melden uns so schnell wie möglich bei Ihnen.
             </p>
@@ -91,7 +91,7 @@ const ContactPage: React.FC = () => {
                 <Input
                   type="text"
                   name="subject"
-                  placeholder="Subject"
+                  placeholder="Betreff"
                   value={formData.subject}
                   onChange={handleChange}
                   required
@@ -119,7 +119,7 @@ const ContactPage: React.FC = () => {
 
           {/* Contact Information */}
           <div className="md:w-2/5 bg-primary-500 text-white p-8 lg:p-12">
-            <h3 className="text-2xl font-bold mb-8">Kontaktinformationen</h3>
+            <h3 className="text-3xl font-bold mb-8">Kontaktinformationen</h3>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <Phone className="w-6 h-6 mt-1 flex-shrink-0" />
