@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LinkedinIcon, TwitterIcon } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const teamMembers = [
   {
@@ -58,17 +59,32 @@ const teamMembers = [
 
 export default function MeetOurTeam() {
   const [hoveredMember, setHoveredMember] = useState<number | null>(null);
+  const t = useTranslations("Team");
 
   return (
-    <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
+    <div
+      className="min-h-screen bg-white py-16 px-4 sm:px-6 lg:px-8"
+      aria-labelledby="team-section-title"
+    >
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-5xl font-bold text-center text-gray-800 mb-12">
-          Unser Team
-        </h1>
-        <p className="text-xl text-center text-gray-600 mb-16 max-w-3xl mx-auto">
-          Lernen Sie die engagierten Experten kennen, die den Deutscher Medical
-          Wellness Verband e.V. leiten und unsere Mission vorantreiben.
-        </p>
+        <div className="text-center mb-12">
+          <h2 className="text-primary-600 text-lg sm:text-xl lg:text-2xl font-semibold mb-3 tracking-wide uppercase">
+            {t("ourExperts")}
+          </h2>
+          <h3
+            id="team-section-title"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-800 mb-6 leading-tight"
+          >
+            {t("teamTitle")}
+          </h3>
+          <div
+            className="w-24 h-1 bg-primary-500 mx-auto mb-6 sm:mb-8 rounded-full"
+            aria-hidden="true"
+          ></div>
+          <p className="text-lg sm:text-xl lg:text-2xl text-primary-600 max-w-3xl mx-auto">
+            {t("teamDescription")}
+          </p>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <motion.div
@@ -83,15 +99,20 @@ export default function MeetOurTeam() {
               <div className="relative h-96">
                 <Image
                   src={member.image}
-                  alt={member.name}
+                  alt={t("memberImageAlt", { name: member.name })}
                   width={500}
                   height={500}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div
+                  className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
+                  aria-hidden="true"
+                ></div>
                 <div className="absolute bottom-0 left-0 p-6 text-white">
-                  <h3 className="text-2xl font-semibold mb-1">{member.name}</h3>
-                  <p className="text-sm opacity-75">{member.position}</p>
+                  <h4 className="text-2xl font-semibold mb-1">{member.name}</h4>
+                  <p className="text-lg opacity-75">
+                    {t(`members.${index}.position`)}
+                  </p>
                 </div>
                 <AnimatePresence>
                   {hoveredMember === index && (
@@ -103,11 +124,13 @@ export default function MeetOurTeam() {
                       transition={{ duration: 0.3 }}
                     >
                       <div>
-                        <h3 className="text-2xl font-semibold mb-2">
+                        <h4 className="text-2xl font-semibold mb-2">
                           {member.name}
-                        </h3>
-                        <p className="text-sm mb-4">{member.position}</p>
-                        <p className="text-sm">{member.bio}</p>
+                        </h4>
+                        <p className="text-lg mb-4">
+                          {t(`members.${index}.position`)}
+                        </p>
+                        <p className="text-base">{t(`members.${index}.bio`)}</p>
                       </div>
                       <div className="flex justify-start space-x-4">
                         <a
@@ -115,16 +138,18 @@ export default function MeetOurTeam() {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-white hover:text-blue-200 transition-colors"
+                          aria-label={t("linkedinAria", { name: member.name })}
                         >
-                          <LinkedinIcon className="w-6 h-6" />
+                          <LinkedinIcon className="w-8 h-8" />
                         </a>
                         <a
                           href={member.twitter}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-white hover:text-blue-200 transition-colors"
+                          aria-label={t("twitterAria", { name: member.name })}
                         >
-                          <TwitterIcon className="w-6 h-6" />
+                          <TwitterIcon className="w-8 h-8" />
                         </a>
                       </div>
                     </motion.div>

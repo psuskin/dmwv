@@ -4,77 +4,126 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Star, MapPin, ArrowRight } from "lucide-react";
 import Link from "next/link";
-
-const hotels = [
-  {
-    name: "Wellness Resort Sonnenberg",
-    location: "Baden-Baden",
-    image:
-      "https://images.adsttc.com/media/images/5bd1/b78a/f197/ccd6/5300/0162/newsletter/DPA_DukeStudentWellness_14.jpg?1540470656",
-    rating: 4.8,
-    features: ["Spa", "Pool", "Yoga"],
-  },
-  {
-    name: "Spa Hotel Schwarzwald",
-    location: "Freiburg",
-    image:
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    rating: 4.9,
-    features: ["Massage", "Sauna", "Fitness"],
-  },
-  {
-    name: "Gesundheitszentrum Bodensee",
-    location: "Konstanz",
-    image:
-      "https://www.hksinc.com/wp-content/uploads/2023/04/Confidential-Wellness-Center-body-scaled.jpg",
-    rating: 4.7,
-    features: ["Therapie", "Ernährung", "Meditation"],
-  },
-  {
-    name: "Vitalhotel Alpenblick",
-    location: "Garmisch-Partenkirchen",
-    image:
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    rating: 4.9,
-    features: ["Bergblick", "Wandern", "Wellness"],
-  },
-];
+import { useTranslations } from "next-intl";
 
 const WellnessHotels: React.FC = () => {
   const [activeHotel, setActiveHotel] = useState(0);
+  const t = useTranslations("WellnessHotels");
+
+  const hotels = [
+    {
+      name: t("hotels.sonnenberg.name"),
+      location: t("hotels.sonnenberg.location"),
+      image:
+        "https://images.adsttc.com/media/images/5bd1/b78a/f197/ccd6/5300/0162/newsletter/DPA_DukeStudentWellness_14.jpg?1540470656",
+      rating: 4.8,
+      features: [t("features.spa"), t("features.pool"), t("features.yoga")],
+    },
+    {
+      name: t("hotels.schwarzwald.name"),
+      location: t("hotels.schwarzwald.location"),
+      image:
+        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      rating: 4.9,
+      features: [
+        t("features.massage"),
+        t("features.sauna"),
+        t("features.fitness"),
+      ],
+    },
+    {
+      name: t("hotels.bodensee.name"),
+      location: t("hotels.bodensee.location"),
+      image:
+        "https://www.hksinc.com/wp-content/uploads/2023/04/Confidential-Wellness-Center-body-scaled.jpg",
+      rating: 4.7,
+      features: [
+        t("features.therapy"),
+        t("features.nutrition"),
+        t("features.meditation"),
+      ],
+    },
+    {
+      name: t("hotels.alpenblick.name"),
+      location: t("hotels.alpenblick.location"),
+      image:
+        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      rating: 4.9,
+      features: [
+        t("features.mountainView"),
+        t("features.hiking"),
+        t("features.wellness"),
+      ],
+    },
+  ];
 
   return (
-    <section className="bg-primary-50 py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <section
+      className="bg-primary-50 py-16 px-4 sm:px-6 lg:px-8 relative"
+      aria-labelledby="wellness-hotels-title"
+    >
+      {/* Medical-themed background pattern */}
+      <div className="absolute inset-0 z-0 opacity-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+          <defs>
+            <pattern id="medical-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M20 0v40M0 20h40" stroke="#000" strokeWidth="1" />
+              <circle cx="20" cy="20" r="8" fill="#000" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#medical-pattern)" />
+        </svg>
+      </div>
+
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-primary-800 mb-2">
-            Unsere Vertragspartner
+          <h2 className="text-primary-600 text-lg sm:text-xl lg:text-2xl font-semibold mb-3 tracking-wide uppercase">
+            {t("exclusiveExperiences")}
           </h2>
-          <p className="text-lg text-primary-600">
-            Exklusive Wellness Hotels für Ihre Gesundheit
+          <h3
+            id="wellness-hotels-title"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-800 mb-6 leading-tight"
+          >
+            {t("ourPartners")}
+          </h3>
+          <div
+            className="w-24 h-1 bg-primary-500 mx-auto mb-6 sm:mb-8 rounded-full"
+            aria-hidden="true"
+          ></div>
+          <p className="text-lg sm:text-xl lg:text-2xl text-primary-600 max-w-3xl mx-auto">
+            {t("discoverHotels")}
           </p>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="lg:w-1/3 space-y-4">
             {hotels.map((hotel, index) => (
-              <div
+              <button
                 key={index}
-                className={`p-4 rounded-lg cursor-pointer transition-all duration-300 ${
+                className={`p-4 rounded-lg cursor-pointer transition-all duration-300 w-full text-left ${
                   activeHotel === index
-                    ? "bg-primary-100 shadow-inner border border-primary-200"
-                    : "bg-white hover:bg-primary-50 border border-primary-200"
+                    ? "bg-primary-600 shadow-inner border border-primary-200 text-white"
+                    : "bg-white hover:bg-primary-50 border border-primary-200 text-primary-800"
                 }`}
                 onClick={() => setActiveHotel(index)}
+                aria-pressed={activeHotel === index}
               >
-                <h3 className="text-lg font-semibold text-primary-800 mb-1">
+                <h4
+                  className={`text-xl font-semibold mb-1 ${
+                    activeHotel === index ? "text-white" : "text-primary-800"
+                  }`}
+                >
                   {hotel.name}
-                </h3>
-                <div className="flex items-center text-primary-500 text-sm">
-                  <MapPin className="w-4 h-4 mr-1" />
+                </h4>
+                <div
+                  className={`flex items-center text-lg ${
+                    activeHotel === index ? "text-white" : "text-primary-600"
+                  }`}
+                >
+                  <MapPin className="w-5 h-5 mr-1" aria-hidden="true" />
                   {hotel.location}
                 </div>
-              </div>
+              </button>
             ))}
           </div>
 
@@ -83,29 +132,32 @@ const WellnessHotels: React.FC = () => {
               <div className="relative h-72 sm:h-96">
                 <Image
                   src={hotels[activeHotel].image}
-                  alt={hotels[activeHotel].name}
+                  alt={`Bild von ${hotels[activeHotel].name}`}
                   layout="fill"
                   objectFit="cover"
                 />
                 <div className="absolute top-4 right-4 bg-white bg-opacity-90 rounded-full px-3 py-1 flex items-center">
-                  <Star className="w-4 h-4 text-yellow-400 mr-1" />
-                  <span className="font-semibold">
+                  <Star
+                    className="w-5 h-5 text-yellow-400 mr-1"
+                    aria-hidden="true"
+                  />
+                  <span className="font-semibold text-lg">
                     {hotels[activeHotel].rating}
                   </span>
                 </div>
               </div>
               <div className="p-6 sm:p-8">
-                <h3 className="text-2xl sm:text-3xl font-bold text-primary-800 mb-2">
+                <h4 className="text-2xl sm:text-3xl font-bold text-primary-800 mb-2">
                   {hotels[activeHotel].name}
-                </h3>
-                <p className="text-primary-600 mb-4 text-lg">
+                </h4>
+                <p className="text-primary-600 mb-4 text-xl">
                   {hotels[activeHotel].location}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {hotels[activeHotel].features.map((feature, index) => (
                     <span
                       key={index}
-                      className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm sm:text-base"
+                      className="bg-primary-500 text-white px-3 py-1 rounded-full text-lg"
                     >
                       {feature}
                     </span>
@@ -119,10 +171,14 @@ const WellnessHotels: React.FC = () => {
         <div className="mt-12 text-end">
           <Link
             href="/wellness-partners"
-            className="group bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 inline-flex items-center"
+            className="group bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 inline-flex items-center text-lg"
+            aria-label={t("viewAllPartnersAriaLabel")}
           >
-            Alle Partner anzeigen
-            <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+            {t("viewAllPartners")}
+            <ArrowRight
+              className="ml-2 h-6 w-6 transition-transform duration-300 group-hover:translate-x-1"
+              aria-hidden="true"
+            />
           </Link>
         </div>
       </div>

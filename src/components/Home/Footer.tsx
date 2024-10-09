@@ -14,22 +14,22 @@ import {
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
+  const t = useTranslations("Footer");
+  const locale = useLocale();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle newsletter subscription
-    console.log("Abonniert:", email);
+    console.log("Subscribed:", email);
     setEmail("");
   };
+
+  const menuItems = t.raw("menuItems");
 
   return (
     <footer className="bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white">
@@ -37,54 +37,40 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-200 to-primary-100">
-                DMWV
-              </h2>
+              <h2 className="text-4xl font-bold text-white">DMWV</h2>
             </Link>
-            <p className="text-sm text-primary-200 leading-relaxed">
-              Der Deutsche Medical Wellness Verband e.V. (DMWV) ist der
-              Fachverband für Medical Wellness in Deutschland. Wir setzen uns
-              für die Qualitätssicherung und Weiterentwicklung von Medical
-              Wellness ein. Unser Ziel ist es, Gesundheit, Vitalität und
-              Lebensfreude durch die Verbindung von Medizin und Wellness zu
-              fördern.
+            <p className="text-lg text-white leading-relaxed">
+              {t("description")}
             </p>
             <form onSubmit={handleSubmit} className="space-y-2">
-              <h3 className="text-lg font-semibold">Newsletter abonnieren</h3>
+              <h3 className="text-xl font-semibold">{t("newsletterTitle")}</h3>
               <div className="flex space-x-2">
                 <Input
                   type="email"
-                  placeholder="Ihre E-Mail-Adresse"
+                  placeholder={t("emailPlaceholder")}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="bg-primary-800/50 border-primary-700 text-primary-100 placeholder-primary-400"
+                  className="border-primary-100 text-white placeholder-white text-lg"
                   required
                 />
-                <Button type="submit" variant="secondary">
-                  Abonnieren
+                <Button type="submit" variant="secondary" className="text-lg">
+                  {t("subscribe")}
                 </Button>
               </div>
             </form>
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">Schnellzugriff</h3>
+            <h3 className="text-xl font-semibold">{t("quickLinks")}</h3>
             <ul className="space-y-3">
-              {[
-                "Aktuelles",
-                "Verband",
-                "Zertifizierung",
-                "Medical Wellness",
-                "Planung",
-                "Partner",
-              ].map((item) => (
-                <li key={item}>
+              {menuItems.map((item: { name: string; href: string }) => (
+                <li key={item.name}>
                   <Link
-                    href={`/${item.toLowerCase().replace(" ", "-")}`}
-                    className="text-primary-200 hover:text-white transition-colors inline-flex items-center group"
+                    href={`/${locale}${item.href}`}
+                    className="text-white hover:text-primary-200 transition-colors inline-flex items-center group text-lg"
                   >
-                    <ArrowRight className="mr-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                    {item}
+                    <ArrowRight className="mr-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                    {item.name}
                   </Link>
                 </li>
               ))}
@@ -92,23 +78,26 @@ export default function Footer() {
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">Kontakt</h3>
+            <h3 className="text-xl font-semibold">{t("contact")}</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <MapPin className="mr-2 h-5 w-5 text-primary-300 mt-0.5" />
-                <span className="text-sm">Heideläuferweg 75a, 12353 Berlin</span>
+                <MapPin
+                  className="mr-2 h-6 w-6 text-white mt-0.5"
+                  aria-hidden="true"
+                />
+                <span className="text-lg">{t("address")}</span>
               </li>
               <li className="flex items-center">
-                <Phone className="mr-2 h-5 w-5 text-primary-300" />
-                <span className="text-sm">+49 30 8973 5139</span>
+                <Phone className="mr-2 h-6 w-6 text-white" aria-hidden="true" />
+                <span className="text-lg">{t("phone")}</span>
               </li>
               <li className="flex items-center">
-                <Mail className="mr-2 h-5 w-5 text-primary-300" />
+                <Mail className="mr-2 h-5 w-5 text-white" />
                 <a
                   href="mailto:info@dmwv.de"
-                  className="text-sm hover:underline"
+                  className="text-lg hover:underline"
                 >
-                  info@dmwv.de
+                  {t("email")}
                 </a>
               </li>
             </ul>
@@ -117,85 +106,52 @@ export default function Footer() {
                 <a
                   key={index}
                   href="#"
-                  className="text-primary-300 hover:text-white transition-colors p-2 bg-primary-800/50 rounded-full hover:bg-primary-700/50"
+                  className="text-white hover:text-primary-200 transition-colors p-2 bg-primary-800/50 rounded-full hover:bg-primary-700/50"
                 >
-                  <Icon size={20} />
+                  <Icon size={24} />
                 </a>
               ))}
             </div>
           </div>
 
           <div className="space-y-6">
-            <h3 className="text-lg font-semibold">FAQ</h3>
-            <Accordion type="single" collapsible className="w-full">
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-sm hover:no-underline">
-                  Was ist Medical Wellness?
-                </AccordionTrigger>
-                <AccordionContent className="text-sm text-primary-200">
-                  Medical Wellness ist die synergetische Kooperation von Medizin
-                  und Wellness, die in ihrer Kombination einen höheren
-                  Gesundheitszustand zu erreichen in der Lage ist. Dabei werden
-                  auf Basis eines ganzheitlichen Ansatzes Lebensstil
-                  verbessernde Faktoren mit medizinisch-therapeutischen Ansätzen
-                  verknüpft.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-2">
-                <AccordionTrigger className="text-sm hover:no-underline">
-                  Was sind die Vorteile einer Zertifizierung?
-                </AccordionTrigger>
-                <AccordionContent className="text-sm text-primary-200">
-                  Die Zertifizierung durch den DMWV bietet zahlreiche Vorteile,
-                  darunter: Stärkung der Marktposition, Profilierung im Medical
-                  Wellness Markt, kompetente betriebswirtschaftliche Beratung,
-                  Rabatte bei Fort- und Weiterbildungen, exklusive
-                  Internetpräsenz, und Einbindung in exklusive
-                  Marketingmaßnahmen des Verbandes für zertifizierte Betriebe.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-3">
-                <AccordionTrigger className="text-sm hover:no-underline">
-                  Wie kann ich Mitglied werden?
-                </AccordionTrigger>
-                <AccordionContent className="text-sm text-primary-200">
-                  Der DMWV bietet verschiedene Mitgliedschaftsoptionen an, unter
-                  anderem für Privatpersonen, Fachkräfte, Medical Wellness
-                  Einrichtungen, Reiseveranstalter, produzierende Unternehmen,
-                  Beratungsunternehmen und Institutionen. Die Jahresbeiträge
-                  reichen von 250 Euro für Privatpersonen bis zu 1.500 Euro für
-                  Reiseveranstalter, mit individuellen Konditionen für größere
-                  Unternehmen.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+            <h3 className="text-xl font-semibold">{t("aboutUs")}</h3>
+            <p className="text-lg text-white leading-relaxed">
+              {t("aboutUsDescription")}
+            </p>
+            <Link
+              href="/verband/organisation"
+              className="inline-flex items-center text-white hover:text-primary-200 transition-colors group text-lg"
+            >
+              {t("learnMore")}
+              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </Link>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-primary-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-primary-100">
-              &copy; {new Date().getFullYear()} Deutscher Medical Wellness
-              Verband. Alle Rechte vorbehalten.
+            <p className="text-sm text-white">
+              {t("copyright", { year: new Date().getFullYear() })}
             </p>
             <nav className="flex flex-wrap justify-center gap-4 mt-4 md:mt-0">
               <Link
-                href="/impressum"
-                className="text-sm text-primary-100 hover:text-white transition-colors"
+                href={`/${locale}/impressum`}
+                className="text-sm text-white hover:text-primary-200 transition-colors"
               >
-                Impressum
+                {t("imprint")}
               </Link>
               <Link
-                href="/datenschutz"
-                className="text-sm text-primary-100 hover:text-white transition-colors"
+                href={`/${locale}/datenschutz`}
+                className="text-sm text-white hover:text-primary-200 transition-colors"
               >
-                Datenschutz
+                {t("privacy")}
               </Link>
               <Link
-                href="/agb"
-                className="text-sm text-primary-100 hover:text-white transition-colors"
+                href={`/${locale}/agb`}
+                className="text-sm text-white hover:text-primary-200 transition-colors"
               >
-                AGB
+                {t("terms")}
               </Link>
             </nav>
           </div>

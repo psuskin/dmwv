@@ -1,0 +1,915 @@
+{
+  "metadata": {
+    "defaultTitle": "Deutscher Medical Wellness Verband",
+    "description": "Der Deutsche Medical Wellness Verband widmet sich der Förderung von Gesundheit und Wohlbefinden durch die Integration von Medical Wellness-Praktiken.",
+    "keywords": "Medical Wellness, Gesundheit, Wohlbefinden, deutscher Verband, Wellness-Programme",
+    "ogTitle": "Deutscher Medical Wellness Verband - Förderung von Gesundheit und Wohlbefinden",
+    "ogDescription": "Entdecken Sie die Zukunft des Wellness mit dem Deutschen Medical Wellness Verband. Wir bieten innovative Ansätze für Gesundheit und Wohlbefinden.",
+    "siteName": "DMWV",
+    "twitterTitle": "Deutscher Medical Wellness Verband",
+    "twitterDescription": "Führend in Medical Wellness und ganzheitlichen Gesundheitsansätzen."
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Entschuldigung, die von Ihnen gesuchte Seite konnte nicht gefunden werden.",
+    "homeButton": "Zur Startseite",
+    "contactButton": "Kontaktieren Sie uns"
+  },
+  "Home": "Startseite",
+  "News": "Neuigkeiten",
+  "Association": "Verband",
+  "Certification": "Zertifizierung",
+  "MedicalWellness": "Medical Wellness",
+  "Planning": "Planung",
+  "Search": "Suche",
+  "Organisation": "Organisation",
+  "Expertise": "Expertise",
+  "Cooperation": "Kooperation",
+  "Membership": "Mitgliedschaft",
+  "AreasOfCompetence": "Kompetenzfelder",
+  "Partners": "Partner",
+  "Hero": {
+    "welcome": "Willkommen beim",
+    "title": "Deutscher Medical Wellness Verband",
+    "description": "Ihr vertrauenswürdiger Partner für ganzheitliche Gesundheit, Vitalität und Lebensqualität. Entdecken Sie mit uns die Zukunft des Wohlbefindens.",
+    "learnMore": "Mehr erfahren",
+    "becomeMember": "Mitglied werden",
+    "memberImageAlt": "Mitglied {number}",
+    "memberCount": "Über 500+ zufriedene Mitglieder",
+    "previousSlide": "Vorheriger Slide",
+    "nextSlide": "Nächster Slide",
+    "goToSlide": "Zu Slide {number} gehen",
+    "slide1": {
+      "title": "Ganzheitliche Gesundheit",
+      "description": "Entdecken Sie unsere innovativen Ansätze für Ihr Wohlbefinden."
+    },
+    "slide2": {
+      "title": "Vitalität im Fokus",
+      "description": "Steigern Sie Ihre Lebensenergie mit unseren Wellness-Programmen."
+    },
+    "slide3": {
+      "title": "Lebensfreude erleben",
+      "description": "Finden Sie Ihren Weg zu mehr Ausgeglichenheit und Zufriedenheit."
+    }
+  },
+  "WelcomeSection": {
+    "subtitle": "Willkommen beim",
+    "title": "Deutscher Medical Wellness Verband",
+    "description": "Beim Deutschen Medical Wellness Verband sind wir stolz darauf, Ihnen die besten Dienstleistungen für Ihre Gesundheit und Ihr Wohlbefinden anbieten zu können. Unser Team von Fachleuten widmet sich der Pflege und dem Wohlbefinden unserer Kunden mit maßgeschneiderten Lösungen.",
+    "imageAlt": "Wellness-Behandlung im Deutschen Medical Wellness Verband",
+    "philosophyTitle": "Unsere Philosophie",
+    "philosophyDescription": "Wir glauben an einen ganzheitlichen Ansatz zur Gesundheit und zum Wohlbefinden. Unsere Dienstleistungen kombinieren traditionelle Weisheit mit modernster medizinischer Technologie, um Ihnen die bestmögliche Pflege zu bieten.",
+    "feature1": "Personalisierte Behandlungspläne",
+    "feature2": "Hochqualifizierte Fachkräfte",
+    "feature3": "Modernste Einrichtungen",
+    "learnMore": "Mehr erfahren",
+    "learnMoreAriaLabel": "Mehr über Medical Wellness erfahren",
+    "missionTitle": "Mission",
+    "missionDescription": "Unsere Mission ist es, Gesundheit und Wohlbefinden durch die Integration von medizinischem Wellness zu fördern.",
+    "visionTitle": "Vision",
+    "visionDescription": "Unsere Vision ist es, den führenden Verband für medizinisches Wellness in Deutschland zu sein und Gesundheit und Wohlbefinden durch die Integration von medizinischem Wellness zu fördern.",
+    "statsNumber": "100+",
+    "statsText": "Zertifizierte Medical Wellness-Anlagen",
+    "philosophyImageAlt": "Unsere Wellness-Philosophie in Aktion",
+    "statsClients": "Zufriedene Kunden",
+    "statsPartners": "Vertrauenswürdige Partner",
+    "statsYears": "Jahre Erfahrung"
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir freuen uns, von Ihnen zu hören! Nutzen Sie das Formular oder unsere Kontaktdaten, um uns zu erreichen.",
+    "formTitle": "Senden Sie uns eine Nachricht",
+    "nameLabel": "Ihr Name",
+    "namePlaceholder": "Max Mustermann",
+    "emailLabel": "Ihre E-Mail",
+    "emailPlaceholder": "max@beispiel.de",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Wie können wir Ihnen helfen?",
+    "messageLabel": "Ihre Nachricht",
+    "messagePlaceholder": "Bitte beschreiben Sie Ihr Anliegen...",
+    "sendButton": "Nachricht senden",
+    "contactInfoTitle": "Kontaktinformationen",
+    "phoneTitle": "Telefon",
+    "phoneNumber": "+49 123 456 7890",
+    "emailTitle": "E-Mail",
+    "emailAddress": "info@dmwv.de",
+    "addressTitle": "Adresse",
+    "addressLine1": "Heideläuferweg 75a",
+    "addressLine2": "12353 Berlin",
+    "addressLine3": "Deutschland",
+    "followUs": "Folgen Sie uns",
+    "stayConnected": "Bleiben Sie mit uns verbunden für die neuesten Updates und Neuigkeiten!",
+    "socialAriaLabel": "Besuchen Sie uns auf {socialName}"
+  },
+  "Team": {
+    "ourExperts": "Unsere Experten",
+    "teamTitle": "Das Team des DMWV",
+    "teamDescription": "Lernen Sie die engagierten Experten kennen, die den Deutscher Medical Wellness Verband e.V. leiten und unsere Mission vorantreiben.",
+    "memberImageAlt": "Porträt von {name}",
+    "linkedinAria": "LinkedIn-Profil von {name}",
+    "twitterAria": "Twitter-Profil von {name}",
+    "members": [
+      {
+        "position": "1. Vorsitzender",
+        "bio": "Lutz Lungwitz leitet als 1. Vorsitzender den Deutschen Medical Wellness Verband e.V. aus Berlin."
+      },
+      {
+        "position": "1. stellv. Vorsitzender",
+        "bio": "Axel Donald Sauer unterstützt als 1. stellvertretender Vorsitzender die Leitung des Verbandes."
+      },
+      {
+        "position": "2. stellv. Vorsitzender",
+        "bio": "Prof. Dr. Joachim Willms ist Hochschulprofessor für Tourismusentwicklung und 2. stellvertretender Vorsitzender des DMWV."
+      },
+      {
+        "position": "Vorstandsmitglied",
+        "bio": "Karsten Urspruch bringt als Vorstandsmitglied seine Expertise in den Deutschen Medical Wellness Verband ein."
+      },
+      {
+        "position": "Schatzmeister",
+        "bio": "Rigobert Walzer ist geschäftsführender Gesellschafter der W+ST Treuhand GmbH Steuerberatungsgesellschaft und Schatzmeister des DMWV."
+      },
+      {
+        "position": "Vorstandsmitglied (assoziiert)",
+        "bio": "Konsul a.h. Michael Häckel von der DMZ‑R&E Häckel GmbH ist assoziiertes Vorstandsmitglied des Deutschen Medical Wellness Verbandes."
+      }
+    ]
+  },
+  "NewsDetails": {
+    "backToOverview": "Zurück zur Übersicht",
+    "relatedNews": "Aktuelle News",
+    "readingTime": "{time} Min. Lesezeit"
+  },
+  "NewsPage": {
+    "title": "Neuigkeiten und Aktuelles",
+    "subtitle": "Bleiben Sie informiert über die neuesten Entwicklungen in der Welt des Medical Wellness",
+    "home": "Startseite",
+    "news": "Neuigkeiten",
+    "searchPlaceholder": "Suchen Sie nach Neuigkeiten...",
+    "allCategories": "Alle Kategorien",
+    "readMore": "Weiterlesen",
+    "noNewsFound": "Keine Neuigkeiten gefunden. Bitte versuchen Sie eine andere Suche oder Kategorie."
+  },
+  "NewsSection": {
+    "stayInformed": "Bleiben Sie informiert",
+    "latestNews": "Aktuelle Neuigkeiten",
+    "newsDescription": "Erfahren Sie mehr über die neuesten Entwicklungen und Trends in der Welt des Wellness und der Gesundheit.",
+    "readMore": "Weiterlesen",
+    "read": "Lesen",
+    "discoverMoreNews": "Mehr Neuigkeiten entdecken"
+  },
+  "WellnessHotels": {
+    "exclusiveExperiences": "Exklusive Wellness-Erlebnisse",
+    "ourPartners": "Unsere Vertragspartner",
+    "discoverHotels": "Entdecken Sie erstklassige Wellness-Hotels für Ihre Gesundheit und Ihr Wohlbefinden",
+    "viewAllPartners": "Alle Partner anzeigen",
+    "viewAllPartnersAriaLabel": "Alle Wellness-Partner anzeigen",
+    "hotels": {
+      "sonnenberg": {
+        "name": "Wellness Resort Sonnenberg",
+        "location": "Baden-Baden"
+      },
+      "schwarzwald": {
+        "name": "Spa Hotel Schwarzwald",
+        "location": "Freiburg"
+      },
+      "bodensee": {
+        "name": "Gesundheitszentrum Bodensee",
+        "location": "Konstanz"
+      },
+      "alpenblick": {
+        "name": "Vitalhotel Alpenblick",
+        "location": "Garmisch-Partenkirchen"
+      }
+    },
+    "features": {
+      "spa": "Spa",
+      "pool": "Pool",
+      "yoga": "Yoga",
+      "massage": "Massage",
+      "sauna": "Sauna",
+      "fitness": "Fitness",
+      "therapy": "Therapie",
+      "nutrition": "Ernährung",
+      "meditation": "Meditation",
+      "mountainView": "Bergblick",
+      "hiking": "Wandern",
+      "wellness": "Wellness"
+    }
+  },
+  "FAQSection": {
+    "subtitle": "Ihr Wegweiser zum Wohlbefinden",
+    "title": "Häufig gestellte Fragen",
+    "description": "Finden Sie Antworten auf die wichtigsten Fragen rund um den DMWV und unsere Dienstleistungen",
+    "ariaLabel": "Häufig gestellte Fragen",
+    "faq1": {
+      "question": "Was ist die Rolle des DMWV in der Wellness-Branche?",
+      "answer": "Der DMWV (Deutscher Medical Wellness Verband) ist ein deutscher Verband, der sich der Förderung von Gesundheit und Wohlbefinden durch die Integration von medizinischem Wellness widmet. Er bietet Branchenzertifizierungen, Orientierung und Unterstützung für Unternehmen, die sich auf Wellness und Gesundheits-tourismus konzentrieren, und spielt eine entscheidende Rolle bei der Festlegung von Standards und der Förderung von Qualität in der Branche."
+    },
+    "faq2": {
+      "question": "Welche Vorteile erhalten DMWV-Mitglieder?",
+      "answer": "Mitglieder des DMWV erhalten Zugang zu einem Netzwerk von Wellness-Fachleuten, Branchenzertifizierungen, Teilnahme an Veranstaltungen und Ressourcen zur Förderung von Gesundheits- und Wellness-Dienstleistungen. Dieses Netzwerk und diese Ressourcen helfen den Mitgliedern, an der Spitze der Wellness-Branche zu bleiben und ihren Kunden hochwertige Dienstleistungen anzubieten."
+    },
+    "faq3": {
+      "question": "Wie unterstützt der DMWV den Gesundheitstourismus?",
+      "answer": "Der DMWV fördert den Gesundheitstourismus durch Partnerschaften mit Wellness-Zentren und medizinischen Spas, indem er Standards und Zertifizierungen bereitstellt, die den Ruf und die Qualität der angebotenen Dienstleistungen verbessern. Dies trägt dazu bei, Deutschland als erstklassiges Ziel für Gesundheits- und Wellness-Tourismus zu etablieren und Besucher anzuziehen, die hochwertige medizinische Wellness-Erfahrungen suchen."
+    }
+  },
+  "certification": {
+    "title": "Zertifizierung",
+    "subtitle": "Entdecken Sie die Vorteile der Zertifizierung für Ihren Medical Wellness Betrieb",
+    "home": "Startseite",
+    "certification": "Zertifizierung",
+    "breadcrumbs": {
+      "home": "Startseite",
+      "certification": "Zertifizierung"
+    },
+    "sections": {
+      "benefits": "Vorteile durch Zertifizierung",
+      "criteria": "Kriterien zur Zertifizierung",
+      "requirements": "Voraussetzungen für die Zertifizierung",
+      "procedure": "Vorgehensweise"
+    },
+    "benefits": {
+      "intro1": "Zertifizierte Medical Wellness Betriebe firmieren unter dem Logo von TÜV Rheinland Group in allen Kommunikations- und Marketingmaßnahmen des Verbandes.",
+      "intro2": "Der Deutsche Medical Wellness Verband e.V. (DMWV) versteht sich als die Interessenvertretung für Medical Wellness.",
+      "list": {
+        "item1": "leistet Verbrauchern Orientierungshilfe in einem Markt, der sich aufgrund seines raschen Wachstums wenig transparent präsentiert und der durch die Komplexität seines Angebots den Nichtmediziner leicht überfordert",
+        "item2": "bietet Betreibern, Anbietern und Projektplanern im Medical-Wellness-Markt ein Forum zur Bündelung ihrer Tätigkeiten und zur Abstimmung aktueller Ergebnisse von Forschung und Lehre; dazu dienen u.a. eigene Publikationen sowie Seminare und Schulungen des Verbandes",
+        "item3": "erstellt auf der Basis von Forschungsergebnissen der Schulmedizin, der Komplementärmedizin und der Salutogenese Qualitätsstandards, nach denen Medical-Wellness-Anbieter zertifiziert, Produkte geprüft und Begriffe des Bereichs Medical Wellness geschützt werden",
+        "item4": "nimmt die Kommunikation nach außen zu politischen Institutionen, Behörden und Verbänden wahr"
+      },
+      "downloads": "Downloads",
+      "statute": "Satzung DMWV (PDF)",
+      "application": "Aufnahmeantrag DMWV (PDF)"
+    },
+    "criteria": {
+      "qm": {
+        "title": "1. Das Qualitätsmanagementsystem (QM)",
+        "content": "In den zu zertifizierenden Unternehmen sollte ein Qualitätsmanagementsystem vorhanden sein, welches im Wesentlichen den Anforderungen der DIN EN ISO 9001: 2000 entspricht. Diese Norm stellt den Stand des Wissens zur Zeit dar, wenn es um die Organisation eines Unternehmens geht. Sollte dieses QM-System nicht vorhanden sein, kann der DMWV e.V. mit den interessierten Betrieben Wege zur Erlangung aufzeigen und umsetzen. Diese branchenneutralen Anforderungen werden auf die gesundheitliche Ausrichtung eines Medical Wellness Unternehmens adaptiert, so dass dieser Standard dann die Basis der DMWV-Zertifizierungen darstellt."
+      },
+      "specific": {
+        "title": "2. Spezifische Anforderungen",
+        "content": "Diese Anforderungen wurden nicht neu entwickelt, sondern der DMWV e.V. bedient sich bereits vorhandener und etablierter Lösungen. Beispielsweise im Hotelsegment bestehen sie aus einer Kombination der 4 Sterne-Anforderungen sowie der 3‑W-Kriterien. Weiterhin müssen die Unternehmen noch spezifische Medical Wellness-Kriterien erfüllen."
+      },
+      "hotel": {
+        "title": "3. Medical Wellness Anforderungen am Beispiel eines Hotels",
+        "content": "Auch in diesem Bereich wurden, wo es zweckmäßig erscheint, zusätzliche Anforderungen pro Kategorie erarbeitet. Als Beispiel hier die Anforderungen an ein Medical Wellness Hotel:",
+        "list": [
+          "Definition eines Geltungsbereiches unter ärztlicher Leitung. Dieser muss einen wesentlichen Teil des Behandlungsangebotes im Medical Spa umfassen.",
+          "Die ärztliche Leitung muss von mindestens einem approbierten Arzt mit relevanter Fachrichtung ausgeübt werden.",
+          "Der/die Arzt/e muss/müssen den Schwerpunkt ihrer beruflichen Tätigkeit im Hotel ausüben.",
+          "Darüber hinaus muss mindestens ein Therapeut (z. B. Physiotherapie) mit einschlägiger Ausbildung Vollzeit im Hotel beschäftigt sein.",
+          "Es muss für die Zeiten der Abwesenheit des Arztes ein ärztlicher Bereitschaftsdienst im Hotel oder in unmittelbarer Nähe verfügbar sein.",
+          "Beim Wechsel in medizinische Fachrichtungen außerhalb des Hotels ist der Transfer der Teilnehmer bezogenen Daten sichergestellt.",
+          "Ein schriftlicher Abschlussbericht muss vorliegen.",
+          "Bei der Anwendung komplementärmedizinischer Therapien muss eine Offenlegung erfolgen, auf welcher Wirkungsbasis die Anwendung beruht.",
+          "Die Anwendungen im Medical Spa–Bereich basieren auf standardisierten Untersuchungsbögen und Therapieplänen.",
+          "Die Untersuchungs- und Behandlungsräume verfügen über moderne Ausstattung und vermitteln medizinische Kompetenz ohne Klinikatmosphäre.",
+          "Die Betrieb erfüllt die Voraussetzungen zur Dokumentation der Ergebnisse und um Empfehlungen zur Fortsetzung des Erlernten zu vermitteln (Ernährungsplan, Bewegungsplan, gesunder Lebensstil, Verweis auf Internet-Seiten).",
+          "Der Betrieb verfügt über einen Arzt, der den dringend empfohlenen medizinischen Eingangscheck sicherstellt.",
+          "Der Betrieb stellt sicher, dass generell eine Leistungsdiagnostik bei Gastpatienten vor einem Bewegungs- und/oder Fitnessprogramm durchgeführt wird.",
+          "Der Gast erhält auf Wunsch eine schriftliche Auswertung seiner Leistung/Leistungsveränderung mit Empfehlungen für zu Hause."
+        ],
+        "conclusion": "Das Unternehmen muss sowohl in der Gesamtpunktzahl als auch in den einzelnen Kategorien mind. 70 % der möglichen Punkte erreichen. Produkte werden durch den DMWV e.V. nach einem ebenfalls standardisierten System geprüft und zertifiziert."
+      },
+      "contact": {
+        "intro": "Interessierte Betriebe und Einrichtungen können sich gerne für weitere Informationen an den",
+        "address": "Deutschen Medical Wellness Verband e.V.",
+        "street": "Eichenstr. 3b",
+        "city": "12435 Berlin",
+        "phone": "Tel: 030 / 81873-310",
+        "email": "E-Mail: kontakt@dmwv.de",
+        "outro": "wenden."
+      }
+    },
+    "requirements": {
+      "intro": "Voraussetzung für die Zertifizierung eines Medical-Wellness-Betriebes durch den Verband ist die Bereitschaft zur Teilnahme am Zertifizierungsprogramm nach den Prüfkriterien des Verbandes und TÜV Rheinland Group. Die Zertifizierung nach dem Medical Wellness Quality Standard (TÜV Rheinland/DMWV) erfolgt somit unabhängig vom Verband.",
+      "navigator": {
+        "title": "\"Navigator\"",
+        "content": "Unabdingbare Voraussetzung für die Wahrnehmung von Medial-Wellness-Leistungen im Sinne des Verbandes ist die Integration eines Arztes in den Betrieb der jeweiligen Einrichtung. Dieser Arzt trägt im DMWV die Bezeichnung \"Navigator\", um seine Rolle im Umgang mit den gesunden Gästen, die die jeweilige Medical-Wellness-Einrichtung in Anspruch nehmen, deutlich zu machen."
+      },
+      "doctor": {
+        "title": "Der Arzt",
+        "content1": "Aus der untenstehende Abbildung wird die zentrale Rolle des Navigators deutlich. Das bedeutet, dass bei einer Zertifizierung einer Medical Wellness-Einrichtung das Gesamtergebnis sehr stark von der Wahrnehmung dieser Rolle durch den Navigator/Arzt abhängt.",
+        "content2": "Aus der Abbildung wird ebenso deutlich, dass der Diagnostikbereich, der Unterbringungsbereich und der Bereich der medizinischen Umsetzung nicht notwendigerweise eine infrastrukturelle Einheit bilden müssen."
+      }
+    },
+    "procedure": {
+      "intro": "Teilnehmende Betriebe am Zertifizierungsprogramm des Verbandes werden anhand von festgelegten Prüfkriterien durch angekündigte professionelle Tester vom TÜV Rheinland Group überprüft. Die Zertifizierung ist jeweils für 3 Jahre gültig.",
+      "categories": {
+        "intro": "Medical-Wellness-Betriebe werden in folgenden Kategorien zertifiziert:",
+        "list": [
+          "Medical Wellness Klinik",
+          "Medical Wellness Hotel",
+          "Medical Wellness Resort",
+          "Medical Wellness Day Spa/Klinik Centre",
+          "Medical Wellness Destination."
+        ],
+        "destination": "Bei der Zertifizierung einer Medical Wellness Destination müssen mindestens drei Einzelelemente aus den Kategorien zertifiziert werden."
+      },
+      "process": {
+        "intro": "Das Zertifizierungsverfahren ist offen und wird nach Prüfkriterien durchgeführt, die dem Kandidaten vorher zur Verfügung gestellt werden. Die Prüfkriterien sind in vier Hauptbereiche unterteilt:",
+        "list": [
+          "Diagnostik",
+          "Medizinische Umsetzung",
+          "Einrichtung des Medical Wellness Spa",
+          "Hotel-/Klinik-Bereich"
+        ]
+      },
+      "basis": "Grundlage der Prüfung ist der vom Verband und TÜV Rheinland Group definierte Ablauf, den der Medical-Wellness-Kunde grundsätzlich durchlaufen soll. Die zu prüfende Einrichtung legt eigenständig fest, in welcher Form und wie weit der Betrieb den vorgegebenen Ablauf erfüllt. Nur diese Elemente werden in die Prüfung miteinbezogen. Im Prüfbericht werden die ausstehenden oder nicht erfüllten Elemente des Prozess bewertet und in einer Gesamtbewertung subsumiert, die auf der vom Verband zu verleihenden Plakette erscheint.",
+      "download": "Die Vorgehensweise zur erfolgreichen Zertifizierung zum Download (PDF)"
+    }
+  },
+  "medicalWellness": {
+    "title": "Medical Wellness",
+    "subtitle": "Entdecken Sie die Vorteile von Medical Wellness für Ihre Gesundheit und Ihr Wohlbefinden",
+    "sections": {
+      "begriff": {
+        "title": "Begriff",
+        "intro": "Die Definition des Begriffs Medical Wellness' befindet sich gegenwärtig in einem dynamischen und vielschichtigen Prozess, der auch durch internationale Entwicklungen beeinflusst wird.",
+        "currentDefinition": "Die aktuelle Definition von \"Medical Wellness\"",
+        "definitionText": "„Medical Wellness beinhaltet gesundheitswissenschaftlich begleitete Maßnahmen zur nachhaltigen Verbesserung der Lebensqualität und des subjektiven Gesundheitsempfindens durch eigenverantwortliche Prävention und Gesundheitsförderung sowie der Motivation zu einem gesundheitsbewussten Lebensstil\".",
+        "supportedBy": "Die neue Medical-Wellness-Definition wird getragen unter anderem vom Deutschen Tourismusverband, dem Deutschen Medical Wellness Verband, sowie dem Deutschen Heilbäderverband und dem Deutschen Turnerbund.",
+        "eschTitle": "Medical Wellness nach Prof. Dr. T. Esch",
+        "eschText": "Medical Wellness bezeichnet einen mehrdimensionalen, dynamisch-systematischen Prozess in Richtung der aktiven Herstellung eines ganzheitlichen individuellen Wohlbefindens im Kontext wissenschaftlich gesicherter gesundheitsfördernder bzw. medizinischer Faktoren. Jene Faktoren basieren auf biopsychosozialen Bedürfnissen, den „Motivatoren, welche die Individuen mit Hilfe von wirksamkeitsevidenten Behandlungen oder Verhaltensweisen zu befriedigen suchen. Dabei steht die Realisierung eines gesundheitsfördernden Lebensstils unter Nutzung von individueller Ressource, Kompetenz und Eigenverantwortung im Sinne einer angewandten Prävention oder 'integrierten Gesundheitsförderung' im Vordergrund. Therapeutische Maßnahmen zum angestrebten Ausgleich einzelner Faktoren und Bedürfnisse sowie zur Verwirklichung von subjektiver Gesundheit, Salutogenese und Wohlgefühl werden zumeist in professionellen Medical-Wellness-Zentren, Kliniken oder hotelartigen Einrichtungen in Zusammenarbeit mit entsprechenden medizinisch geleiteten und wissenschaftlich fundierten Therapieabteilungen angeboten."
+      },
+      "kernbereiche": {
+        "title": "Kernbereiche",
+        "intro": "Im DMWV werden die gesundheitsfördernden Aktivitäten in vier Kernbereiche der Medical Wellness unterteilt, die vor allem der Prävention dienen.",
+        "navigator": "Navigator",
+        "diagnosticsText": "Im Zentrum stehen also die Diagnostik, die Salutogenese sowie die aktive Einstellung des eigenen Lebens auf gesundheitsfördernde Verhaltensweisen. Voraussetzung für deren Gelingen ist die grundsätzliche Bereitschaft zum eigenverantwortlichen Handeln. Damit können individuell bestehende Ressourcen durch Stärkung der positiven, gesundheitsfördernden Potenziale aktiviert werden. Dieses wiederum setzt die Bereitschaft zur Teilnahme an Gesundheitsbildung voraus: Die Bereitschaft zu einem lebenslangen Prozess mit dem Ziel der Gesundheitspflege durch einen gesundheitsorientierten Lebensstil."
+      },
+      "markt": {
+        "title": "Marktpotenzial und aktuelle Entwicklung",
+        "gkvInfo": "Seit vielen Jahren übersteigt der Anteil der Ausgaben der Gesetzlichen Krankenversicherer (GKV) die 6%-Grenze des Bruttoinlands Produktes nur unwesentlich. Ca. 4% des Bruttoinlands-Produktes werden bereits heute für private Gesundheitsausgaben (2. Gesundheitsmarkt) aufgewendet mit deutlich steigender Tendenz.",
+        "marketGrowth1": "Das dauerhaft begrenzte Budget der solidarisch finanzierten GKV, hohe Arbeitslosigkeit, eine demografische Entwicklung hin zu einer alternden Gesellschaft und eine hohe Zahl an chronisch Kranken wird dazu führen, dass sich die Gesundheitsausgaben des Ersten Gesundheitsmarktes (GKV) auf Kernleistungen konzentrieren müssen. Folglich wird dem Selbstzahlermarkt (u. a. Selbstbehalte oder private Zusatzversicherungen) eine wachsende Bedeutung zukommen.",
+        "marketGrowth2": "Das Institut für Freizeitwirtschaft in München wagt folgende Prognosen: Die Anzahl der Reisenden in Deutschland im Bereich des Health-Care-Urlaubs wird sich von 2002 bis 2010 um 46% erhöhen. Dies entspricht über 2 Mio. Reisende pro Jahr (2002 knapp 1,4 Mio. Reisende). Die übrigen Formen des Gesundheits-tourismus' (Anti-Aging-Urlaub, Wellness-Urlaub, Beauty-Urlaub) verfügen bereits jetzt über ein starkes Wachstum. Der Anteil des Health-Care-Urlaubs wird 2010 fast die Hälfte (48,3%) aller Gesundheitsreisen ausmachen. Die Gesamtausgaben deutscher Haushalte für alle Gesundheitsreisen nehmen bis 2010 auf 3,7 Mrd. Euro zu.",
+        "marketGrowth3": "Sogar der US-amerikanische Medical Spa-Markt wird 2006 ein Umsatzvolumen von über 400 Mio. US-Dollar erreichen und bis dahin ein jährliches Umsatzwachstum von 10,1% verzeichnen (Feedback Research Services).",
+        "marketGrowth4": "Anti-Aging-Maßnahmen gehören zu den zentralen Wachstumsfeldern im Bereich von Gesundheit und Freizeit. Das gilt für die USA (Feedback Research Services) wie auch für Europa (Institut für Freizeitwirtschaft). Hier soll dieses Marktsegment im Zeitraum von 2002 bis 2010 um 2.500% wachsen."
+      },
+      "gesundheitskarte": {
+        "title": "Gesundheitskarte",
+        "subtitle": "Der Anfang für ein gesundes Leben",
+        "priceTag": "Für nur 1 Euro im Monat machen Sie mehr für Ihre Gesundheit!",
+        "description1": "Mit der Medical Wellness Gesundheitskarte bieten wir Ihnen eine professionelle Orientierungshilfe im zweiten Gesundheitsmarkt, die Sie mit aktuellen Informationen, Entwicklungen, Tendenzen, Tipps und Angeboten rund um das Thema Gesundheit und Medical Wellness versorgt. Darüber hinaus erfreuen Sie sich zahlreicher Rabatte und Preisvorteilen unserer Medical Wellness Partner.",
+        "description2": "Wir haben für Sie exklusive Leistungspartner der Segmente Medical Wellness, Wellness & Beauty, Reisen, Apothekenartikel, Geschenke, Events/Veranstaltungen ausgewählt, und stellen Ihnen zusätzlich zahlreiche weitere „bonus & more“ Partner zur Verfügung. Die Unternehmen „bonus & more“ als auch der TÜV Card Services gehören zu unseren Kooperationspartnern.",
+        "description3": "Möchten auch Sie als Medical Wellness Einrichtung die Vorzüge der Medical Wellness Gesundheitskarte anbieten, dann bitten wir um Anfrage auf gesundheitskarte@dmwv.de oder rufen Sie an unter +49 (0)30 81873–333."
+      },
+      "hotels": {
+        "title": "The Leading Medical Wellness Hotels & Resorts",
+        "subtitle": "Navigator",
+        "description": "\"The Leading Medical Wellness Hotels & Resorts\" ist eine international eingetragene Premiummarke mit der Zielsetzung, führende Medical Wellness Hotels und Resorts unter einem Dach zusammenzuführen und somit eine Hotelkooperation zu bilden, die aktiv den Markt des Gesundheitstourismus gestaltet.",
+        "description2": " \"The Leading Medical Wellness Hotels & Resorts\" in Kooperation mit dem Deutschen Medical Wellness Verband e. V. verstehen sich als Beratungs-, Vermarktungs- und Positionierungsdienstleister für Medical Wellness Hotels & Resorts.",
+        "description3": "Unser Portfolio vereint medizinisches Wissen, qualitativ hochwertige Dienstleistungen sowie eine Infrastruktur. Wir bieten Orientierungshilfe bezüglich der professionellen, geprüften und qualitätsgesicherten Medical Wellness Dienstleistungen mit nachhaltigem Effekt und verantwortungsvoller medizinischer Betreuung. Gesundheitsreisende können sich auf eine Wohlfühlatmosphäre und Exklusivität unserer Hotelpartner verlassen."
+      },
+      "clinics": {
+        "title": "The Leading Medical Wellness Clinics & Spas",
+        "subtitle": "Navigator",
+        "description1": "Die weltweit eingetragene und aktive Premiummarke „The Leading Medical Wellness Clinics & Spas\" hat sich zum Ziel gesetzt, führende Medical Wellness Clinics & Spas unter ihrem Dach zusammenzuführen und aktiv diesen Gesundheitsmarkt zu gestalten.",
+        "description2": "„The Leading Medical Wellness Clinics & Spas\" bringt Medical Wellness mit Kliniken zusammen und ist eine Orientierungshilfe für Patienten, die sich bei der Auswahl der Klinik sicher sein wollen.",
+        "description3": "So bietet die Marke dem Gast eine Orientierungshilfe bezüglich der professionellen, geprüften und qualitätsgesicherten Medical Wellness Dienstleistungen mit nachhaltigem Effekt und verantwortungsvoller medizinischer Betreuung. Gesundheitsreisende können sich auf eine Wohlfühlatmosphäre und Exklusivität unserer Klinikpartner verlassen."
+      }
+    },
+    "breadcrumbs": {
+      "home": "Startseite",
+      "medicalWellness": "Medical Wellness"
+    }
+  },
+  "planning": {
+    "title": "Veranstaltungsplanung",
+    "subtitle": "Organisieren Sie Ihre Kongresse und Wellness-Events effizient",
+    "home": "Startseite",
+    "planning": "Planung",
+    "upcomingEvents": "Bevorstehende Veranstaltungen",
+    "planAttendance": "Planen Sie Ihre Teilnahme an unseren bevorstehenden Kongressen und Workshops.",
+    "eventDetails": "Veranstaltungsdetails",
+    "selectEvent": "Wählen Sie eine Veranstaltung aus, um Details anzuzeigen",
+    "viewDetails": "Details anzeigen",
+    "today": "Heute",
+    "month": "Monat",
+    "week": "Woche",
+    "day": "Tag",
+    "agenda": "Agenda"
+  },
+  "organisation": {
+    "title": "Unser Team",
+    "subtitle": "Lernen Sie die engagierten Experten kennen, die den Deutscher Medical Wellness Verband e.V. leiten und unsere Mission vorantreiben.",
+    "home": "Startseite",
+    "association": "Verband",
+    "organisation": "Organisation",
+    "teamCategories": "Team Kategorien",
+    "allTeams": "Alle Teams",
+    "selectCategory": "Wählen Sie eine Kategorie",
+    "categories": {
+      "board": "Vorstand DMWV",
+      "medicine": "Medizin und Lebensführung",
+      "development": "Projektentwicklung, Bauen und Technik",
+      "quality": "Qualitätsmanagement",
+      "training": "Personal und Ausbildung"
+    }
+  },
+  "expertise": {
+    "title": "Unsere Expertise",
+    "subtitle": "Der Deutsche Medical Wellness Verband (DMWV) - Ihr Vertreter für Medical Wellness",
+    "breadcrumbs": {
+      "home": "Startseite",
+      "association": "Verband",
+      "expertise": "Expertise"
+    },
+    "areas": {
+      "orientation": {
+        "title": "Orientierung und Forum",
+        "description": "Bietet Verbrauchern Orientierung in einem komplexen Markt und bietet ein Forum für Betreiber, Anbieter und Projektplaner."
+      },
+      "standards": {
+        "title": "Qualitätsstandards",
+        "description": "Schafft Qualitätsstandards basierend auf Forschungsergebnissen aus der Schulmedizin, der Komplementärmedizin und der Salutogenese."
+      },
+      "communication": {
+        "title": "Kommunikation und Förderung",
+        "description": "Kommuniziert mit Institutionen und fördert das Konzept von Medical Wellness in der Öffentlichkeit."
+      },
+      "research": {
+        "title": "Verbraucherforschung",
+        "description": "Durchführt Verbraucherforschung für Mitglieder, um wertvolle Einblicke in Markttrends zu gewinnen."
+      }
+    },
+    "commitment": {
+      "title": "Unser Engagement für Exzellenz",
+      "list": [
+        "Bietet Verbrauchern Orientierung in einem Markt, der sich aufgrund seines schnellen Wachstums als weniger transparent darstellt und der Nichtmedizinische Fachkräfte aufgrund der Komplexität seiner Angebote leicht überwältigen kann.",
+        "Bietet Betreibern, Anbietern und Projektplanern im Medical Wellness-Markt ein Forum, um ihre Aktivitäten zu bündeln und aktuelle Ergebnisse aus Forschung und Lehre zu koordinieren; dies wird unter anderem durch die eigenen Publikationen des Verbands sowie durch Seminare und Schulungen unterstützt.",
+        "Schafft Qualitätsstandards basierend auf Forschungsergebnissen aus der Schulmedizin, der Komplementärmedizin und der Salutogenese, nach denen Medical Wellness-Anbieter zertifiziert, Produkte getestet und Begriffe im Bereich der Medical Wellness geschützt werden.",
+        "Übernimmt die externe Kommunikation mit politischen Institutionen, Behörden und Verbänden.",
+        "Fördert das Konzept von Medical Wellness in der Öffentlichkeit durch Teilnahme an geeigneten Foren und Verbänden sowie durch eigene Marketingmaßnahmen.",
+        "Durchführt Verbraucherforschung für Mitglieder."
+      ]
+    },
+    "promotion": {
+      "title": "Förderung von Medical Wellness",
+      "description": "Durch unsere Expertise und unser Engagement streben wir an, das Gebiet der Medical Wellness voranzubringen, hohe Qualitätsstandards sicherzustellen und innovative Ansätze für Gesundheit und Wohlbefinden zu fördern."
+    }
+  },
+  "cooperation": {
+    "title": "Kooperation",
+    "subtitle": "Unsere Partnerschaften und Netzwerke für Medical Wellness",
+    "breadcrumbs": {
+      "home": "Startseite",
+      "association": "Verband",
+      "cooperation": "Kooperation"
+    },
+    "competenceNetworks": {
+      "title": "Die Kompetenz-Netzwerke",
+      "description1": "Zur Absicherung der Marke \"Medical Wellness\" wird der Verband die Ergebnisse von Grundlagenarbeit zum Thema systematisch bündeln, um eine klare, nachhaltige Definition der Marke zu gewährleisten. Über geeignete Kompetenz Netzwerke wird die Einbindung externer Fachbereiche sichergestellt.",
+      "description2": "Ähnliches erreicht der Verband durch Mitgliedschaften in ausgesuchten Gremien und Foren. Das trifft insbesondere auf die von der Bundesregierung beabsichtigte Stärkung des Bereichs Prävention zu.",
+      "imageAlt": "Kompetenz-Netzwerke"
+    },
+    "certification": {
+      "title": "Zertifizierung und Reputation",
+      "description1": "Es wird angestrebt, für den Verband eine Reputation zu erreichen, die die Auszeichnung \"Zertifiziert/geprüft durch den DMWV\" zu einer allseits respektierten Markenauszeichnung macht.",
+
+      "description2": "Dazu wurde eine Kooperation mit TÜV Rheinland Group für die Zertifizierung von Medical-Wellness-Anbietern vereinbart. Bei den nach der Deutschen Hotelklassifizierung des DEHOGA (Deutscher Hotel- und Gaststättenverband) klassifizierten Betrieben übernimmt der DMWV die Einstufung. Er kann daher auf eine eigene Prüfung dieses Betriebes in den von der Deutschen Hotelklassifizierung abgedeckten Bereichen verzichten."
+    },
+    "imwa": "Der DMWV ist Mitglied der International Medical Wellness Association (IMWA)."
+  },
+  "membership": {
+    "title": "Mitgliedschaft",
+    "subtitle": "Entdecken Sie die Vorteile einer Mitgliedschaft im DMWV",
+    "breadcrumbs": {
+      "home": "Startseite",
+      "association": "Verband",
+      "membership": "Mitgliedschaft"
+    },
+    "downloads": {
+      "statute": "Satzung DMWV (PDF)",
+      "application": "Aufnahmeantrag DMWV (PDF)"
+    },
+    "annualFee": "Jahresbeitrag",
+    "benefits": "Vorteile",
+    "services": "Leistungen",
+    "convinced": "Haben wir Sie überzeugt?",
+    "sendApplication": "Dann senden Sie uns den Aufnahmeantrag für eine Fördermitgliedschaft im DMWV e.V. gerne per Fax oder auch als E-Mail.",
+    "types": {
+      "privatperson": {
+        "title": "Fördermitgliedschaft Privatperson",
+        "fee": "250,- Euro",
+        "date": "26. Feb. 2019",
+        "description": "Jede Privatperson, die sich grundsätzlich mit den Prinzipien und ideellen Werten des Verbandes verbunden fühlt und fortlaufend aus erster Hand über das Thema Medical Wellness informiert werden möchte, kann Fördermitglied werden. Damit profitiert das Mitglied von den definierten Vorteilen der Mitgliedschaft.",
+        "benefits": {
+          "1": "Sicherheit bei der Auswahl von Medical Wellness Produkten oder Dienstleistungen",
+          "2": "Vergünstigungen bei Dienstleistungen und Produkten unserer Mitglieder",
+          "3": "Professionelle, medizinische Einzelberatung",
+          "4": "Erstellung eines persönlichen Profils",
+          "5": "Teilnahme an Projekten, Veranstaltungen und Schulungen des Verbandes"
+        }
+      },
+      "einpersonen": {
+        "title": "Berufsbezogene Einpersonen-Fördermitgliedschaft",
+        "fee": "900,- Euro",
+        "date": "26. Feb. 2019",
+        "description": "Die berufsbezogene Einpersonen-Fördermitgliedschaft steht grundsätzlich jedem offen, der im Bereich der Medizin tätig ist.",
+        "benefits": {
+          "1": "Stärkung der Marktposition durch Auftritt unter einer professionellen Dachmarke",
+          "2": "Profilierung im Medical Wellness Markt",
+          "3": "Vermittlung von Qualität und Glaubwürdigkeit",
+          "4": "Regelmäßiger Newsletter zu aktuellen Entwicklungen",
+          "5": "Integration in die Marketingmaßnahmen des Verbandes"
+        }
+      },
+      "betrieb": {
+        "title": "Fördermitgliedschaft Medical-Wellness-Betrieb, Spa",
+        "fee": "1.200,- Euro",
+        "date": "26. Feb. 2019",
+        "description": "Medical-Wellness-Betriebe, die Medical Wellness im Sinne des Verbandes anbieten, haben die Möglichkeit, Fördermitglied des Verbandes zu werden.",
+        "services": "Die Fördermitgliedschaft dient als Einstieg zu einer späteren Zertifizierung. Bei Teilnahme am Zertifizierungsverfahren werden alle notwendigen Unterlagen zur Verfügung gestellt.",
+        "benefits": {
+          "1": "Stärkung der Marktposition",
+          "2": "Profilierung im Medical Wellness Markt",
+          "3": "Vermittlung von Qualität und Glaubwürdigkeit",
+          "4": "Regelmäßiger Newsletter",
+          "5": "Integration in Marketingmaßnahmen des Verbandes"
+        }
+      },
+      "reiseveranstalter": {
+        "title": "Fördermitgliedschaft für Reiseveranstalter",
+        "fee": "1.500,- Euro",
+        "date": "4. Mai. 2011",
+        "benefits": {
+          "1": "Stärkung der Marktposition",
+          "2": "Profilierung im Medical Wellness Markt",
+          "3": "Vermittlung von Qualität und Glaubwürdigkeit",
+          "4": "Zugang zum Medical Wellness Netzwerk",
+          "5": "Regelmäßiger Newsletter",
+          "6": "Integration in Marketingmaßnahmen des Verbandes"
+        }
+      },
+      "unternehmen": {
+        "title": "Fördermitgliedschaft produzierendes Unternehmen & Beratungsunternehmen",
+        "fee": "auf Anfrage",
+        "date": "26. Feb. 2019",
+        "description": "Für produzierende Unternehmen im Medical Wellness Bereich und Beratungsunternehmen.",
+        "benefits": {
+          "1": "Stärkung der Marktposition",
+          "2": "Profilierung im Medical Wellness Markt",
+          "3": "Vermittlung von Qualität und Glaubwürdigkeit",
+          "4": "Regelmäßiger Newsletter",
+          "5": "Integration in Marketingmaßnahmen des Verbandes"
+        },
+        "contact": "Bitte telefonisch melden unter: +49 (0) 30 81873 310"
+      },
+      "verbaende": {
+        "title": "Fördermitgliedschaften für Verbände, Hochschulen",
+        "fee": "1.290,- Euro",
+        "date": "26. Feb. 2019",
+        "description": "Für Verbände bzw. Hochschulen, die Medical Wellness im Sinne des Verbandes unterstützen.",
+        "benefits": {
+          "1": "Stärkung der Marktposition",
+          "2": "Profilierung im Medical Wellness Markt",
+          "3": "Vermittlung von Qualität und Glaubwürdigkeit",
+          "4": "Zugang zum Medical Wellness Netzwerk",
+          "5": "Regelmäßiger Newsletter",
+          "6": "Integration in Marketingmaßnahmen des Verbandes"
+        }
+      },
+      "zertifizierung": {
+        "title": "Mitgliedschaft mit Zertifizierung",
+        "fee": "Siehe Details",
+        "date": "26. Feb. 2019",
+        "description": "Zertifizierte Medical Wellness Betriebe firmieren unter dem Logo \"Empfohlen vom DMWV\" in allen Kommunikations- und Marketingmaßnahmen des Verbandes.",
+        "services": {
+          "1": "Verwendung des geschützten Logos für zertifizierte Mitglieder",
+          "2": "Profilierung durch Erhalt und Aushang der Plakette",
+          "3": "Kompetente Betriebsberatung und Schulung",
+          "4": "Vergünstigungen bei Schulungen und Weiterbildungen",
+          "5": "Exklusive Internetpräsenz",
+          "6": "Regelmäßiger Newsletter",
+          "7": "Teilnahme an Cross-Marketing-Aktionen",
+          "8": "Exklusives Networking",
+          "9": "Integration in exklusive Marketingmaßnahmen"
+        }
+      }
+    }
+  },
+  "areasOfExpertise": {
+    "title": "Kompetenzfelder",
+    "subtitle": "Entdecken Sie unsere vielfältigen Bereiche der Expertise",
+    "breadcrumbs": {
+      "home": "Startseite",
+      "association": "Verband",
+      "areasOfExpertise": "Kompetenzfelder"
+    },
+    "areas": {
+      "communication": {
+        "title": "Kommunikation",
+        "description": "Professionelles Marketing und überzeugende Werbung und Öffentlichkeitsarbeit sind auch für Medical Wellness Betriebe von entscheidender Bedeutung. Heute bedarf es einer intensiven und überzeugenden Kommunikation, um Produkte und Dienstleistungen nachhaltig am Markt zu positionieren. Der DMWV bietet Ihnen hier Fullservice an."
+      },
+      "network": {
+        "title": "Netzwerk",
+        "description": "Zur Unterstützung von Unternehmen, die sich am Medical Wellness Markt positionieren, spezialisieren oder ihre Marktposition ausbauen und sichern wollen, bietet der DMWV ein umfangreiches Kompetenz-Netzwerk an. Hierzu gehört die International Medical Wellness Association und die European Medical Wellness Association. Profitieren Sie von kompetenten Teilnehmern in den Bereichen Marketing, Coaching & Consulting, Forschung & Entwicklung und Gesundheits-Dienstleistungen."
+      },
+      "thomasWildey": {
+        "title": "Thomas — Wildey — Institut e. V.",
+        "description": "Institut für Klinik- und praxisgekoppelte Grundlagenforschung. Die Motivation von adveda ist: Schul- und Komplementärmedizin zu einer partnerschaftlichen Zusammenarbeit auf Ziel- und lösungsorientierter Basis zu unterstützen. Ein ausbalanciertes Gesundheits- und Bildungssystem hilft, die anstehenden Herausforderungen prozessorientiert zu lösen. Unser Zentrum soll eine Plattform der Vernetzung sein, für Patienten, die heute teilweise mit dem großen Therapie-Angebot von Ärzten, Therapeuten und Heilpraktikern überfordert sind."
+      },
+      "adveda": {
+        "title": "Adveda",
+        "description": "Die Motivation von adveda ist: Schul- und Komplementärmedizin zu einer partnerschaftlichen Zusammenarbeit auf Ziel- und lösungsorientierter Basis zu unterstützen. Ein ausbalanciertes Gesundheits- und Bildungssystem hilft, die anstehenden Herausforderungen prozessorientiert zu lösen. Unser Zentrum soll eine Plattform der Vernetzung sein, für Patienten, die heute teilweise mit dem großen Therapie-Angebot von Ärzten, Therapeuten und Heilpraktikern überfordert sind."
+      },
+      "projects": {
+        "title": "Projekte",
+        "description": "Der DMWV entwickelt kontinuierlich neue Angebote und Dienstleistungen, um die Kompetenzen marktgerecht zu erweitern. Beispiele hierfür sind die Premiummarken \"The Leading Medical Wellness Hotels & Resort\" und \"The Leading Medical Wellness Clinics & Spas\" sowie ein Medical Wellness Shop, welcher als optimale Online-Plattform für den Vertrieb ihrer Produkte und Dienstleistungen dient."
+      },
+      "science": {
+        "title": "Wissenschaft",
+        "description": "Unser Bildungsangebot umfasst sowohl arbeitsphysiologische als auch lernpsychologische Gesichtspunkte und bedient sich erfahrungs- und handlungsorientierten Arbeits- und Veranstaltungsformen. Sämtliche Interessen aus dem Gesundheits- und Krankheitsbereich, von betriebswirtschaftlichen Inhalten bis zur Prävention, Gesundheitsförderung und Salutogenese, Personalentwicklung und Qualitätssicherung werden berücksichtigt."
+      }
+    },
+    "holisticApproach": {
+      "title": "Unser ganzheitlicher Ansatz",
+      "description": "Wir verbinden Expertise aus verschiedenen Bereichen, um innovative und effektive Lösungen im Medical Wellness Sektor zu schaffen.",
+      "contactUs": "Kontaktieren Sie uns"
+    }
+  },
+  "partners": {
+    "title": "Unsere Partner",
+    "subtitle": "Entdecken Sie die Organisationen, die mit uns zusammenarbeiten, um etwas zu bewirken",
+    "breadcrumbs": {
+      "association": "Verband",
+      "partners": "Partner"
+    },
+    "category": "Kategorie",
+    "subcategory": "Unterkategorie",
+    "az": "A-Z",
+    "searchPlaceholder": "Partner suchen...",
+    "allCategories": "Alle Kategorien",
+    "uncategorized": "Nicht kategorisiert",
+    "all": "Alle",
+    "subcategoriesTitle": "Unterkategorien",
+    "letters": "Buchstaben",
+    "learnMore": "Mehr erfahren",
+    "visitWebsite": "Website besuchen",
+    "categories": {
+      "Branche A bis Z": "Branche A bis Z",
+      "Unternehmen von A bis Z": "Unternehmen von A bis Z"
+    },
+    "subcategories": {
+      "Bildung": "Bildung",
+      "Dienstleistung": "Dienstleistung",
+      "Einzelhandel": "Einzelhandel",
+      "Hotellerie": "Hotellerie",
+      "Klinik": "Klinik",
+      "Medizin": "Medizin",
+      "Reisen": "Reisen",
+      "Netzwerk": "Netzwerk"
+    },
+    "groups": {
+      "Bildung": "Bildung",
+      "Dienstleistung": "Dienstleistung",
+      "Einzelhandel": "Einzelhandel",
+      "Hotellerie": "Hotellerie",
+      "Klinik": "Klinik",
+      "Medizin": "Medizin",
+      "Reisen": "Reisen",
+      "Netzwerk": "Netzwerk"
+    },
+    "partnerNames": {
+      "akademie-der-gesundheit": "Akademie der Gesundheit",
+      "baltic-college": "Baltic College",
+      "baz": "BAZ",
+      "best-sabel-hochschule": "Best-Sabel Hochschule",
+      "pingou-vital": "Pingou Vital",
+      "sofi-goettingen": "Soziologisches Forschungsinstitut Göttingen",
+      "physiotherapie-schule-ortenau": "Staatlich anerkannte Physiotherapie-Schule Ortenau gGmbH",
+      "chi-spa": "CHI SPA",
+      "dermatocosmetics": "dermatocosmetics",
+      "dewea": "dewea",
+      "ibs-mentaltraining": "IBS Mentaltraining",
+      "omron": "OMRON",
+      "centrovital": "centrovital",
+      "dmz": "DMZ",
+      "innosenso": "Innosenso",
+      "liviwell": "liviwell",
+      "medical-wellness-management": "Medical Wellness Management GmbH",
+      "physiotherapie-lorch": "Physiotherapie Lorch",
+      "tuv-rheinland-group": "TÜV Rheinland Group",
+      "vitadom": "Vitadom",
+      "wedicon": "WEDICON",
+      "yorktest": "Yorktest",
+      "hohenbalance": "Höhenbalance",
+      "dr-illing-partner": "dr. illing & partner",
+      "premedion": "Premedion",
+      "pacific-wings-consulting": "pacific wings consulting",
+      "quality-spa": "Quality SPA",
+      "thv-gruppe": "THV Gruppe",
+      "unternehmensberatung-klaus-dribbusch": "Unternehmensberatung Klaus Dribbusch",
+      "thalgo": "Thalgo",
+      "progenom": "ProGenom",
+      "healomed": "Healomed",
+      "terme-dobrna": "Terme Dobrna",
+      "pino-gmbh": "Pino GmbH",
+      "salt-of-life-international-ag": "Salt of Life International AG",
+      "schupp-gmbh": "Schupp GmbH & Co KG",
+      "deagecosmetics": "deageCOSMETICS",
+      "his-solution": "HIS-Solution",
+      "vibb-fit-medical-gmbh": "Vibb-FIT-Medical GmbH",
+      "purity-factor": "Purity Factor",
+      "svg": "SVG Medizinsysteme GmbH & Co. KG",
+      "danubius-health-spa": "Danubius Health Spa",
+      "hotel-eggensberger": "Hotel Eggensberger",
+      "hotel-elbresidenz-bad-schandau": "Hotel Elbresidenz Bad Schandau",
+      "hotel-monchgut-auf-rugen": "Hotel Mönchgut auf Rügen",
+      "oceano-vitality-hotel": "OCÉANO Vitality Hotel & Medical Spa",
+      "rondane-spa-hoytjellshotell": "Rondane Spa Höytjellshotell",
+      "santiburi-golf-resort": "Santiburi Golf & Ocean Resort",
+      "sirona": "Sirona",
+      "medizinisches-zentrum-albena": "Medizinisches Zentrum Albena",
+      "parkhotel-sulzhayn": "Parkhotel Sülzhayn",
+      "dr-wahlmann-und-dr-griesse": "Dr. Wahlmann und Dr. Grieße",
+      "zentrum-fuer-sportmedizin": "Zentrum für Sportmedizin",
+      "johannesbad-unternehmensgruppe": "Johannesbad Unternehmensgruppe",
+      "thueringen-kliniken": "Thüringen-Kliniken",
+      "michels-kliniken": "Michels Kliniken",
+      "internationale-praevention-organisation": "Internationale Prävention Organisation e. V.",
+      "berufsverband-deutscher-praeventologinnen-und-praeventologen": "Berufsverband Deutscher Präventologinnen und Präventologen",
+      "proventika": "Proventika",
+      "thomas-wildey-institut": "Thomas — Wildey — Institut e. V.",
+      "mediplus-reisen": "Mediplus Reisen",
+      "shanghai-jin-jiang-tours": "Shanghai Jin Jiang Tours Co. Ltd.",
+      "tourvital": "TourVital"
+    },
+    "partnerDates": {
+      "akademie-der-gesundheit": "7. Mrz. 2019",
+      "baltic-college": "7. Mrz. 2019",
+      "baz": "7. Mrz. 2019",
+      "best-sabel-hochschule": "7. Mrz. 2019",
+      "pingou-vital": "7. Mrz. 2019",
+      "sofi-goettingen": "7. Mrz. 2019",
+      "physiotherapie-schule-ortenau": "7. Mrz. 2019",
+      "chi-spa": "7. Mrz. 2019",
+      "dermatocosmetics": "7. Mrz. 2019",
+      "dewea": "7. Mrz. 2019",
+      "ibs-mentaltraining": "7. Mrz. 2019",
+      "omron": "7. Mrz. 2019",
+      "centrovital": "7. Mrz. 2019",
+      "dmz": "7. Mrz. 2019",
+      "innosenso": "7. Mrz. 2019",
+      "liviwell": "7. Mrz. 2019",
+      "medical-wellness-management": "7. Mrz. 2019",
+      "physiotherapie-lorch": "7. Mrz. 2019",
+      "tuv-rheinland-group": "7. Mrz. 2019",
+      "vitadom": "7. Mrz. 2019",
+      "wedicon": "7. Mrz. 2019",
+      "yorktest": "7. Mrz. 2019",
+      "hohenbalance": "7. Mrz. 2019",
+      "dr-illing-partner": "7. Mrz. 2019",
+      "premedion": "7. Mrz. 2019",
+      "pacific-wings-consulting": "7. Mrz. 2019",
+      "quality-spa": "7. Mrz. 2019",
+      "thv-gruppe": "7. Mrz. 2019",
+      "unternehmensberatung-klaus-dribbusch": "7. Mrz. 2019",
+      "thalgo": "7. Mrz. 2019",
+      "progenom": "7. Mrz. 2019",
+      "healomed": "7. Mrz. 2019",
+      "terme-dobrna": "7. Mrz. 2019",
+      "pino-gmbh": "7. Mrz. 2019",
+      "salt-of-life-international-ag": "7. Mrz. 2019",
+      "schupp-gmbh": "7. Mrz. 2019",
+      "deagecosmetics": "7. Mrz. 2019",
+      "his-solution": "7. Mrz. 2019",
+      "vibb-fit-medical-gmbh": "7. Mrz. 2019",
+      "purity-factor": "7. Mrz. 2019",
+      "svg": "7. Mrz. 2019",
+      "danubius-health-spa": "7. Mrz. 2019",
+      "hotel-eggensberger": "7. Mrz. 2019",
+      "hotel-elbresidenz-bad-schandau": "7. Mrz. 2019",
+      "hotel-monchgut-auf-rugen": "7. Mrz. 2019",
+      "oceano-vitality-hotel": "7. Mrz. 2019",
+      "rondane-spa-hoytjellshotell": "7. Mrz. 2019",
+      "santiburi-golf-resort": "7. Mrz. 2019",
+      "sirona": "7. Mrz. 2019",
+      "medizinisches-zentrum-albena": "7. Mrz. 2019",
+      "parkhotel-sulzhayn": "7. Mrz. 2019",
+      "dr-wahlmann-und-dr-griesse": "7. Mrz. 2019",
+      "zentrum-fuer-sportmedizin": "7. Mrz. 2019",
+      "johannesbad-unternehmensgruppe": "7. Mrz. 2019",
+      "thueringen-kliniken": "7. Mrz. 2019",
+      "michels-kliniken": "7. Mrz. 2019",
+      "internationale-praevention-organisation": "7. Mrz. 2019",
+      "berufsverband-deutscher-praeventologinnen-und-praeventologen": "7. Mrz. 2019",
+      "proventika": "7. Mrz. 2019",
+      "thomas-wildey-institut": "7. Mrz. 2019",
+      "mediplus-reisen": "7. Mrz. 2019",
+      "shanghai-jin-jiang-tours": "7. Mrz. 2019",
+      "tourvital": "7. Mrz. 2019"
+    },
+    "partnerDescriptions": {
+      "akademie-der-gesundheit": "Die staatlich anerkannte Akademie der Gesundheit Berlin/ Brandenburg e. V. mit Sitz in Berlin-Buch, Eberswalde und Bad Saarow ist eine der größten privaten Bildungsunternehmen für das Gesundheits- und Sozialwesen in Deutschland. Die Akademie betreibt gegenwärtig ein Zentrum Berufliche Ausbildung mit 12 anerkannten Ausbildungsberufen und ein Zentrum Berufliche Weiterbildung. Insgesamt werden durch das Mitarbeiterteam der Akademie 1050 Bildungsteilnehmer begleitet.",
+      "baltic-college": "Das Baltic College ist die erste Hochschule für Management, Hotellerie, Tourismus und Gesundheitstourismus in privater Trägerschaft in Mecklenburg-Vorpommern. Gegründet im Jahre 2001 bietet die junge und dynamische Hochschule ihren Studenten die Möglichkeit, ein anspruchsvolles Studium zu absolvieren und sich auf eine verantwortungsvolle Position in Wirtschaft und Gesellschaft vorzubereiten.",
+      "baz": "Mehr als 2500 hervorgebrachte Absolventen, das ist die Bilanz, die das BAZ Hamburg seit 1986 vorzuweisen hat und ist somit das mit Abstand erfolgreichste Fortbildungsinstitut für Pharma- referenten in Norddeutschland.",
+      "best-sabel-hochschule": "Das Studium an der BEST-Sabel-Hochschule Berlin verbindet die Vorteile eines privaten Studiums mit dem Studienabschluss einer staatlichen Hochschule, dem internationalen und akkreditierten Bachelor of Arts (B.A.). International ausgerichtet, aktuell und praxisnah vermitteln die Bachelor-Studiengänge die wichtigen Grundlagen für eine berufliche Karriere im Management international agierender Unternehmen und Konzerne.",
+      "pingou-vital": "Das energetische GesundheitsCentrum pingou vital bietet auf Basis der chinesischen Fünf-Elemente- Lehre individuell abgestimmte Behandlungs- programme zu den Themenbereichen 'Gesundheit und Wohlbefinden' wie auch 'Vitalität bis ins hohe Alter'.",
+      "sofi-goettingen": "Das Soziologische Forschungsinstitut Göttingen (SOFI) wurde im Jahr 1968 als nichtkommerzielles, universitätsnahes Institut gegründet. Die Rechtsform ist ein eingetragener gemeinnütziger Verein. Die Ziele des Instituts werden durch das Wissenschaftsverständnis einer angewandten Grundlagenforschung bestimmt.",
+      "physiotherapie-schule-ortenau": "Zusammenarbeit mit französischen Kollegen in zahlreichen Kliniken des Elsasses. In der dörflichen Gemeinde Eckartsweier profitieren wir von der idyllischen, ländlichen Umgebung. Es ist unser Anliegen den Schülern ein fundiertes theoretisches Wissen und praktisches Können zu vermitteln sowie das Persönlichkeitsbild des Physiotherapeuten zu prägen.",
+      "chi-spa": "Zwischen Werbellinsee und Grimnitzsee in der Schorfheide nahe Berlin befindet sich 'chi spa' Wellness — Schönheit — Gesundheit. Hier wird ganzheitliche Gesundheitsprävention in Verbindung mit Wellness, Pflege und Schönheit angeboten.",
+      "dermatocosmetics": "Hinter dem Institut dermatocosmetics für Perfect Skin und Medical Wellness steht die angesehene Dermatologische Praxis von Dr. Dagmar Ludolph-Hauser und Kollegen. Hautmedizinisches Fachwissen auf State of the Art liegt den modernen Behandlungsmethoden im Institut zugrunde.",
+      "dewea": "Fullservice zu vernünftigen Konditionen zu bieten ist das Anliegen der Deutschen Werbeagentur dewea. Der kleine Kern aus qualifizierten und motivierten Mitarbeitern, die je nach Anforderung auf eine Vielzahl an freien Partnern sowie ausgewiesenen Spezialisten zurückgreifen, gestattet dewea maßgeschneiderte Lösungen anzubieten und dabei die Kosten niedrig zu halten.",
+      "ibs-mentaltraining": "Das Metaziel des IBS-Mentaltrainings ist die Förderung der Emotionalen Stabilität in allen Lebensbereichen. Mentales Training als Ergänzung zum praktischen Training ist vor allem im Sport schon lange ein Begriff. Techniken wie entspannte Konzentration, Visualisierung und Selbstgesprächskontrolle lassen sich in allen Lebensbereichen anwenden.",
+      "omron": "Wenn es um intelligente und praxisnahe Medizintechnik geht, ist das internationale Technologieunternehmen OMRON ganz vorne mit dabei. Seit Jahrzehnten ist OMRON Vorreiter bei medizintechnischen Geräten.",
+      "centrovital": "Hotel centrovital Berlin verbindet Medical Wellness, Thermalbad, Tagungen und Fitnessstudio am Spandauer See. Das Gesundheitszentrum bietet ganzheitliche Behandlungsprogramme aus klassischen und alternativen Heilmethoden. Ambulante Rehabilitation, Physiotherapie, Kardiologie, medizinische Kräftigungstherapie und Ernährungsberatung runden das Angebot ab.",
+      "dmz": "Das Deutsche Medizinische Zentrum DMZ mit Spa-, Rehabilitations- und Gesundheitsangeboten am Toten Meer in Israel ist die Vertragsklinik der deutschen Krankenkassen, der Deutschen Rentenversicherung Mitteldeutschland und anderer staatlicher Versicherungsträger. Durch ständige Erweiterung des medizinischen und therapeutischen Angebots und konstante Beiträge zur Qualitätssicherung konnte das DMZ ein modernes Therapiezentrum mit ganzheitlichem Therapiekonzept schaffen.",
+      "innosenso": "Die Unternehmensberatung für Elektrobiologie Innosenso hat sich auf Beratung, Planung und Umsetzung von elektrobiologischen Gesundheitsschutzmaßnahmen im Bereich der Elektrosmog-Reduzierung spezialisiert. Für die Hotellerie sowie für Gesundheitszentren, Privatkliniken und Pensionen setzt Innosenso mit dem innovativen Gesundheitsschutzkonzept Sensual Living — Gesünder Leben, Wohnen & Arbeiten wichtige Akzente im Wachstumsmarkt Wellness und legt damit einen Meilenstein in Sachen Nachhaltigkeit im Tourismus.",
+      "liviwell": "Das Tätigkeitsfeld der Firma liviwell liegt in der Verbindung moderner Technologien mit den persönlichen Anforderungen einer gesunden und ausgewogenen Ernährung. Das daraus resultierende Konzept, bestehend aus CRS® Stoffwechselanalyse und darauf abgestimmten Mikronährstoffen, bildet hier die Grundlage. Ziel ist es, eine kostengünstige Analysemethode anzubieten und die daraus resultierenden Bedürfnisse eines jeden Einzelnen mit ausgewählten Vitalstoffen zu unterstützen.",
+      "medical-wellness-management": "MWM Medical Wellness Management GmbH integriert die Beiräte des DMWV aus den Bereichen Medizin, Wellness, Architektur & Planung, Personalentwicklung & Ausbildung, Qualitätssysteme, Marketing & Vertrieb, Public Relations, Betriebswirtschaft und Beratung innerhalb einer eigenen neutralen Aktionsplattform in akquirierten Aufträgen. Diese Kompetenzträger werden durch eigene Ressourcen der MWM und bei Bedarf durch weitere externe Spezialisten ergänzt.",
+      "physiotherapie-lorch": "Das Zentrum für Physiotherapie Lorch ist eine spezialisierte Praxis für Physiotherapie, Medical Wellness, Rehabilitation und Prävention.",
+      "tuv-rheinland-group": "Als internationale Dienstleistungsgruppe dokumentiert TÜV Rheinland Group die Sicherheit und Qualität von neuen und bestehenden Produkten, Systemen und Dienstleistungen.",
+      "vitadom": "Seit mehr als 20 Jahren plant und baut Vitadom erfolgreich Wellness-Einrichtungen in Hotel-, Spa- und Gesundheitsobjekten. Die Wellness-Branche unterliegt bis heute einem ständigen Wandel und einer kontinuierlichen Weiterentwicklung. Vitadom reagiert mit innovativen Ideen, fundiertem Fachwissen und strukturierten Arbeitsweisen auf individuelle Kundenwünsche.",
+      "wedicon": "WEDICON beschäftigt sich intensiv mit nicht-invasiven Behandlungsmethoden und natürlichen Mikronährstoffen zur Anregung der körpereigenen Selbstheilungskräfte. Dabei blickt WEDICON über den traditionellen Gesundheitsmarkt hinaus und schlägt eine Brücke zwischen angewandter Schul- und Alternativmedizin zum Wohle der Menschen. Mit einer einzigartigen Kombination aus effizienten medizinischen Anwendungen und natürlichen Produkten unterstützt Sie WEDICON dabei, mehr Harmonie und Lebensqualität zu erreichen.",
+      "yorktest": "Wenn gesunde Nahrung krank macht... Nahrungsmittelunverträglichkeiten (NMU) gehören zu den am weitesten verbreiteten Auslösern für eine Vielzahl von Beschwerden, die unser Wohlbefinden beeinträchtigen. Nach neuesten wissenschaftlichen Erkenntnissen leidet jeder fünfte Mitteleuropäer an einer NMU. Yorktest bietet die Möglichkeit, das Vorliegen einer NMU im Vorfeld durch den Test: FoodSCAN Indicator zu bestätigen oder auszuschließen und empfiehlt bei positivem Ergebnis des Indicator-Tests die Tests: FoodSCAN Totality oder FoodSCAN Quality.",
+      "hohenbalance": "Höhentraining — Künstliche Berge im Sport und in der Therapie! Die Höhenbalance AG bietet als europäischer Marktführer im Bereich der Höhentrainingskonzepte ihren Kunden die bestmögliche Technologie. Dies wird durch eine enge Zusammenarbeit mit mehreren Zulieferfirmen (Hypoxico, b-cat, Alto2Lab und go2altitude) ermöglicht, die unterschiedliche Höhentrainingssysteme anbieten. Das interdisziplinäre Team unter der medizinisch-wissenschaftlichen Leitung von Prof. Dr. Hermann Buhl unterstützt Kunden in den Bereichen Prävention und Therapie sowie Sportler und Alpinsportler, die sich auf den nächsten Wettkampf oder die nächste Trekkingtour vorbereiten. Höhenbalance überzeugt mit modernsten Diagnoseverfahren für den Sport und hochaktuellen Methoden im Bereich Übergewicht und anderen Zivilisationskrankheiten.",
+      "dr-illing-partner": "Unabhängig vom Erfolg und der Dauer des Bestehens eines Unternehmens tritt irgendwann die Notwendigkeit auf, etwas zu verändern. Dabei kann es sich um eine Erweiterungsinvestition, eine neue Marktorientierung (Repositionierung) oder einfach um eine IST-Analyse des aktuellen Zustandes handeln, um einen Handlungsbedarf für die Zukunft zu erkennen. In diesen Situationen kommen die Unternehmen TDC und prof. fh dr. illing & partner zum Einsatz.",
+      "premedion": "Premedion ist der Spezialist für umfassende Beratung, maßgeschneiderte Entwicklung und professionelle Umsetzung von Projekten und Konzepten in den Bereichen Health & SPA Business. Es gehört zur Unternehmensgruppe Deutsche Seereederei und ist Mehrheitsgesellschafter des Medical Prevention Center Hamburg (MPCH).",
+      "pacific-wings-consulting": "Spezialisiert auf Beratungsdienstleistungen im Tourismus bietet pacific wings consulting Unterstützung und Hilfestellung für Tourismusdestinationen, Hotels und Reiseveranstalter. In einem zunehmend dynamischen Marktumfeld sind Servicequalität, Kreditmanagement sowie die Entwicklung und Schulung von Mitarbeitern einer der wichtigsten Faktoren, um erfolgreich am Markt bestehen zu können. Pacific wings consulting bietet Ihnen eine breite Palette an Instrumenten und Möglichkeiten, um Ihre Marktpräsenz zu verbessern.",
+      "quality-spa": "QUALITY SPA erstellt Betriebs- und Planungskonzepte für Wellness-, Spa- und Gesundheitseinrichtungen und unterstützt in allen baulichen und wirtschaftlichen Entwicklungsphasen.",
+      "thv-gruppe": "Zur THV Gruppe gehören die THV Versicherungsmakler GmbH, die Paetau Sports Versicherungsmakler GmbH und die THS Services Versicherungsvermittlung GmbH. Alle drei Unternehmen beschäftigen sich professionell mit allen Fragen der Risikoerkennung und des Risikoschutzes im Auftrag ihrer Kunden. Zu ihren Leistungen gehören: Analyse, Beratung und Optimierung bestehender Versicherungsverträge, neue innovative Versicherungslösungen, nachhaltiges Vertrags- und Schadenmanagement, IT- und Outsourcing-Lösungen.",
+      "unternehmensberatung-klaus-dribbusch": "Die Unternehmensberatung Klaus Dribbusch mit den Schwerpunktthemen Unternehmensplanung & Controlling sowie Dokumentenmanagement & Prozessabwicklung berät und unterstützt Sie in allen Fragen der wirtschaftlichen Unternehmensführung Ihres Betriebes oder Ihrer Einrichtung.",
+      "thalgo": "THALGO ist eine weltweit tätige Gruppe, die in 85 Ländern präsent ist und zum Synonym für Qualität und Authentizität bei meerbasierten Behandlungen und Produkten geworden ist. Das Unternehmen forscht, entwickelt, testet und produziert an seinem Hauptsitz in Roquebrune-sur-Argens an der Côte d'Azur und erobert durch permanente Innovationen weitere Märkte.",
+      "progenom": "ProGenom bietet in einem Netzwerk mit renommierten Ärzten, Naturwissenschaftlern, Humangenetikern, Molekularbiologen und unter Verwendung neuester wissenschaftlicher Erkenntnisse präventivmedizinischer Testsysteme genetische Analysen in den medizinischen Abteilungen ihrer Medical Wellness Partnerhotels und bei Partnerärzten an. Genetische Entwicklungen ermöglichen es zunehmend, eine persönliche & individuelle Gesundheitsstrategie zu entwickeln, die im völligen Gegensatz zur sogenannten allgemeinen Gesundheitsberatung steht.",
+      "healomed": "Wir, die Healomed GmbH mit Sitz in München, sind ein international tätiges Unternehmen und haben uns auf den Vertrieb von Medizinprodukten und insbesondere Magnetpulsgeräten spezialisiert. Als Generalimporteur des PEMF-100 Elektromagnetfeld-Generators von PEMF Systems Incorporated sind wir für den Vertrieb des PEMF-100 in Deutschland, Österreich und der Schweiz zuständig.",
+      "terme-dobrna": "Terme Dobrna ist eines der ältesten Thermalbäder in Slowenien. Das Thermalwasser von Dobrna ist seit Jahrhunderten für seine heilende Wirkung bekannt. Heute ist Terme Dobrna ein moderner Kurort, der Tradition mit neuesten medizinischen Erkenntnissen verbindet.",
+      "pino-gmbh": "Die PINO GmbH ist ein Hersteller von hochwertigen Massage- und Therapieprodukten. Das Unternehmen entwickelt und produziert seit über 30 Jahren innovative Lösungen für Physiotherapie, Wellness und Sport.",
+      "salt-of-life-international-ag": "Die FREELAXX FLOATING Systeme sind das neueste Produkt der SALT OF LIFE TECHNOLOGY GMBH, die zur Schweizer SALT OF LIFE AG gehört. Seit über 15 Jahren entwickeln Unternehmen der SALT OF LIFE AG praxisnahe Anwendungen im Bereich der Bad-/Lichttherapien für chronische Hauterkrankungen.",
+      "schupp-gmbh": "Als Komplettanbieter in den Bereichen Physiotherapie, Medizinische Trainingstherapie und Wellness bietet Ihnen die Schupp GmbH & Co KG alles, was Sie für eine erfolgreiche Behandlung benötigen: Von Geräten wie Behandlungsliegen, MTT-Geräten oder Infrarotstrahlern über Präparate wie Massagemittel, Fango und Badezusätze bis hin zur Praxisorganisation mit Terminplanern und Patientenkartei.",
+      "deagecosmetics": "deageCOSMETICS — gegen die Zeichen der Zeit — steht für modernste, natürliche Kosmetikkreationen und ist Garant für Qualität und Entwicklungs-Know-how. Das Sortiment basiert auf den Ergebnissen jahrelanger intensiver Forschung und ist speziell auf individuelle Bedürfnisse zugeschnitten.",
+      "his-solution": "Als führendes deutsches Unternehmen bietet HIS-Solution eines der modernsten individuell konfigurierbaren Softwaresysteme für die Terminplanung im SPA-Vital-Beauty-Wellness-Bereich.",
+      "vibb-fit-medical-gmbh": "vibb-FIT-medical GmbH stellt Ihren Kunden, Gästen oder Patienten Vibrationsgeräte zur Verfügung und bietet ihnen damit die Chance auf mehr Gesundheit, Fitness, Wohlbefinden und Schönheit. So individuell wie jeder Mensch mit seinen unterschiedlichen Bedürfnissen und Anforderungen ist, muss auch Ihre Vibrations-Wellness-Insel individuell gestaltet werden.",
+      "purity-factor": "Purity Factor ist eine Vertriebsplattform für TriSerum®, eine 30-tägige komplette Aufbaukur zur dauerhaften Anti-Falten-Behandlung, die wie ein natürlicher Jungbrunnen wirkt. Es besteht aus wohl den begehrtesten Inhaltsstoffen der Kosmetikindustrie: Hyaluron, Kollagen und Aminosäuren.",
+      "svg": "Seit der Firmengründung im Jahr 1997 basiert die SVG Medizinsysteme GmbH & Co. KG auf dem Prinzip, durch starke Leistung und besten Service zu begeistern. Als einer der führenden Vollsortimenter im deutschsprachigen Raum sind ständig über 2.000 Artikel im Angebot, viele davon direkt ab Lager verfügbar.",
+      "danubius-health-spa": "Willkommen bei Danubius, Europas größtem und erfahrenstem Thermalhotel-Betreiber! Wir haben uns und unsere therapeutischen und Wellness-Dienstleistungen auf die heilenden und entspannenden Wirkungen der natürlichen Ressourcen der Erde spezialisiert. Investieren Sie in Ihre Gesundheit und besuchen Sie eines unserer luxuriösen Thermalhotels.",
+      "hotel-eggensberger": "Das Hotel Eggensberger ist die erste TÜV-zertifizierte Medical Wellness Einrichtung in Deutschland. Bio- und Wellnesshotel, Therapiezentrum sowie ISO 9001:2000 Zertifizierung ergeben die mehrdimensionalen, dynamisch-systematischen Prozesse, die mit der Herstellung ganzheitlichen individuellen Wohlbefindens im Kontext wissenschaftlich gesicherter gesundheitsfördernder bzw. medizinischer Faktoren einhergehen.",
+      "hotel-elbresidenz-bad-schandau": "Wer Natur und Kultur in der Sächsischen Schweiz und den umliegenden Städten genießen möchte, sollte Bad Schandau besuchen. Eine bezaubernde Landschaft für Naturliebhaber, kulturelle Vielfalt aller Genres und pure Entspannung. Optional kombinierbar mit medizinischer Prävention.",
+      "hotel-monchgut-auf-rugen": "Das neu eröffnete Spa- und Wellnesshotel ist in die Parklandschaft des Waldhotels eingebettet, umgeben von einer Parklandschaft mit über 15.000 Rosen, einem herrlichen Blick auf die Ostsee und direktem Zugang zur Bernsteinpromenade.",
+      "oceano-vitality-hotel": "Im grünen, ruhigen Norden Teneriffas, im kleinen Fischerdorf Punta del Hidalgo, liegt das privat geführte OCÉANO Vitality Hotel & Medical Spa, das erste zertifizierte Medical Wellness Hotel in Spanien. Der direkte Blick auf die Weite des Ozeans und die traumhaften Sonnenuntergänge lassen sich von jedem Zimmer aus bewundern.",
+      "rondane-spa-hoytjellshotell": "Das Rondane Spa mit seiner einzigartigen Lage am Tor zum Rondane Nationalpark bietet alles vom Wandern in den Bergen bis zum Rafting in wilden Gebirgsflüssen. Der hoteleigene Wellnessbereich ist der perfekte Abschluss nach den Erlebnissen.",
+      "santiburi-golf-resort": "Santiburi ist ein exklusiver Villenkomplex am 3 km langen Privatstrand am malerischen Mae Nam Beach. Klassische Thai-Architektur in einem einzigartigen botanischen Garten – ein „The Leading Small Hotels of the World",
+      "sirona": "Der internationale Verband für Balneologie und Tourismus „SIRONA\" spezialisiert sich auf Investitionsprojekte, Bau und Management von Wohn- und Hotel-Balneo-Komplexen, mit einem Programm für Balneotherapie und Bergtourismus.",
+      "medizinisches-zentrum-albena": "Der Badeort Albena an der bulgarischen Schwarzmeerküste bietet 14.900 Betten in 43 Hotels und 5 Villenkomplexen, dazu über 100 Restaurants, Spa- & Wellnesscenter sowie zahlreiche Sport- und Unterhaltungseinrichtungen.",
+      "parkhotel-sulzhayn": "Das Parkhotel Sülzhayn liegt im Kurort Sülzhayn am südlichen Rand des Harzes. Umgeben von Mischwäldern und Bergwiesen bietet es eine ideale Umgebung für Erholung und aktiven Urlaub, mit vielen Ausflugszielen in der Nähe.",
+      "dr-wahlmann-und-dr-griesse": "Dr. Wahlmann und Partner sind ausgewiesene Spezialisten und Innovationsführer in den verschiedenen Bereichen der Zahnheilkunde sowie der Zahnästhetik und kosmetischen Zahnmedizin.",
+      "zentrum-fuer-sportmedizin": "Möchten Sie wissen, wie es um Ihre Gesundheit & Fitness steht? Möchten Sie Ihr Training optimieren oder durch Sport etwas für Ihre Gesundheit tun? Das Zentrum für Sportmedizin hat in jedem Fall das richtige Angebot für Sie.",
+      "johannesbad-unternehmensgruppe": "Die Johannesbad Gruppe ist ein erfolgreicher Anbieter medizinisch und gesundheitlich orientierter Dienstleistungen mit neun Standorten in drei europäischen Ländern. Mit fast 1.300 Mitarbeitern gehört die Gruppe zu den größten im Gesundheitssektor.",
+      "thueringen-kliniken": "Die Thüringen-Kliniken „Georgius-Agricola\" Saalfeld-Rudolstadt GmbH versteht sich als Krankenhaus der gehobenen Versorgungsstufe. Seit 1991 besteht das Unternehmen in der Rechtsform einer GmbH, deren alleiniger Gesellschafter der Landkreis Saalfeld-Rudolstadt ist. Die Thüringen-Kliniken Saalfeld-Rudolstadt GmbH gehört zu den akademischen Lehrkrankenhäusern der Friedrich-Schiller-Universität Jena.",
+      "michels-kliniken": "In unseren Rehabilitationskliniken in den Bereichen Sachsen, Berlin-Brandenburg und Niedersachsen bieten wir Rehabilitationsleistungen in den Fachbereichen Neurologie, Orthopädie, Kardiologie, Pneumologie, Dermatologie, Pädiatrie und Psychosomatik an.",
+      "internationale-praevention-organisation": "1992 gegründet — die IPO ist heute das größte unabhängige Non-Profit-Netzwerk für Gesundheitskommunikation in Europa. Die interdisziplinäre Kompetenz zur Darstellung wichtiger Themenkomplexe im Gesundheitsmarkt ist von höchster Bedeutung. Im Fokus steht die Produktion verschiedener Plattformen zur Darstellung wichtiger Entwicklungen in Gesundheitspolitik, Medizin, Wissenschaft und Wirtschaft. Für den Strukturwandel im Gesundheitswesen – hin zu einer klaren Gesundheitswirtschaft – entwickelt die IPO zukunftsorientierte Lösungsansätze für alle Partner.",
+      "berufsverband-deutscher-praeventologinnen-und-praeventologen": "Der Berufsverband Deutscher Präventologinnen und Präventologen e.V. ist ein Netzwerk von Menschen, die sich der Prävention und Gesundheitsförderung verschrieben haben. Präventologen sind mutige Pioniere für neues Denken und Handeln im Umgang mit den Gesundheitsproblemen unserer Zeit sowie unserer Gesellschaft.",
+      "proventika": "Die Proventika Akademie hat es sich zur Aufgabe gemacht, die neuen Erkenntnisse der Hirnforschung, Neurowissenschaften und Neuromedizin interessierten Ärzten, medizinischen Assistenzberufen, Coaches und Trainern praxisrelevant zu vermitteln. Dazu wurden in Kooperation mit dem Deutschen Institut für Integrative Neuromedizin e.V. (DINM) Lehrinhalte und Curricula entwickelt, die eine qualifizierte Umsetzung der integrativen Stressberatung und Stressmedizin, des integrativen Stress- und Neuro-Coachings in der ärztlichen und beruflichen Tätigkeit ermöglichen.",
+      "thomas-wildey-institut": "Institut für Klinik- und praxisgekoppelte Grundlagenforschung. Im Jahre 1977 wurde das Thomas-Wildey-Institut von Dr. Karl Daxl in München gegründet, der sein Wirken neuen Wegen in der Medizin gewidmet hat. Das TWI darf mittlerweile zahlreiche Ärzte, Institutionen, Forschungseinrichtungen und Personen aus den unterschiedlichsten medizinischen, wirtschaftlichen, sozialen, gesellschaftlichen und politischen Richtungen und Gruppierungen zu seinen Mitgliedern zählen, die alle ihren jeweiligen Beitrag leisten, die Zukunft unserer Gesellschaft humanverträglich in der Medizin weiter zu entwickeln.",
+      "mediplus-reisen": "Mediplus Reisen verbindet durch sein einzigartiges Konzept Urlaub und Gesundheit zu einem ganzheitlichen Reiseerlebnis für Körper, Geist und Seele.",
+      "shanghai-jin-jiang-tours": "Shanghai China International Travel Service Co., Ltd wurde 1994 gegründet. Seitdem ist die CITS B‑Aktien auf der Shanghai Stock Exchange gelistet. Das Unternehmen zählt zu den größten professionellen Reisedienstleister in China.",
+      "tourvital": "TOUR VITAL ist der Spezialist für ärztlich begleitete Reisen weltweit. Über 400 Ärzte sind jährlich mit unseren Gästen unterwegs. Ausgesuchte Kur- und Wellnessreisen, Fluss- und Hochseekreuzfahrten, Langzeiturlaube und Städtereisen runden das Angebot ab."
+    },
+    "backToPartners": "Zurück zu den Partnern"
+  },
+
+  "SearchModal": {
+    "SearchPlaceholder": "Suche...",
+    "SearchResults": "Suchergebnisse",
+    "StartTyping": "Starten Sie, die Suche...",
+    "SearchModalTitle": "Suche",
+    "SearchModalDescription": "Geben Sie Ihre Suchanfrage ein, um Inhalt auf unserer Website zu finden.",
+    "SearchingFor": "Suche nach: {query}",
+    "SearchTip": "Versuchen Sie, Themen wie 'Wellness', 'Zertifizierung' oder 'Partner' zu suchen"
+  },
+  "Footer": {
+    "description": "Der Deutsche Medical Wellness Verband e.V. (DMWV) ist der Fachverband für Medical Wellness in Deutschland. Wir setzen uns für die Qualitätssicherung und Weiterentwicklung von Medical Wellness ein.",
+    "newsletterTitle": "Newsletter abonnieren",
+    "emailPlaceholder": "Ihre E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "quickLinks": "Quick Links",
+    "menuItems": [
+      { "name": "Home", "href": "/" },
+      { "name": "News", "href": "/news" },
+      { "name": "Verband", "href": "/verband/organisation" },
+      { "name": "Zertifizierung", "href": "/zertifizierung" },
+      { "name": "Medical Wellness", "href": "/medical-wellness" },
+      { "name": "Planung", "href": "/planning" }
+    ],
+    "Home": "Home",
+    "News": "News",
+    "Association": "Association",
+    "Certification": "Certification",
+    "MedicalWellness": "Medical Wellness",
+    "Planning": "Planning",
+    "contact": "Kontakt",
+    "address": "Heideläuferweg 75a, 12353 Berlin",
+    "phone": "+49 30 8973 5139",
+    "email": "info@dmwv.de",
+    "aboutUs": "Über uns",
+    "aboutUsDescription": "Der DMWV setzt sich für die Förderung von Gesundheit und Wohlbefinden durch die Integration von Medical Wellness ein. Wir bieten Branchenzertifizierungen, Orientierung und Unterstützung für Unternehmen im Bereich Gesundheitstourismus.",
+    "learnMore": "Mehr erfahren",
+    "copyright": "© {year} Deutscher Medical Wellness Verband. Alle Rechte vorbehalten.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB"
+  }
+}
