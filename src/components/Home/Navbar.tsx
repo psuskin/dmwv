@@ -96,6 +96,10 @@ export default function Navbar() {
     setIsSearchModalOpen(!isSearchModalOpen);
   };
 
+  const getLogoPath = () => {
+    return locale === "de" ? "/images/dmwv-logo-de.png" : "/images/dmwv-logo-en.png";
+  };
+
   return (
     <nav className="bg-primary-800 text-white shadow-md relative z-50">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -103,7 +107,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href={`/${locale}`} className="flex-shrink-0">
               <Image
-                src="/images/dmwv-logo.png"
+                src={getLogoPath()}
                 alt="DMWV Logo"
                 width={68}
                 height={68}

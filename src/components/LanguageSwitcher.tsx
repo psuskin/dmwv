@@ -59,6 +59,61 @@ const languages = [
       </svg>
     ),
   },
+  {
+    code: "es",
+    label: "Español",
+    flag: (
+      <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+        <rect width="24" height="4.67" fill="#AA151B" />
+        <rect y="4.67" width="24" height="4.66" fill="#F1BF00" />
+        <rect y="9.33" width="24" height="4.67" fill="#AA151B" />
+      </svg>
+    ),
+  },
+  {
+    code: "fr",
+    label: "Français",
+    flag: (
+      <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+      <rect width="8" height="14" fill="#002395" />
+      <rect x="8" width="8" height="14" fill="#FFFFFF" />
+      <rect x="16" width="8" height="14" fill="#ED2939" />
+    </svg>
+    ),
+  },
+  {
+    code: "it",
+    label: "Italiano",
+    flag: (
+      <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+        <rect width="8" height="14" fill="#009246" />
+        <rect x="8" width="8" height="14" fill="#FFFFFF" />
+        <rect x="16" width="8" height="14" fill="#CE2B37" />
+      </svg>
+    ),
+  },
+  {
+    code: "ru",
+    label: "Русский",
+    flag: (
+      <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+        <rect width="24" height="4.67" fill="#FFFFFF" />
+        <rect y="4.67" width="24" height="4.66" fill="#0033A0" />
+        <rect y="9.33" width="24" height="4.67" fill="#D52B1E" />
+      </svg>
+    ),
+  },
+  {
+    code: "ar",
+    label: "عربي",
+    flag: (
+      <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+        <rect width="24" height="4.67" fill="#CE1126" />
+        <rect y="4.67" width="24" height="4.66" fill="#FFFFFF" />
+        <rect y="9.33" width="24" height="4.67" fill="#000000" />
+      </svg>
+    ),
+  }
 ];
 
 export default function LanguageSwitcher() {
