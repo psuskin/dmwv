@@ -1,0 +1,927 @@
+{
+    "metadata": {
+        "defaultTitle": "Alman Tıbbi Sağlık Derneği",
+        "description": "Alman Tıbbi Sağlık Derneği, tıbbi sağlık uygulamalarının entegrasyonu yoluyla sağlık ve refahı teşvik etmeye kendini adamıştır.",
+        "keywords": "tıbbi sağlık, sağlık, refah, Alman derneği, sağlık programları",
+        "ogTitle": "Alman Tıbbi Sağlık Derneği - Sağlık ve Refahı Teşvik Etmek",
+        "ogDescription": "Alman Tıbbi Sağlık Derneği ile sağlıklı yaşamın geleceğini keşfedin. Sağlık ve refaha yönelik yenilikçi yaklaşımlar sunuyoruz.",
+        "siteName": "DMWV",
+        "twitterTitle": "Alman Tıbbi Sağlık Derneği",
+        "twitterDescription": "Tıbbi sağlık ve bütünsel sağlık yaklaşımlarında öncü."
+    },
+    "NotFound": {
+        "title": "Sayfa bulunamadı",
+        "description": "Üzgünüz, aradığınız sayfayı bulamadık.",
+        "homeButton": "Ana Sayfaya Git",
+        "contactButton": "Bize Ulaşın"
+    },
+    "Home": "Ev",
+    "News": "Haberler",
+    "Association": "Dernek",
+    "Certification": "Sertifikasyon",
+    "MedicalWellness": "Tıbbi Sağlık",
+    "Planning": "Planlama",
+    "Search": "Aramak",
+    "Organisation": "Organizasyon",
+    "Expertise": "Uzmanlık",
+    "Cooperation": "İşbirliği",
+    "Membership": "Üyelik",
+    "AreasOfCompetence": "Yeterlilik Alanları",
+    "Partners": "Ortaklar",
+    "Hero": {
+        "welcome": "Hoş geldiniz",
+        "title": "Alman Tıbbi Sağlık Derneği",
+        "description": "Bütünsel sağlık, canlılık ve yaşam kalitesi için güvendiğiniz ortağınız. Bizimle refahın geleceğini keşfedin.",
+        "learnMore": "Daha fazla bilgi edin",
+        "becomeMember": "Üye Ol",
+        "memberImageAlt": "Üye {numara}",
+        "memberCount": "500'den fazla memnun üye",
+        "previousSlide": "Önceki slayt",
+        "nextSlide": "Sonraki slayt",
+        "goToSlide": "{numara} numaralı slayda git",
+        "slide1": {
+            "title": "Bütünsel Sağlık",
+            "description": "Refahınıza yönelik yenilikçi yaklaşımlarımızı keşfedin."
+        },
+        "slide2": {
+            "title": "Odak Noktasında Canlılık",
+            "description": "Sağlıklı yaşam programlarımızla yaşam enerjinizi artırın."
+        },
+        "slide3": {
+            "title": "Yaşam Sevincini Yaşayın",
+            "description": "Daha fazla denge ve memnuniyete giden yolu bulun."
+        }
+    },
+    "WelcomeSection": {
+        "subtitle": "Hoş geldiniz",
+        "title": "Alman Tıbbi Sağlık Derneği",
+        "description": "Alman Tıbbi Sağlık Derneği'nde, sağlığınız ve refahınız için en iyi hizmetleri sunmaktan gurur duyuyoruz. Profesyonel ekibimiz, müşterilerimizin refahını özel çözümlerle beslemeye ve geliştirmeye adanmıştır.",
+        "imageAlt": "Alman Tıbbi Sağlık Derneği'nde sağlıklı yaşam tedavisi",
+        "philosophyTitle": "Felsefemiz",
+        "philosophyDescription": "Sağlık ve esenliğe bütünsel bir yaklaşıma inanıyoruz. Hizmetlerimiz, size mümkün olan en iyi bakımı sağlamak için geleneksel bilgeliği son teknoloji tıbbi teknolojiyle birleştiriyor.",
+        "feature1": "Kişiye özel tedavi planları",
+        "feature2": "Yüksek nitelikli profesyoneller",
+        "feature3": "Son teknoloji tesisler",
+        "learnMore": "Daha fazla bilgi edin",
+        "learnMoreAriaLabel": "Tıbbi Sağlık hakkında daha fazla bilgi edinin",
+        "missionTitle": "Misyon",
+        "missionDescription": "Misyonumuz, tıbbi sağlık uygulamalarının entegrasyonu yoluyla sağlık ve refahı teşvik etmektir.",
+        "visionTitle": "Görüş",
+        "visionDescription": "Vizyonumuz, Almanya'da tıbbi sağlık alanında lider bir dernek olmak ve tıbbi sağlık uygulamalarının entegrasyonu yoluyla sağlık ve refahı teşvik etmektir.",
+        "statsNumber": "100+",
+        "statsText": "Sertifikalı Tıbbi Sağlık Tesisleri",
+        "philosophyImageAlt": "Sağlıklı yaşam felsefemiz eylem halinde",
+        "statsClients": "Memnun Müşteriler",
+        "statsPartners": "Güvenilir Ortaklar",
+        "statsYears": "Yılların Deneyimi"
+    },
+    "Contact": {
+        "title": "Bize Ulaşın",
+        "subtitle": "Sizden haber almak isteriz! İletişime geçmek için formu veya iletişim bilgilerimizi kullanın.",
+        "formTitle": "Bize bir mesaj gönderin",
+        "nameLabel": "Adınız",
+        "namePlaceholder": "John Doe",
+        "emailLabel": "E-postanız",
+        "emailPlaceholder": "john@example.com",
+        "subjectLabel": "Ders",
+        "subjectPlaceholder": "Size nasıl yardımcı olabiliriz?",
+        "messageLabel": "Mesajınız",
+        "messagePlaceholder": "Lütfen sorunuzu açıklayın...",
+        "sendButton": "Mesaj Gönder",
+        "contactInfoTitle": "İletişim Bilgileri",
+        "phoneTitle": "Telefon",
+        "phoneNumber": "+49 123 456 7890",
+        "emailTitle": "E-posta",
+        "emailAddress": "bilgi@dmwv.de",
+        "addressTitle": "Adres",
+        "addressLine1": "Heideläuferweg 75a",
+        "addressLine2": "12353 Berlin",
+        "addressLine3": "Almanya",
+        "followUs": "Bizi takip edin",
+        "stayConnected": "En son güncellemeler ve haberler için bizimle bağlantıda kalın!",
+        "socialAriaLabel": "Bizi {socialName} adresinde ziyaret edin"
+    },
+    "Team": {
+        "ourExperts": "Uzmanlarımız",
+        "teamTitle": "DMWV Ekibi",
+        "teamDescription": "Alman Tıbbi Sağlık Derneği'ni yöneten ve misyonumuzu ileriye taşıyan özverili uzmanlarla tanışın.",
+        "memberImageAlt": "{isim} portresi",
+        "linkedinAria": "{name} adlı kişinin LinkedIn profili",
+        "twitterAria": "{isim} adlı kişinin Twitter profili",
+        "members": [
+            {
+                "position": "1. Başkan",
+                "bio": "Lutz Lungwitz, Alman Tıbbi Sağlık Derneği e.V.'nin 1. Başkanı olarak Berlin'den başkanlık ediyor."
+            },
+            {
+                "position": "1. Başkan Yardımcısı",
+                "bio": "Axel Donald Sauer, derneğin yönetimine 1. Başkan Yardımcısı olarak destek veriyor."
+            },
+            {
+                "position": "2. Başkan Yardımcısı",
+                "bio": "Prof. Dr. Joachim Willms, üniversitede turizm geliştirme profesörü ve DMWV'nin 2. Başkan Yardımcısıdır."
+            },
+            {
+                "position": "Yönetim Kurulu Üyesi",
+                "bio": "Karsten Urspruch, Alman Tıbbi Sağlık Derneği'nin yönetim kurulu üyesi olarak uzmanlığını paylaşıyor."
+            },
+            {
+                "position": "Hazinedar",
+                "bio": "Rigobert Walzer, W+ST Treuhand GmbH Steuerberatungsgesellschaft'ın yönetici ortağı ve DMWV'nin saymanıdır."
+            },
+            {
+                "position": "Yönetim Kurulu Üyesi (ilişkili)",
+                "bio": "DMZâ€‘R&E Häckel GmbH şirketinden konsolos a.h. Michael Häckel, Alman Tıbbi Sağlık Derneği'nin yönetim kurulu üyesidir."
+            }
+        ]
+    },
+    "NewsDetails": {
+        "backToOverview": "Genel Bakışa Geri Dön",
+        "relatedNews": "Son Haberler",
+        "readingTime": "{time} dakikalık okuma"
+    },
+    "NewsPage": {
+        "title": "Haberler ve Güncellemeler",
+        "subtitle": "Tıbbi Sağlık alanındaki son gelişmelerden haberdar olun",
+        "home": "Ev",
+        "news": "Haberler",
+        "searchPlaceholder": "Haberleri arayın...",
+        "allCategories": "Tüm Kategoriler",
+        "readMore": "Devamını oku",
+        "noNewsFound": "Haber bulunamadı. Lütfen farklı bir arama veya kategori deneyin."
+    },
+    "NewsSection": {
+        "stayInformed": "Bilgilendirilmeye Devam Edin",
+        "latestNews": "Son Haberler",
+        "newsDescription": "Sağlık ve zindelik dünyasındaki son gelişmeler ve trendler hakkında daha fazla bilgi edinin.",
+        "readMore": "Devamını oku",
+        "read": "Okumak",
+        "discoverMoreNews": "Daha Fazla Haber Keşfedin"
+    },
+    "WellnessHotels": {
+        "exclusiveExperiences": "Özel Sağlıklı Yaşam Deneyimleri",
+        "ourPartners": "Sözleşme Ortaklarımız",
+        "discoverHotels": "Sağlığınız ve refahınız için birinci sınıf sağlıklı yaşam otellerini keşfedin",
+        "viewAllPartners": "Tüm Ortakları Görüntüle",
+        "viewAllPartnersAriaLabel": "Tüm sağlıklı yaşam ortaklarını görüntüle",
+        "hotels": {
+            "sonnenberg": {
+                "name": "Sağlık Tesisi Sonnenberg",
+                "location": "Baden-Baden"
+            },
+            "schwarzwald": {
+                "name": "Spa Oteli Kara Orman",
+                "location": "Freiburg"
+            },
+            "bodensee": {
+                "name": "Sağlık Merkezi Lake Constance",
+                "location": "Konstanz"
+            },
+            "alpenblick": {
+                "name": "Vital Otel Alpine View",
+                "location": "Garmisch-Partenkirchen"
+            }
+        },
+        "features": {
+            "spa": "Spa",
+            "pool": "Havuz",
+            "yoga": "Yoga",
+            "massage": "Masaj",
+            "sauna": "Sauna",
+            "fitness": "Uygunluk",
+            "therapy": "Terapi",
+            "nutrition": "Beslenme",
+            "meditation": "Meditasyon",
+            "mountainView": "Dağ Manzarası",
+            "hiking": "Doğa yürüyüşü",
+            "wellness": "Sağlık"
+        }
+    },
+    "FAQSection": {
+        "subtitle": "Refah Rehberiniz",
+        "title": "Sıkça Sorulan Sorular",
+        "description": "DMWV ve hizmetlerimiz hakkında en önemli soruların yanıtlarını bulun",
+        "ariaLabel": "Sıkça Sorulan Sorular",
+        "faq1": {
+            "question": "DMWV’nin sağlıklı yaşam sektöründeki rolü nedir?",
+            "answer": "DMWV (Alman Tıbbi Sağlık Derneği), tıbbi sağlığın entegrasyonu yoluyla sağlık ve refahı teşvik etmeye adanmış bir Alman derneğidir. Sağlık ve sağlık turizmine odaklanan işletmelere endüstri sertifikaları, rehberlik ve destek sağlar, sektörde standartları belirlemede ve kaliteyi teşvik etmede önemli bir rol oynar."
+        },
+        "faq2": {
+            "question": "DMWV üyeleri hangi avantajlardan yararlanır?",
+            "answer": "DMWV üyeleri, sağlık ve zindelik hizmetlerini tanıtmak için sağlık profesyonelleri ağına, sektör sertifikalarına, etkinliklere katılıma ve kaynaklara erişim kazanır. Bu ağ ve bu kaynaklar, üyelerin zindelik sektörünün ön saflarında kalmalarına ve müşterilerine yüksek kaliteli hizmetler sunmalarına yardımcı olur."
+        },
+        "faq3": {
+            "question": "DMWV sağlık turizmini nasıl destekliyor?",
+            "answer": "DMWV, sağlık merkezleri ve tıbbi spalarla ortaklık kurarak sağlık turizmini teşvik eder, sunulan hizmetlerin itibarını ve kalitesini artıran standartlar ve sertifikalar sağlar. Bu, Almanya'nın sağlık ve zindelik turizmi için birinci sınıf bir destinasyon olarak kurulmasına yardımcı olur ve yüksek kaliteli tıbbi zindelik deneyimleri arayan ziyaretçileri çeker."
+        }
+    },
+    "certification": {
+        "title": "Sertifikasyon",
+        "subtitle": "Tıbbi Sağlık tesisiniz için sertifikasyonun avantajlarını keşfedin",
+        "home": "Ev",
+        "certification": "Sertifikasyon",
+        "sections": {
+            "benefits": "Sertifikasyonun Faydaları",
+            "criteria": "Sertifikasyon Kriterleri",
+            "requirements": "Sertifikasyon için Gereksinimler",
+            "procedure": "Prosedür"
+        },
+        "benefits": {
+            "intro1": "Sertifikalı Tıbbi Sağlık Tesisleri, derneğin tüm iletişim ve pazarlama faaliyetlerinde TÜV Rheinland Grubu logosu altında faaliyet göstermektedir.",
+            "intro2": "Alman Tıbbi Sağlık Derneği (DMWV) kendisini Tıbbi Sağlık çıkarlarının temsilcisi olarak görmektedir.",
+            "list": {
+                "item1": "Hızlı büyümesi nedeniyle daha az şeffaf olan ve sunduğu hizmetlerin karmaşıklığı nedeniyle tıbbi olmayan profesyonelleri kolayca alt eden bir pazarda tüketicilere yönelim sağlar",
+                "item2": "Tıbbi Sağlık pazarındaki operatörlere, sağlayıcılara ve proje planlayıcılarına faaliyetlerini bir araya getirebilecekleri ve araştırma ve öğretimin güncel sonuçlarını koordine edebilecekleri bir forum sunar; bu, diğer şeylerin yanı sıra derneğin kendi yayınları ve seminerler ve eğitim kursları tarafından sağlanır",
+                "item3": "Geleneksel tıp, tamamlayıcı tıp ve salutogenezden elde edilen araştırma sonuçlarına dayalı kalite standartları oluşturur, buna göre Tıbbi Sağlık sağlayıcıları sertifikalandırılır, ürünler test edilir ve Tıbbi Sağlık alanındaki terimler korunur",
+                "item4": "siyasi kurumlar, otoriteler ve derneklerle dış iletişimi yönetir"
+            },
+            "downloads": "İndirmeler",
+            "statute": "DMWV Tüzüğü (PDF)",
+            "application": "DMWV Başvuru Formu (PDF)"
+        },
+        "criteria": {
+            "qm": {
+                "title": "1. Kalite Yönetim Sistemi (KY)",
+                "content": "Sertifikalandırılacak şirketlerin esasen DIN EN ISO 9001: 2000 gerekliliklerini karşılayan bir kalite yönetim sistemine sahip olması gerekir. Bu standart, bir şirketin organizasyonu söz konusu olduğunda o zamanki bilgi durumunu temsil eder. Bu QM sistemi mevcut değilse, DMWV e.V. ilgili şirketlere bunu elde etmenin yollarını gösterebilir ve uygulayabilir. Bu sektöre tarafsız gereklilikler, bir Tıbbi Sağlık şirketinin sağlık yönelimine uyarlanır, böylece bu standart daha sonra DMWV sertifikasyonlarının temelini oluşturur."
+            },
+            "specific": {
+                "title": "2. Belirli Gereksinimler",
+                "content": "Bu gereklilikler yeni geliştirilmemiştir, ancak DMWV e.V. halihazırda mevcut ve yerleşik çözümleri kullanır. Örneğin, otel segmentinde, 4 yıldızlı gerekliliklerin ve 3-W kriterlerinin bir kombinasyonundan oluşurlar. Ayrıca, şirketlerin belirli Tıbbi Sağlık kriterlerini de karşılamaları gerekir."
+            },
+            "hotel": {
+                "title": "3. Bir Otel Örneği Kullanarak Tıbbi Sağlık Gereksinimleri",
+                "content": "Bu alanda da, uygun görüldüğü yerlerde kategori başına ek gereksinimler geliştirilmiştir. İşte bir Tıbbi Sağlık Oteli için gereksinimlere bir örnek:",
+                "list": [
+                    "Tıbbi yönetim altındaki bir kapsamın tanımı. Bu, Tıbbi Spa'daki tedavi teklifinin önemli bir bölümünü kapsamalıdır.",
+                    "Tıbbi yönetim, ilgili uzmanlık alanına sahip en az bir lisanslı hekim tarafından uygulanmalıdır.",
+                    "Hekim(ler) mesleki faaliyetlerinin odağını otelde gerçekleştirmelidir.",
+                    "Ayrıca, ilgili eğitimi almış en az bir terapistin (örneğin fizyoterapist) otelde tam zamanlı olarak istihdam edilmesi gerekmektedir.",
+                    "Doktorun bulunmadığı zamanlarda otelinizde veya yakın çevrenizde tıbbi nöbetçi hizmeti bulunmalıdır.",
+                    "Otel dışındaki tıbbi uzmanlık alanlarına geçişlerde katılımcıya ilişkin verilerin aktarılması sağlanmaktadır.",
+                    "Yazılı bir nihai rapor mevcut olmalıdır.",
+                    "Tamamlayıcı tıp uygulamalarının uygulanmasında, uygulamanın hangi etki esasına dayandığının açıklanması zorunludur.",
+                    "Tıbbi Spa alanındaki başvurular standart muayene formları ve tedavi planlarına dayanmaktadır.",
+                    "Muayene ve tedavi odaları modern donanıma sahip olup, klinik bir atmosfere sahip olmadan tıbbi yeterliliği yansıtmaktadır.",
+                    "Tesis, sonuçları belgeleme ve öğrenilenlerin devamı için önerilerde bulunma (beslenme planı, egzersiz planı, sağlıklı yaşam biçimi, internet sayfalarına referans) gerekliliklerini karşılamaktadır.",
+                    "Tesisimizde, şiddetle tavsiye edilen ilk tıbbi kontrolü sağlayan bir doktor bulunmaktadır.",
+                    "Tesis, genellikle hareket ve/veya fitness programından önce misafir hastalara performans tanısı konulmasını sağlar.",
+                    "Talep edilmesi halinde misafire evine yönelik önerilerle birlikte performansının/performans değişiminin yazılı değerlendirmesi verilir."
+                ],
+                "conclusion": "Şirket, hem toplam puanda hem de bireysel kategorilerde mümkün olan puanların en az %70'ini elde etmelidir. Ürünler ayrıca DMWV e.V. tarafından standartlaştırılmış bir sisteme göre test edilir ve sertifikalandırılır."
+            },
+            "contact": {
+                "intro": "İlgilenen şirketler ve kurumlar aşağıdaki iletişim bilgilerinden bize ulaşabilirler:",
+                "address": "Alman Tıbbi Sağlık Derneği e.V.",
+                "street": "Eichenstr. 3b",
+                "city": "12435 Berlin",
+                "phone": "Tel: 030 / 81873-310",
+                "email": "E-posta: kontakt@dmwv.de",
+                "outro": "Daha detaylı bilgi için."
+            }
+        },
+        "requirements": {
+            "intro": "Bir Tıbbi Sağlık tesisinin dernek tarafından sertifikalandırılmasının ön koşulu, derneğin ve TÜV Rheinland Grubunun denetim kriterlerine göre sertifika programına katılma isteğidir. Tıbbi Sağlık Kalite Standardına (TÜV Rheinland/DMWV) göre sertifikalandırma bu nedenle dernekten bağımsızdır.",
+            "navigator": {
+                "title": "\"Navigatör\"",
+                "content": "Tıbbi Sağlık hizmetlerinin dernek anlamında algılanması için vazgeçilmez bir ön koşul, ilgili tesisin işleyişine bir hekimin entegre edilmesidir. DMWV'de, bu hekim, ilgili Tıbbi Sağlık tesisini kullanan sağlıklı misafirlerle ilgilenmedeki rolünü açıklığa kavuşturmak için \"Navigatör\" unvanını taşır."
+            },
+            "doctor": {
+                "title": "Doktor",
+                "content1": "Navigatörün merkezi rolü aşağıdaki şekilden açıkça anlaşılmaktadır. Bu, bir Tıbbi Sağlık tesisini sertifikalandırırken, genel sonucun büyük ölçüde navigatör/doktor tarafından bu rolün algılanmasına bağlı olduğu anlamına gelir.",
+                "content2": "Şekilde ayrıca tanı alanı, yerleştirme alanı ve tıbbi uygulama alanının mutlaka bir altyapı birimi oluşturması gerekmediği açıkça görülmektedir."
+            }
+        },
+        "procedure": {
+            "intro": "Derneğin sertifikasyon programına katılan tesisler, tanımlanmış denetim kriterlerine göre TÜV Rheinland Group'un duyurulan profesyonel test uzmanları tarafından kontrol edilir. Sertifikasyon her biri için 3 yıl geçerlidir.",
+            "categories": {
+                "intro": "Tıbbi Sağlık tesisleri aşağıdaki kategorilerde sertifikalandırılmıştır:",
+                "list": [
+                    "Tıbbi Sağlık Kliniği",
+                    "Tıbbi Sağlık Oteli",
+                    "Tıbbi Sağlık Tesisi",
+                    "Tıbbi Sağlık Günü Spa/Klinik Merkezi",
+                    "Tıbbi Sağlık Hedefi"
+                ],
+                "destination": "Tıbbi Sağlık Merkezi'nin sertifikalandırılabilmesi için kategorilerden en az üç ayrı unsurun sertifikalandırılmış olması gerekmektedir."
+            },
+            "process": {
+                "intro": "Sertifikasyon süreci açıktır ve adaya önceden sunulan denetim kriterlerine göre gerçekleştirilir. Denetim kriterleri dört ana alana ayrılır:",
+                "list": [
+                    "Tanılama",
+                    "Tıbbi Uygulama",
+                    "Tıbbi Sağlık Spa Tesisi",
+                    "Otel/Klinik Alanı"
+                ]
+            },
+            "basis": "Denetimin temeli, dernek ve TÃœV Rheinland Group tarafından tanımlanan ve Medical Wellness müşterisinin temel olarak geçmesi gereken süreçtir. Denetlenecek tesis, operasyonun belirtilen süreci hangi biçimde ve ne ölçüde yerine getirdiğini bağımsız olarak belirler. Denetime yalnızca bu unsurlar dahil edilir. Denetim raporunda, sürecin tamamlanmamış veya yerine getirilmemiş unsurları değerlendirilir ve dernek tarafından verilecek plakette görünen genel bir değerlendirmeye dahil edilir.",
+            "download": "Başarılı sertifikasyon için prosedür (PDF) indirmek için"
+        }
+    },
+    "medicalWellness": {
+        "title": "Tıbbi Sağlık",
+        "subtitle": "Sağlığınız ve refahınız için Tıbbi Sağlığın faydalarını keşfedin",
+        "sections": {
+            "begriff": {
+                "title": "Kavram",
+                "intro": "Tıbbi Refahın tanımı günümüzde uluslararası gelişmelerin de etkisiyle dinamik ve çok katmanlı bir süreç içerisindedir.",
+                "currentDefinition": "\"Tıbbi Sağlık\"ın Güncel Tanımı",
+                "definitionText": "\"Tıbbi Sağlık, öz-sorumlu önleme ve sağlıklı yaşamı teşvik etme yoluyla yaşam kalitesinin ve öznel sağlık algısının sürdürülebilir şekilde iyileştirilmesine yönelik bilimsel olarak desteklenen önlemleri ve sağlık bilincine sahip bir yaşam tarzı için motivasyonu kapsar.\"",
+                "supportedBy": "Yeni Tıbbi Sağlık tanımı, Alman Turizm Birliği, Alman Tıbbi Sağlık Birliği, Alman Spa Birliği ve Alman Jimnastik Federasyonu gibi kuruluşlar tarafından destekleniyor.",
+                "eschTitle": "Prof. Dr. T. Esch'e Göre Tıbbi Sağlık",
+                "eschText": "Tıbbi sağlık, bilimsel olarak kanıtlanmış sağlık geliştirici veya tıbbi faktörler bağlamında bütünsel bireysel refahın aktif olarak yaratılmasına yönelik çok boyutlu, dinamik-sistematik bir süreci ifade eder. Bu faktörler, bireylerin kanıtlanmış etkililiğe sahip tedaviler veya davranışlar yardımıyla tatmin etmeye çalıştıkları biyopsikososyal ihtiyaçlara, \"motivasyonlara\" dayanır. Odak noktası, uygulanan önleme veya \"entegre sağlık geliştirme\" anlamında bireysel kaynaklar, yeterlilik ve kişisel sorumluluk kullanılarak sağlık geliştirici bir yaşam tarzının gerçekleştirilmesidir. Bireysel faktörlerin ve ihtiyaçların istenen dengesi ve öznel sağlık, salutogenez ve refahın gerçekleştirilmesi için terapötik önlemler genellikle ilgili tıbbi olarak yönetilen ve bilimsel olarak temellendirilmiş terapi bölümleriyle işbirliği içinde profesyonel tıbbi sağlık merkezlerinde, kliniklerde veya otel benzeri tesislerde sunulur."
+            },
+            "kernbereiche": {
+                "title": "Çekirdek Alanlar",
+                "intro": "DMWV'de sağlığı geliştirici faaliyetler, öncelikli olarak önlemeye hizmet eden Tıbbi Refahın dört temel alanına ayrılmıştır.",
+                "navigator": "Navigatör",
+                "diagnosticsText": "Bu nedenle odak noktası tanılama, salutogenez ve kişinin kendi hayatını sağlıklı davranışa aktif olarak uyarlamasıdır. Bu başarının ön koşulu, bağımsız hareket etme konusunda temel istekliliktir. Bu, mevcut bireysel kaynakların pozitif, sağlıklı potansiyeli güçlendirerek etkinleştirilmesini sağlar. Bu da sağlık eğitimine katılma isteğini gerektirir: sağlık odaklı bir yaşam tarzıyla sağlığı koruma hedefiyle yaşam boyu sürecek bir sürece katılma isteği."
+            },
+            "markt": {
+                "title": "Pazar Potansiyeli ve Mevcut Gelişim",
+                "gkvInfo": "Uzun yıllardır, yasal sağlık sigortası (GKV) harcamalarının payı gayri safi yurt içi hasılanın %6 eşiğini ancak marjinal olarak aştı.",
+                "marketGrowth1": "Dayanışmayla finanse edilen yasal sağlık sigortasının (GKV) kalıcı olarak sınırlı bütçesi, yüksek işsizlik, yaşlanan bir topluma doğru demografik eğilimler ve kronik olarak hasta olan çok sayıda insan, birinci sağlık hizmeti pazarındaki (GKV) sağlık harcamalarının temel hizmetlere odaklanmasına neden olacaktır. Sonuç olarak, cepten ödeme pazarı (eş ödemeler veya özel tamamlayıcı sigorta dahil) giderek daha fazla önem kazanacaktır.",
+                "marketGrowth2": "Münih'teki Eğlence Ekonomisi Enstitüsü şu tahminlerde bulunuyor: Almanya'da sağlık turizmi alanında seyahat edenlerin sayısı 2002'den 2010'a %46 artacak. Bu, yılda 2 milyondan fazla seyahat edene denk geliyor (2002'de yaklaşık 1,4 milyon seyahat eden vardı). Diğer sağlık turizmi biçimleri (yaşlanma karşıtı tatiller, sağlıklı yaşam tatilleri, güzellik tatilleri) zaten güçlü bir büyüme yaşıyor. Sağlık turizmi tatillerinin payı, 2010 yılına kadar tüm sağlık seyahatlerinin neredeyse yarısını (%48,3) oluşturacak. Almanya'da tüm sağlık seyahatlerine yönelik toplam hanehalkı harcaması 2010 yılına kadar 3,7 milyar avroya çıkacak.",
+                "marketGrowth3": "ABD'deki tıbbi spa pazarının 2006 yılına kadar 400 milyon ABD dolarının üzerinde bir satış hacmine ulaşması ve o zamana kadar yıllık %10,1'lik bir satış büyümesi kaydetmesi bekleniyor (Feedback Research Services).",
+                "marketGrowth4": "Yaşlanma karşıtı önlemler sağlık ve eğlencede kilit büyüme alanları arasındadır. Bu, ABD (Feedback Research Services) ve Avrupa (Institute for Leisure Economics) için geçerlidir. Bu sektörde, pazar segmentinin 2002 ile 2010 arasında %2.500 oranında büyümesi bekleniyor."
+            },
+            "gesundheitskarte": {
+                "title": "Sağlık Kartı",
+                "subtitle": "Sağlıklı Bir Yaşamın Başlangıcı",
+                "priceTag": "Aylık sadece 1 Euro karşılığında sağlığınız için daha fazlasını yapın!",
+                "description1": "Medical Wellness Health Card ile size ikinci sağlık hizmetleri pazarına dair profesyonel bir rehber sunuyoruz, sağlık ve tıbbi sağlık konusunda güncel bilgiler, gelişmeler, trendler, ipuçları ve teklifler sunuyoruz. Ayrıca, Medical Wellness ortaklarımızdan sayısız indirim ve fiyat avantajının keyfini çıkarabilirsiniz.",
+                "description2": "Sizin için tıbbi sağlık, sağlık ve güzellik, seyahat, eczane ürünleri, hediyeler, etkinlikler/aktiviteler segmentlerinden özel hizmet ortakları seçtik ve ayrıca çok sayıda ek 'bonus & more' ortağı sağlıyoruz. Şirketlerin 'bonus & more'u ve TÜV Kart Hizmetleri iş birliği ortaklarımız arasındadır.",
+                "description3": "Siz de tıbbi sağlık tesisi olarak Tıbbi Sağlık Kartının faydalarından yararlanmak istiyorsanız lütfen gesundheitskarte@dmwv.de adresine e-posta gönderin veya +49 (0)30 81873–333 numaralı telefonu arayın."
+            },
+            "hotels": {
+                "title": "Önde Gelen Tıbbi Sağlık Otelleri ve Tatil Köyleri",
+                "subtitle": "Navigatör",
+                "description": "\"Önde Gelen Tıbbi Sağlık Otelleri ve Tatil Köyleri\", önde gelen tıbbi sağlık otellerini ve tatil köylerini tek çatı altında bir araya getirerek sağlık turizmi pazarını aktif olarak şekillendiren bir otel iş birliği oluşturmayı hedefleyen uluslararası tescilli birinci sınıf bir markadır.",
+                "description2": "\"Önde Gelen Tıbbi Sağlık Otelleri ve Tatil Köyleri\", Alman Tıbbi Sağlık Derneği ile işbirliği yaparak tıbbi sağlık otelleri ve tatil köyleri için danışmanlık, pazarlama ve konumlandırma hizmeti sunmaktadır.",
+                "description3": "Portföyümüz tıbbi uzmanlığı, yüksek kaliteli hizmetleri ve altyapıyı bir araya getiriyor. Sürdürülebilir etkiler ve sorumlu tıbbi bakımla profesyonel, doğrulanmış ve kalite güvenceli tıbbi sağlık hizmetleri konusunda rehberlik sunuyoruz. Sağlık gezginleri, misafirperver bir atmosfere ve otel ortaklarımızın ayrıcalığına güvenebilirler."
+            },
+            "clinics": {
+                "title": "Önde Gelen Tıbbi Sağlık Klinikleri ve Spaları",
+                "subtitle": "Navigatör",
+                "description1": "Uluslararası alanda tescilli ve faaliyet gösteren premium markamız \"The Leading Medical Wellness Clinics & Spas\", önde gelen tıbbi sağlık kliniklerini ve spalarını tek bir çatı altında bir araya getirerek sağlık pazarını aktif olarak şekillendirme hedefini belirlemiştir.",
+                "description2": "\"Önde Gelen Tıbbi Sağlık Klinikleri ve Spaları\" tıbbi sağlık hizmetlerini kliniklerle bir araya getirerek, klinik seçiminde emin olmak isteyen hastalara rehberlik ediyor.",
+                "description3": "Marka, misafirlerine sürdürülebilir etkiler ve sorumlu tıbbi bakım ile profesyonel, doğrulanmış ve kalite güvenceli tıbbi sağlık hizmetleri konusunda rehberlik sunar. Sağlık gezginleri, klinik ortaklarımızın misafirperver atmosferine ve ayrıcalığına güvenebilirler."
+            }
+        },
+        "breadcrumbs": {
+            "home": "Ev",
+            "medicalWellness": "Tıbbi Sağlık"
+        }
+    },
+    "planning": {
+        "title": "Etkinlik Planlaması",
+        "subtitle": "Kongrelerinizi ve sağlıklı yaşam etkinliklerinizi etkin bir şekilde organize edin",
+        "home": "Ev",
+        "planning": "Planlama",
+        "upcomingEvents": "Yaklaşan Etkinlikler",
+        "planAttendance": "Yaklaşan kongre ve çalıştaylarımıza katılımınızı planlayın.",
+        "eventDetails": "Etkinlik Detayları",
+        "selectEvent": "Ayrıntıları görüntülemek için bir etkinlik seçin",
+        "viewDetails": "Ayrıntıları Görüntüle",
+        "today": "Bugün",
+        "month": "Ay",
+        "week": "Hafta",
+        "day": "Gün",
+        "agenda": "Gündem"
+    },
+    "organisation": {
+        "title": "Ekibimiz",
+        "subtitle": "Alman Tıbbi Sağlık Derneği'ni yöneten ve misyonumuzu ileriye taşıyan özverili uzmanlarla tanışın.",
+        "home": "Ev",
+        "association": "Dernek",
+        "organisation": "Organizasyon",
+        "teamCategories": "Takım Kategorileri",
+        "allTeams": "Tüm Takımlar",
+        "selectCategory": "Bir Kategori Seçin",
+        "categories": {
+            "board": "DMWV Kurulu",
+            "medicine": "Tıp ve Yaşam Tarzı",
+            "development": "Proje Geliştirme, İnşaat ve Teknoloji",
+            "quality": "Kalite Yönetimi",
+            "training": "Personel ve Eğitim"
+        }
+    },
+    "expertise": {
+        "title": "Uzmanlığımız",
+        "subtitle": "Alman Tıbbi Sağlık Derneği (DMWV) - Tıbbi Sağlık için temsilciniz",
+        "breadcrumbs": {
+            "home": "Ev",
+            "association": "Dernek",
+            "expertise": "Uzmanlık"
+        },
+        "areas": {
+            "orientation": {
+                "title": "Rehberlik ve Forum",
+                "description": "Tüketicilere karmaşık bir pazarda yön verir ve operatörler, sağlayıcılar ve proje planlayıcıları için bir forum sunar."
+            },
+            "standards": {
+                "title": "Kalite Standartları",
+                "description": "Konvansiyonel tıp, tamamlayıcı tıp ve salutogenez alanındaki araştırma sonuçlarına dayalı kalite standartları oluşturur."
+            },
+            "communication": {
+                "title": "İletişim ve Tanıtım",
+                "description": "Kurumlarla iletişim kurar ve Tıbbi Refah kavramını kamuoyuna tanıtır."
+            },
+            "research": {
+                "title": "Tüketici Araştırması",
+                "description": "Üyelerin piyasa eğilimleri hakkında değerli bilgiler edinmeleri için tüketici araştırmaları yapar."
+            }
+        },
+        "commitment": {
+            "title": "Mükemmelliğe Bağlılığımız",
+            "list": [
+                "Hızlı büyümesi nedeniyle daha az şeffaf olan ve sunduğu hizmetlerin karmaşıklığı nedeniyle tıbbi olmayan profesyonelleri kolayca alt eden bir pazarda tüketicilere yönelim sağlar",
+                "Tıbbi Sağlık pazarındaki operatörlere, sağlayıcılara ve proje planlayıcılarına faaliyetlerini bir araya getirebilecekleri ve araştırma ve öğretimin güncel sonuçlarını koordine edebilecekleri bir forum sunar; bu, diğer şeylerin yanı sıra derneğin kendi yayınları ve seminerler ve eğitim kursları tarafından sağlanır.",
+                "Geleneksel tıp, tamamlayıcı tıp ve salutogenezden elde edilen araştırma sonuçlarına dayalı kalite standartları oluşturur; bu standartlara göre Tıbbi Sağlık sağlayıcıları sertifikalandırılır, ürünler test edilir ve Tıbbi Sağlık alanındaki terimler korunur.",
+                "Siyasi kurumlar, otoriteler ve derneklerle dış iletişimi yönetir",
+                "Uygun forumlara ve derneklere katılım ve kendi pazarlama önlemleri yoluyla Tıbbi Sağlık konseptini kamuoyuna tanıtır.",
+                "Üyeler için tüketici araştırması yapar"
+            ]
+        },
+        "promotion": {
+            "title": "Tıbbi Sağlığın Teşviki",
+            "description": "Uzmanlığımız ve bağlılığımızla, Tıbbi Sağlık alanını ilerletmek, yüksek kalite standartlarını sağlamak ve sağlık ve refaha yönelik yenilikçi yaklaşımları teşvik etmek için çalışıyoruz."
+        }
+    },
+    "cooperation": {
+        "title": "İşbirliği",
+        "subtitle": "Tıbbi Sağlık için ortaklıklarımız ve ağlarımız",
+        "breadcrumbs": {
+            "home": "Ev",
+            "association": "Dernek",
+            "cooperation": "İşbirliği"
+        },
+        "competenceNetworks": {
+            "title": "Yeterlilik Ağları",
+            "description1": "\"Medical Wellness\" markasını güvence altına almak için dernek, markanın net ve sürdürülebilir bir tanımını sağlamak için konuyla ilgili temel çalışmaların sonuçlarını sistematik olarak bir araya getirecektir. Harici uzmanlık alanlarının entegrasyonu, uygun yeterlilik ağları aracılığıyla sağlanır.",
+            "description2": "Dernek, seçilmiş komitelerde ve forumlarda üyelikler yoluyla benzer sonuçlara ulaşmaktadır. Bu, özellikle federal hükümetin önleme sektörünü güçlendirme amacı için geçerlidir.",
+            "imageAlt": "Yeterlilik Ağları"
+        },
+        "certification": {
+            "title": "Sertifikasyon ve İtibar",
+            "description1": "Amaç, \"DMWV tarafından sertifikalandırılmış/test edilmiş\" ibaresini evrensel olarak saygı duyulan bir marka ayrımı haline getirecek bir üne kavuşmaktır.",
+            "description2": "Bu amaçla, Tıbbi Sağlık hizmeti sağlayıcılarının sertifikasyonu için TÜV Rheinland Group ile bir işbirliği üzerinde anlaşılmıştır. DEHOGA'nın (Alman Otel ve Restoran Birliği) Alman Otel Sınıflandırmasına göre sınıflandırılan işletmeler için sınıflandırmayı DMWV devralır. Bu nedenle, Alman Otel Sınıflandırması kapsamındaki alanlarda bu operasyonun kendi denetiminden vazgeçebilir."
+        },
+        "imwa": "DMWV, Uluslararası Tıbbi Sağlık Derneği'nin (IMWA) üyesidir."
+    },
+    "membership": {
+        "title": "Üyelik",
+        "subtitle": "DMWV üyeliğinin avantajlarını keşfedin",
+        "breadcrumbs": {
+            "home": "Ev",
+            "association": "Dernek",
+            "membership": "Üyelik"
+        },
+        "downloads": {
+            "statute": "DMWV Tüzüğü (PDF)",
+            "application": "DMWV Başvuru Formu (PDF)"
+        },
+        "annualFee": "Yıllık ücret",
+        "benefits": "Faydalar",
+        "services": "Hizmetler",
+        "convinced": "İkna oldunuz mu?",
+        "sendApplication": "Daha sonra DMWV e.V.'ye destek üyeliği için başvuru formunu faks veya e-posta yoluyla bize gönderin.",
+        "types": {
+            "privatperson": {
+                "title": "Özel Kişiler İçin Üyeliğin Desteklenmesi",
+                "fee": "250,- Avro",
+                "date": "26 Şubat 2019",
+                "description": "Derneğin prensipleri ve idealleriyle genel olarak özdeşleşen ve Tıbbi Sağlık hakkında birinci elden kaynaklardan sürekli olarak bilgi edinmek isteyen herhangi bir özel kişi destekleyici üye olabilir. Üye böylece üyeliğin tanımlanmış avantajlarından yararlanır.",
+                "benefits": {
+                    "1": "Tıbbi Sağlık ürünleri veya hizmetlerini seçerken güvenlik",
+                    "2": "Üyelerimizden aldığımız hizmet ve ürünlerde indirimler",
+                    "3": "Profesyonel, tıbbi bireysel danışmanlık",
+                    "4": "Kişisel profil oluşturma",
+                    "5": "Derneğin projelerine, etkinliklerine ve eğitim kurslarına katılım"
+                }
+            },
+            "einpersonen": {
+                "title": "Mesleğe İlişkin Tek Kişilik Destek Üyeliği",
+                "fee": "900,- Avro",
+                "date": "26 Şubat 2019",
+                "description": "Mesleki tek kişilik üyelik desteği temel olarak tıp alanında çalışan herkese açıktır.",
+                "benefits": {
+                    "1": "Profesyonel bir şemsiye marka altında görünümle pazar konumunun güçlendirilmesi",
+                    "2": "Tıbbi Sağlık pazarında profilleme",
+                    "3": "Kalite ve güvenilirliği iletmek",
+                    "4": "Güncel gelişmeler hakkında düzenli bülten",
+                    "5": "Derneğin pazarlama tedbirlerine entegrasyon"
+                }
+            },
+            "betrieb": {
+                "title": "Destekleyici Üyelik Tıbbi Sağlık Tesisi, Spa",
+                "fee": "1.200,- Avro",
+                "date": "26 Şubat 2019",
+                "description": "Dernek anlamında Tıbbi Sağlık hizmeti sunan Tıbbi Sağlık tesisleri derneğin destekleyici üyesi olma imkânına sahiptir.",
+                "services": "Destekleyici üyelik, daha sonraki sertifikasyona giriş noktası görevi görür. Sertifikasyon sürecine katılırken, gerekli tüm belgeler sağlanır.",
+                "benefits": {
+                    "1": "Pazar konumunun güçlendirilmesi",
+                    "2": "Tıbbi Sağlık pazarında profilleme",
+                    "3": "Kalite ve güvenilirliği iletmek",
+                    "4": "Düzenli bülten",
+                    "5": "Derneğin pazarlama önlemlerine entegrasyon"
+                }
+            },
+            "reiseveranstalter": {
+                "title": "Tur Operatörleri için Üyeliği Destekleme",
+                "fee": "1.500,- Avro",
+                "date": "4 Mayıs 2011",
+                "benefits": {
+                    "1": "Pazar konumunun güçlendirilmesi",
+                    "2": "Tıbbi Sağlık pazarında profilleme",
+                    "3": "Kalite ve güvenilirliği iletmek",
+                    "4": "Tıbbi Sağlık ağına erişim",
+                    "5": "Düzenli bülten",
+                    "6": "Derneğin pazarlama önlemlerine entegrasyon"
+                }
+            },
+            "unternehmen": {
+                "title": "Üyelik Üretim Şirketi ve Danışmanlık Şirketini Destekleme",
+                "fee": "istek üzerine",
+                "date": "26 Şubat 2019",
+                "description": "Tıbbi Sağlık sektöründeki üretim şirketleri ve danışmanlık şirketleri için.",
+                "benefits": {
+                    "1": "Pazar konumunun güçlendirilmesi",
+                    "2": "Tıbbi Sağlık pazarında profilleme",
+                    "3": "Kalite ve güvenilirliği iletmek",
+                    "4": "Düzenli bülten",
+                    "5": "Derneğin pazarlama önlemlerine entegrasyon"
+                },
+                "contact": "Lütfen arayın: +49 (0) 30 81873 310"
+            },
+            "verbaende": {
+                "title": "Derneklere, Üniversitelere Üyeliklerin Desteklenmesi",
+                "fee": "1.290,- Avro",
+                "date": "26 Şubat 2019",
+                "description": "Dernek anlamında Tıbbi Refahı destekleyen dernek veya üniversiteler için.",
+                "benefits": {
+                    "1": "Pazar konumunun güçlendirilmesi",
+                    "2": "Tıbbi Sağlık pazarında profilleme",
+                    "3": "Kalite ve güvenilirliği iletmek",
+                    "4": "Tıbbi Sağlık ağına erişim",
+                    "5": "Düzenli bülten",
+                    "6": "Derneğin pazarlama önlemlerine entegrasyon"
+                }
+            },
+            "zertifizierung": {
+                "title": "Sertifikasyonlu Üyelik",
+                "fee": "Ayrıntıları gör",
+                "date": "26 Şubat 2019",
+                "description": "Sertifikalı Tıbbi Sağlık Tesisleri, derneğin tüm iletişim ve pazarlama faaliyetlerinde \"DMWV Tarafından Tavsiye Edilen\" logosu altında faaliyet göstermektedir.",
+                "services": {
+                    "1": "Sertifikalı üyeler için korunan logonun kullanımı",
+                    "2": "Plakanın alınması ve gösterilmesi yoluyla profilleme",
+                    "3": "Yetkin iş danışmanlığı ve eğitimi",
+                    "4": "Eğitim ve ileri eğitimde indirimler",
+                    "5": "Özel internet varlığı",
+                    "6": "Düzenli bülten",
+                    "7": "Çapraz pazarlama eylemlerine katılım",
+                    "8": "Özel ağ oluşturma",
+                    "9": "Özel pazarlama önlemlerine entegrasyon"
+                }
+            }
+        }
+    },
+    "areasOfExpertise": {
+        "title": "Uzmanlık Alanları",
+        "subtitle": "Çeşitli uzmanlık alanlarımızı keşfedin",
+        "breadcrumbs": {
+            "home": "Ev",
+            "association": "Dernek",
+            "areasOfExpertise": "Uzmanlık Alanları"
+        },
+        "areas": {
+            "communication": {
+                "title": "İletişim",
+                "description": "Profesyonel pazarlama ve ikna edici reklamcılık ve halkla ilişkiler de Tıbbi Sağlık operasyonları için hayati öneme sahiptir. Günümüzde, ürünleri ve hizmetleri pazarda sürdürülebilir bir şekilde konumlandırmak için yoğun ve ikna edici iletişim gereklidir. DMWV size burada tam hizmet sunar."
+            },
+            "network": {
+                "title": "Ağ",
+                "description": "Tıbbi Sağlık pazarında kendilerini konumlandırmak, uzmanlaşmak veya genişlemek ve pazar konumlarını güvence altına almak isteyen şirketleri desteklemek için DMWV kapsamlı bir yetkinlik ağı sunmaktadır. Buna Uluslararası Tıbbi Sağlık Derneği ve Avrupa Tıbbi Sağlık Derneği dahildir. Pazarlama, koçluk ve danışmanlık, araştırma ve geliştirme ve sağlık hizmetleri alanlarındaki yetenekli katılımcılardan yararlanın."
+            },
+            "thomasWildey": {
+                "title": "Thomas - Wildey - Enstitüsü e. V.",
+                "description": "Klinik ve uygulama bağlantılı temel araştırma enstitüsü. Adveda'nın motivasyonu: Hedef ve çözüm odaklı bir temelde ortaklık tabanlı bir işbirliğinde geleneksel ve tamamlayıcı tıbbı desteklemek. Dengeli bir sağlık ve eğitim sistemi, süreç odaklı bir şekilde yaklaşan zorlukları çözmeye yardımcı olur. Merkezimiz, bazen doktorlar, terapistler ve alternatif uygulayıcıların sunduğu büyük terapi teklifleri karşısında bunalan hastalar için bir ağ oluşturma platformu olmayı amaçlamaktadır."
+            },
+            "adveda": {
+                "title": "Adveda",
+                "description": "Adveda'nın motivasyonu: Hedef ve çözüm odaklı bir temelde ortaklık tabanlı bir işbirliğinde konvansiyonel ve tamamlayıcı tıbbı desteklemektir. Dengeli bir sağlık ve eğitim sistemi, süreç odaklı bir şekilde yaklaşan zorlukları çözmeye yardımcı olur. Merkezimiz, bazen doktorların, terapistlerin ve alternatif uygulayıcıların sunduğu büyük terapi teklifleri karşısında bunalan hastalar için bir ağ oluşturma platformu olmayı amaçlamaktadır."
+            },
+            "projects": {
+                "title": "Projeler",
+                "description": "DMWV, pazara uygun olarak yetkinliklerini genişletmek için sürekli olarak yeni teklifler ve hizmetler geliştirmektedir. Bunlara örnek olarak \"The Leading Medical Wellness Hotels & Resort\" ve \"The Leading Medical Wellness Clinics & Spas\" gibi premium markalar ile ürünlerinin ve hizmetlerinin dağıtımı için en uygun çevrimiçi platform görevi gören Medical Wellness Shop verilebilir."
+            },
+            "science": {
+                "title": "Bilim",
+                "description": "Eğitim teklifimiz hem iş fizyolojik hem de öğrenme psikolojik yönlerini içerir ve deneyim ve eylem odaklı çalışma ve etkinlik biçimlerini kullanır. Sağlık ve hastalık sektöründen, işletme yönetimi içeriğinden önleme, sağlık teşviki ve salutogenez, personel geliştirme ve kalite güvencesine kadar tüm ilgi alanları dikkate alınır."
+            }
+        },
+        "holisticApproach": {
+            "title": "Bütünsel Yaklaşımımız",
+            "description": "Tıbbi Sağlık sektöründe yenilikçi ve etkili çözümler yaratmak için farklı alanlardaki uzmanlıklarımızı bir araya getiriyoruz.",
+            "contactUs": "Bize Ulaşın"
+        }
+    },
+    "partners": {
+        "title": "Ortaklarımız",
+        "subtitle": "Fark yaratmak için bizimle çalışan kuruluşları keşfedin",
+        "breadcrumbs": {
+            "association": "Dernek",
+            "partners": "Ortaklar"
+        },
+        "category": "Kategori",
+        "subcategory": "Alt kategori",
+        "az": "A'dan Z'ye",
+        "searchPlaceholder": "Ortakları arayın...",
+        "allCategories": "Tüm Kategoriler",
+        "uncategorized": "Sınıflandırılmamış",
+        "all": "Tüm",
+        "subcategoriesTitle": "Alt kategoriler",
+        "letters": "Edebiyat",
+        "learnMore": "Daha fazla bilgi edin",
+        "visitWebsite": "Web Sitesini Ziyaret Edin",
+        "categories": {
+            "Branche A bis Z": "Endüstri A'dan Z'ye",
+            "Unternehmen von A bis Z": "Şirketler A'dan Z'ye"
+        },
+        "subcategories": {
+            "Bildung": "Eğitim",
+            "Dienstleistung": "Hizmet",
+            "Einzelhandel": "Perakende",
+            "Hotellerie": "Misafirperverlik",
+            "Klinik": "Klinik",
+            "Medizin": "İlaç",
+            "Reisen": "Seyahat",
+            "Netzwerk": "Ağ"
+        },
+        "groups": {
+            "Bildung": "Eğitim",
+            "Dienstleistung": "Hizmet",
+            "Einzelhandel": "Perakende",
+            "Hotellerie": "Misafirperverlik",
+            "Klinik": "Klinik",
+            "Medizin": "İlaç",
+            "Reisen": "Seyahat",
+            "Netzwerk": "Ağ"
+        },
+        "partnerNames": {
+            "akademie-der-gesundheit": "Sağlık Akademisi",
+            "baltic-college": "Baltık Koleji",
+            "baz": "BAZ",
+            "best-sabel-hochschule": "Best-Sabel Üniversitesi",
+            "pingou-vital": "Pingou Hayati",
+            "sofi-goettingen": "Sosyolojik Araştırma Enstitüsü Göttingen",
+            "physiotherapie-schule-ortenau": "Devlet tarafından tanınan Fizyoterapi Okulu Ortenau gGmbH",
+            "chi-spa": "ÇI SPA",
+            "dermatocosmetics": "dermatokozmetik",
+            "dewea": "deve",
+            "ibs-mentaltraining": "IBS Zihinsel Eğitimi",
+            "omron": "OMRON",
+            "centrovital": "merkezcil",
+            "dmz": "DMZ",
+            "innosenso": "Masumiyet duygusu",
+            "liviwell": "canlı iyi",
+            "medical-wellness-management": "Tıbbi Sağlık Yönetimi GmbH",
+            "physiotherapie-lorch": "Fizyoterapi Lorch",
+            "tuv-rheinland-group": "TÜV Rheinland Grubu",
+            "vitadom": "Hayatiyet",
+            "wedicon": "WEDICON",
+            "yorktest": "York testi",
+            "hohenbalance": "Dengesizlik",
+            "dr-illing-partner": "Dr. Illing ve ortağı",
+            "premedion": "Önlem",
+            "pacific-wings-consulting": "pasifik kanatları danışmanlığı",
+            "quality-spa": "Kaliteli SPA",
+            "thv-gruppe": "THV Grubu",
+            "unternehmensberatung-klaus-dribbusch": "Klaus Dribbusch Danışmanlık",
+            "thalgo": "Talago",
+            "progenom": "ProGenom",
+            "healomed": "İyileşmiş",
+            "terme-dobrna": "Dobrna Termi",
+            "pino-gmbh": "Pino GmbH",
+            "salt-of-life-international-ag": "Yaşamın Tuzu Uluslararası AG",
+            "schupp-gmbh": "Schupp GmbH & Co KG",
+            "deagecosmetics": "deageKOZMETİK",
+            "his-solution": "HIS-Çözüm",
+            "vibb-fit-medical-gmbh": "Vibb-FIT-Tıbbi GmbH",
+            "purity-factor": "Saflık Faktörü",
+            "svg": "SVG Tıbbi Sistemler GmbH & Co. KG",
+            "danubius-health-spa": "Danubius Sağlık Spası",
+            "hotel-eggensberger": "Otel Eggensberger",
+            "hotel-elbresidenz-bad-schandau": "Hotel Elbresidenz Bad Schandau",
+            "hotel-monchgut-auf-rugen": "Rügen'deki Mönchgut Oteli",
+            "oceano-vitality-hotel": "OCÃ‰ANO Vitality Otel & Tıbbi Spa",
+            "rondane-spa-hoytjellshotell": "Rondane Spa Höytjellshotell",
+            "santiburi-golf-resort": "Santiburi Golf & Ocean Resort",
+            "sirona": "Sirona",
+            "medizinisches-zentrum-albena": "Albena Tıbbi Merkezi",
+            "parkhotel-sulzhayn": "Parkhotel Sülzhayn",
+            "dr-wahlmann-und-dr-griesse": "Dr. Wahlmann ve Dr. GrieŸe",
+            "zentrum-fuer-sportmedizin": "Spor Hekimliği Merkezi",
+            "johannesbad-unternehmensgruppe": "Johannesbad Grubu",
+            "thueringen-kliniken": "Thüringen Klinikleri",
+            "michels-kliniken": "Michels Klinikleri",
+            "internationale-praevention-organisation": "Uluslararası Önleme Örgütü e. V.",
+            "berufsverband-deutscher-praeventologinnen-und-praeventologen": "Alman Önleme Uzmanları Meslek Birliği",
+            "proventika": "Proventika",
+            "thomas-wildey-institut": "Thomas - Wildey - Enstitüsü e. V.",
+            "mediplus-reisen": "Mediplus Seyahat",
+            "shanghai-jin-jiang-tours": "Shanghai Jin Jiang Tours Co. Ltd.",
+            "tourvital": "TurVital"
+        },
+        "partnerDates": {
+            "akademie-der-gesundheit": "7 Mart 2019",
+            "baltic-college": "7 Mart 2019",
+            "baz": "7 Mart 2019",
+            "best-sabel-hochschule": "7 Mart 2019",
+            "pingou-vital": "7 Mart 2019",
+            "sofi-goettingen": "7 Mart 2019",
+            "physiotherapie-schule-ortenau": "7 Mart 2019",
+            "chi-spa": "7 Mart 2019",
+            "dermatocosmetics": "7 Mart 2019",
+            "dewea": "7 Mart 2019",
+            "ibs-mentaltraining": "7 Mart 2019",
+            "omron": "7 Mart 2019",
+            "centrovital": "7 Mart 2019",
+            "dmz": "7 Mart 2019",
+            "innosenso": "7 Mart 2019",
+            "liviwell": "7 Mart 2019",
+            "medical-wellness-management": "7 Mart 2019",
+            "physiotherapie-lorch": "7 Mart 2019",
+            "tuv-rheinland-group": "7 Mart 2019",
+            "vitadom": "7 Mart 2019",
+            "wedicon": "7 Mart 2019",
+            "yorktest": "7 Mart 2019",
+            "hohenbalance": "7 Mart 2019",
+            "dr-illing-partner": "7 Mart 2019",
+            "premedion": "7 Mart 2019",
+            "pacific-wings-consulting": "7 Mart 2019",
+            "quality-spa": "7 Mart 2019",
+            "thv-gruppe": "7 Mart 2019",
+            "unternehmensberatung-klaus-dribbusch": "7 Mart 2019",
+            "thalgo": "7 Mart 2019",
+            "progenom": "7 Mart 2019",
+            "healomed": "7 Mart 2019",
+            "terme-dobrna": "7 Mart 2019",
+            "pino-gmbh": "7 Mart 2019",
+            "salt-of-life-international-ag": "7 Mart 2019",
+            "schupp-gmbh": "7 Mart 2019",
+            "deagecosmetics": "7 Mart 2019",
+            "his-solution": "7 Mart 2019",
+            "vibb-fit-medical-gmbh": "7 Mart 2019",
+            "purity-factor": "7 Mart 2019",
+            "svg": "7 Mart 2019",
+            "danubius-health-spa": "7 Mart 2019",
+            "hotel-eggensberger": "7 Mart 2019",
+            "hotel-elbresidenz-bad-schandau": "7 Mart 2019",
+            "hotel-monchgut-auf-rugen": "7 Mart 2019",
+            "oceano-vitality-hotel": "7 Mart 2019",
+            "rondane-spa-hoytjellshotell": "7 Mart 2019",
+            "santiburi-golf-resort": "7 Mart 2019",
+            "sirona": "7 Mart 2019",
+            "medizinisches-zentrum-albena": "7 Mart 2019",
+            "parkhotel-sulzhayn": "7 Mart 2019",
+            "dr-wahlmann-und-dr-griesse": "7 Mart 2019",
+            "zentrum-fuer-sportmedizin": "7 Mart 2019",
+            "johannesbad-unternehmensgruppe": "7 Mart 2019",
+            "thueringen-kliniken": "7 Mart 2019",
+            "michels-kliniken": "7 Mart 2019",
+            "internationale-praevention-organisation": "7 Mart 2019",
+            "berufsverband-deutscher-praeventologinnen-und-praeventologen": "7 Mart 2019",
+            "proventika": "7 Mart 2019",
+            "thomas-wildey-institut": "7 Mart 2019",
+            "mediplus-reisen": "7 Mart 2019",
+            "shanghai-jin-jiang-tours": "7 Mart 2019",
+            "tourvital": "7 Mart 2019"
+        },
+        "partnerDescriptions": {
+            "akademie-der-gesundheit": "Berlin-Buch, Eberswalde ve Bad Saarow'da bulunan devlet tarafından tanınan Academy of Health Berlin/Brandenburg e. V., Almanya'daki sağlık ve sosyal hizmetler için en büyük özel eğitim kurumlarından biridir. Akademi şu anda 12 tanınmış eğitim mesleğine sahip bir Mesleki Eğitim Merkezi ve bir Mesleki İleri Eğitim Merkezi işletmektedir. Akademinin personeli toplamda 1050 eğitim katılımcısına destek sağlamaktadır.",
+            "baltic-college": "Baltic College, Mecklenburg-Vorpommern'deki yönetim, misafirperverlik, turizm ve sağlık turizmi alanında ilk özel üniversitedir. 2001 yılında kurulan genç ve dinamik üniversite, öğrencilerine zorlu bir eğitim programını tamamlama ve iş ve toplumda sorumlu bir pozisyona hazırlanma fırsatı sunmaktadır.",
+            "baz": "BAZ Hamburg, 1986 yılından bu yana 2500'den fazla mezun vererek Kuzey Almanya'nın ilaç temsilcileri için en başarılı eğitim kurumu haline gelmiştir.",
+            "best-sabel-hochschule": "BEST-Sabel Berlin Üniversitesi'nde eğitim almak, özel eğitimin avantajlarını devlet üniversitesinin uluslararası ve akredite lisans derecesiyle (B.A.) birleştirir. Uluslararası odaklı, güncel ve uygulamaya yönelik olan lisans programları, uluslararası faaliyet gösteren şirket ve kuruluşların yönetiminde profesyonel bir kariyer için önemli temelleri aktarır.",
+            "pingou-vital": "Pingou Vital Enerji Sağlık Merkezi, 'sağlık ve refah' ile 'yaşlılığa doğru canlılık' alanlarında Çin Beş Element Teorisi'ne dayalı, kişiye özel tedavi programları sunmaktadır.",
+            "sofi-goettingen": "Göttingen Sosyolojik Araştırma Enstitüsü (SOFI), 1968 yılında ticari olmayan, üniversiteye bağlı bir enstitü olarak kuruldu. Yasal biçimi kayıtlı, kâr amacı gütmeyen bir dernektir. Enstitünün hedefleri, uygulamalı temel araştırmanın bilimsel anlayışı tarafından belirlenir.",
+            "physiotherapie-schule-ortenau": "Alsace'daki çok sayıda klinikte Fransız meslektaşlarımızla işbirliği. Eckartsweier köy topluluğunda, pastoral, kırsal çevreden faydalanıyoruz. Öğrencilere sağlam bir teorik bilgi ve pratik beceriler kazandırmanın yanı sıra fizyoterapistin kişilik profilini şekillendirmek bizim endişemizdir.",
+            "chi-spa": "Berlin yakınlarındaki Schorfheide'de Werbellinsee ve Grimnitzsee arasında, 'chi spa' Wellness â€” Beauty â€” Health yer almaktadır. Burada, sağlık, bakım ve güzellikle bağlantılı olarak bütünsel sağlık önlemleri sunulmaktadır.",
+            "dermatocosmetics": "Mükemmel Cilt ve Tıbbi Sağlık için Dermatokozmetik Enstitüsünün arkasında Dr. Dagmar Ludolph-Hauser ve meslektaşlarının ünlü Dermatolojik Uygulaması yer almaktadır. Enstitüdeki modern tedavi yöntemlerinin temelinde son teknoloji dermatolojik uzmanlık yatmaktadır.",
+            "dewea": "Alman reklam ajansı dewea'nın endişesi, makul koşullarda tam hizmet sunmaktır. Gereksinimlere bağlı olarak çok sayıda ücretsiz ortak ve kanıtlanmış uzmandan yararlanabilen, nitelikli ve motive olmuş çalışanlardan oluşan küçük çekirdek, dewea'nın maliyetleri düşük tutarken kişiye özel çözümler sunmasını sağlar.",
+            "ibs-mentaltraining": "IBS zihinsel eğitiminin meta hedefi, hayatın tüm alanlarında duygusal istikrarı desteklemektir. Pratik eğitime ek olarak zihinsel eğitim, özellikle sporda uzun zamandır bir kavramdır. Rahat konsantrasyon, görselleştirme ve öz konuşma kontrolü gibi teknikler hayatın tüm alanlarında uygulanabilir.",
+            "omron": "Akıllı ve pratik tıbbi teknoloji söz konusu olduğunda, uluslararası teknoloji şirketi OMRON ön plandadır. OMRON, onlarca yıldır tıbbi-teknik cihazlarda öncü olmuştur.",
+            "centrovital": "Hotel centrovital Berlin, Spandauer See'de Tıbbi Sağlık, termal banyolar, konferanslar ve fitness stüdyosunu bir araya getiriyor. Sağlık merkezi, klasik ve alternatif şifa yöntemlerinden holistik tedavi programları sunuyor. Ayakta tedavi rehabilitasyonu, fizyoterapi, kardiyoloji, tıbbi güçlendirme terapisi ve beslenme danışmanlığı teklifi tamamlıyor.",
+            "dmz": "İsrail'deki Ölü Deniz'de spa, rehabilitasyon ve sağlık hizmetleri sunan Alman Tıbbi Merkezi DMZ, Alman sağlık sigorta şirketlerinin, Alman Emeklilik Sigortası Merkezi Almanya'nın ve diğer devlet sigorta kurumlarının sözleşmeli kliniğidir. Tıbbi ve terapötik teklifin sürekli genişlemesi ve kalite güvencesine sürekli katkılar sayesinde DMZ, bütünsel bir terapi konseptine sahip modern bir terapi merkezi yaratmayı başardı.",
+            "innosenso": "Elektrobiyoloji için Innosenso iş danışmanlığı, elektrosmog azaltma alanında elektrobiyolojik sağlık koruma önlemlerinin danışmanlığı, planlaması ve uygulanması konusunda uzmanlaşmıştır. Otel endüstrisinin yanı sıra sağlık merkezleri, özel klinikler ve pansiyonlar için Innosenso, yenilikçi sağlık koruma konsepti Sensual Living - Daha Sağlıklı Yaşam, Yaşama ve Çalışma ile sağlıklı yaşamın büyüyen pazarında önemli vurgular yapıyor ve böylece turizmde sürdürülebilirlik açısından bir dönüm noktası oluşturuyor.",
+            "liviwell": "liviwell şirketinin faaliyet alanı, modern teknolojileri sağlıklı ve dengeli bir beslenmenin kişisel gereksinimleriyle birleştirmektir. Buradan ortaya çıkan, CRS® metabolik analizi ve kişiye özel mikronutrientlerden oluşan konsept, burada temel teşkil eder. Amaç, uygun maliyetli bir analiz yöntemi sunmak ve her bireyin ortaya çıkan ihtiyaçlarını seçilmiş hayati maddelerle desteklemektir.",
+            "medical-wellness-management": "MWM Medical Wellness Management GmbH, tıp, sağlık, mimari ve planlama, personel geliştirme ve eğitim, kalite sistemleri, pazarlama ve satış, halkla ilişkiler, işletme yönetimi ve danışmanlık alanlarındaki DMWV danışma kurullarını kendi tarafsız eylem platformunda edinilen siparişlerle bütünleştirir. Bu yetkinlik taşıyıcıları, MWM'nin kendi kaynakları ve gerekirse diğer dış uzmanlar tarafından desteklenir.",
+            "physiotherapie-lorch": "Lorch Fizyoterapi Merkezi, fizyoterapi, tıbbi sağlık, rehabilitasyon ve önleme konusunda uzmanlaşmış bir uygulamadır.",
+            "tuv-rheinland-group": "Uluslararası bir hizmet grubu olan TÜV Rheinland Group, yeni ve mevcut ürün, sistem ve hizmetlerin güvenliğini ve kalitesini belgelemektedir.",
+            "vitadom": "Vitadom, 20 yılı aşkın bir süredir otel, spa ve sağlık tesislerinde sağlıklı yaşam tesislerini başarıyla planlıyor ve inşa ediyor. Sağlıklı yaşam sektörü bugüne kadar sürekli değişime ve sürekli gelişime maruz kalmıştır. Vitadom, bireysel müşteri isteklerine yenilikçi fikirler, derinlemesine uzman bilgisi ve yapılandırılmış çalışma yöntemleriyle yanıt verir.",
+            "wedicon": "WEDICON, vücudun kendi kendini iyileştirme güçlerini harekete geçirmek için invaziv olmayan tedavi yöntemleri ve doğal mikro besinlerle yoğun bir şekilde ilgilenir. Bunu yaparken WEDICON, geleneksel sağlık pazarının ötesine bakar ve insanların yararına uygulanan konvansiyonel ve alternatif tıp arasındaki boşluğu kapatır. Etkili tıbbi uygulamalar ve doğal ürünlerin benzersiz bir kombinasyonuyla WEDICON, daha fazla uyum ve yaşam kalitesi elde etmenizde size destek olur.",
+            "yorktest": "Sağlıklı yiyecekler sizi hasta ettiğinde... Gıda intoleransları (FI), refahımızı bozan çeşitli şikayetlerin en yaygın tetikleyicileri arasındadır. En son bilimsel bulgulara göre, beş Orta Avrupalıdan biri bir FI'den muzdariptir. Yorktest, FoodSCAN Göstergesi testi aracılığıyla bir FI'nin varlığını önceden doğrulama veya dışlama olanağı sunar ve Gösterge testinin pozitif bir sonucu olması durumunda FoodSCAN Totality veya FoodSCAN Quality testlerini önerir.",
+            "hohenbalance": "Yükseklik antrenmanı - Spor ve terapide yapay dağlar! Yükseklik antrenmanı konseptleri alanında Avrupa pazar lideri olan Höhenbalance AG, müşterilerine mümkün olan en iyi teknolojiyi sunmaktadır. Bu, farklı yükseklik antrenman sistemleri sunan çeşitli tedarikçi şirketlerle (Hypoxico, b-cat, Alto2Lab ve go2altitude) yakın işbirliği sayesinde mümkün olmaktadır. Prof. Dr. Hermann Buhl'un tıbbi-bilimsel yönetimi altındaki disiplinler arası ekip, önleme ve terapi alanlarında müşterilerin yanı sıra bir sonraki yarışmaya veya bir sonraki trekking turuna hazırlanan sporculara ve dağ sporları meraklılarına destek sağlamaktadır. Höhenbalance, spor için son teknoloji teşhis prosedürleri ve aşırı kilo ve diğer medeniyet hastalıkları alanında son derece güncel yöntemlerle ikna etmektedir.",
+            "dr-illing-partner": "Şirketin başarısı ve varoluş süresi ne olursa olsun, bir noktada bir şeyi değiştirme ihtiyacı ortaya çıkar. Bu, bir genişleme yatırımı, yeni bir pazar yönelimi (yeniden konumlandırma) veya sadece gelecek için bir eylem ihtiyacını belirlemek üzere mevcut durumun bir IS analizini içerebilir. Bu durumlarda, TDC ve prof. fh dr. illing & partner şirketleri devreye girer.",
+            "premedion": "Premedion, Sağlık ve SPA İşletmeciliği alanlarında kapsamlı danışmanlık, kişiye özel geliştirme ve projelerin ve konseptlerin profesyonel uygulanması konusunda uzmandır. Deutsche Seereederei şirketler grubunun bir parçasıdır ve Hamburg Tıbbi Önleme Merkezi'nin (MPCH) çoğunluk hissedarıdır.",
+            "pacific-wings-consulting": "Turizmde danışmanlık hizmetleri konusunda uzmanlaşmış olan Pacific Wings Consulting, turizm destinasyonları, oteller ve tur operatörlerine destek ve yardım sunmaktadır. Giderek daha dinamik hale gelen bir pazar ortamında, hizmet kalitesi, kredi yönetimi ve çalışanların gelişimi ve eğitimi, pazarda başarılı bir şekilde rekabet edebilmek için en önemli faktörlerden biridir. Pacific Wings Consulting, pazar varlığınızı iyileştirmek için size çok çeşitli araçlar ve fırsatlar sunar.",
+            "quality-spa": "QUALITY SPA, wellness, spa ve sağlık tesisleri için operasyonel ve planlama konseptleri oluşturur ve tüm yapısal ve ekonomik gelişim aşamalarında destek sağlar.",
+            "thv-gruppe": "THV Group, THV Versicherungsmakler GmbH, Paetau Sports Versicherungsmakler GmbH ve THS Services Versicherungsvermittlung GmbH'yi içerir. Her üç şirket de müşterileri adına risk tanımlama ve risk korumasının tüm sorularıyla profesyonel olarak ilgilenmektedir. Hizmetleri şunları içerir: Mevcut sigorta sözleşmelerinin analizi, danışmanlığı ve optimizasyonu, yeni yenilikçi sigorta çözümleri, sürdürülebilir sözleşme ve talep yönetimi, BT ve dış kaynak çözümleri.",
+            "unternehmensberatung-klaus-dribbusch": "İş planlama & kontrol, doküman yönetimi & süreç yönetimi ana başlıkları altında faaliyet gösteren Klaus Dribbusch danışmanlık firması, şirketinizin veya kurumunuzun ekonomik iş yönetiminin tüm konularında size danışmanlık ve destek sağlamaktadır.",
+            "thalgo": "THALGO, 85 ülkede faaliyet gösteren küresel çapta faaliyet gösteren bir gruptur ve deniz bazlı tedaviler ve ürünlerde kalite ve özgünlükle eşanlamlı hale gelmiştir. Şirket, CÃ´te d'Azur'daki Roquebrune-sur-Argens'deki merkezinde araştırma, geliştirme, test ve üretim yapmaktadır ve sürekli inovasyon yoluyla yeni pazarlara açılmaya devam etmektedir.",
+            "progenom": "ProGenom, Medical Wellness ortak otellerinin tıbbi bölümlerinde ve ortak doktorlarla genetik analizler sunmaktadır. Önleyici tıbbi test sistemlerindeki en son bilimsel bulguları kullanarak, tanınmış doktorlar, doğa bilimcileri, insan genetikçileri ve moleküler biyologlardan oluşan bir ağ içinde çalışırlar.",
+            "healomed": "Münih merkezli Healomed GmbH, tıbbi ürünlerin, özellikle manyetik darbe cihazlarının dağıtımında uzmanlaşmış uluslararası faaliyet gösteren bir şirkettir. PEMF Systems Incorporated'ın PEMF-100 elektromanyetik alan jeneratörünün genel ithalatçısı olarak, Almanya, Avusturya ve İsviçre'deki dağıtımından sorumludurlar.",
+            "terme-dobrna": "Terme Dobrna, Slovenya'nın en eski termal spalarından biridir. Dobrna'nın termal suyu yüzyıllardır şifalı etkileriyle bilinmektedir. Günümüzde Terme Dobrna, geleneği en son tıbbi bilgiyle birleştiren modern bir sağlık tesisidir.",
+            "pino-gmbh": "PINO GmbH, yüksek kaliteli masaj ve terapi ürünleri üreticisidir. Şirket, 30 yılı aşkın süredir fizyoterapi, sağlık ve spor için yenilikçi çözümler geliştiriyor ve üretiyor.",
+            "salt-of-life-international-ag": "FREELAXX FLOATING sistemleri, İsviçreli SALT OF LIFE AG'ye ait olan SALT OF LIFE TECHNOLOGY GMBH'nin en son ürünüdür. SALT OF LIFE AG şirketleri 15 yıldan uzun süredir kronik cilt hastalıkları için banyo/ışık terapileri alanında pratik uygulamalar geliştirmektedir.",
+            "schupp-gmbh": "Fizyoterapi, tıbbi eğitim terapisi ve sağlıklı yaşam alanlarında eksiksiz bir sağlayıcı olan Schupp GmbH & Co KG, başarılı bir tedavi için gereken her şeyi sunmaktadır: Tedavi masaları, MTT cihazları veya kızılötesi radyatörler gibi ekipmanlardan masaj ajanları, fango ve banyo katkı maddeleri gibi preparatlara, randevu planlayıcıları ve hasta kayıt kartları ile uygulama organizasyonuna kadar.",
+            "deagecosmetics": "deageCOSMETICS — zamanın belirtilerine karşı — en modern, doğal kozmetik kreasyonlarını temsil eder ve kalite ve geliştirme uzmanlığının garantisidir. Ürün yelpazesi, yıllar süren yoğun araştırmaların sonuçlarına dayanır ve özel olarak bireysel ihtiyaçlara göre uyarlanmıştır.",
+            "his-solution": "Almanya'nın önde gelen firmalarından HIS-Solution, SPA-Vital-Güzellik-Sağlık sektöründe randevu planlama için en modern, bireysel olarak yapılandırılabilir yazılım sistemlerinden birini sunmaktadır.",
+            "vibb-fit-medical-gmbh": "vibb-FIT-medical GmbH, müşterilerine, misafirlerine veya hastalarına gelişmiş sağlık, zindelik, esenlik ve güzellik şansı sunan titreşim cihazları sağlar. Her insanın farklı olması, benzersiz ihtiyaçlara ve gereksinimlere sahip olması gibi, titreşimli sağlık adanız da kişiye özel olarak tasarlanmalıdır.",
+            "purity-factor": "Purity Factor, doğal bir gençlik iksiri gibi çalışan, kalıcı kırışıklık karşıtı tedavi için 30 günlük tam bir birikim kürü olan TriSerum® için bir dağıtım platformudur. Kozmetik sektöründe en çok aranan bileşenlerden bazılarını içerir: hyaluron, kolajen ve amino asitler.",
+            "svg": "SVG Medizinsysteme GmbH & Co. KG, 1997'deki kuruluşundan bu yana güçlü performans ve en iyi hizmetle ilham verme ilkesine dayanmaktadır. Almanca konuşulan ülkelerdeki önde gelen tam kapsamlı tedarikçilerden biri olarak, çoğu doğrudan stoktan temin edilebilen 2.000'den fazla ürün sunmaktadırlar.",
+            "danubius-health-spa": "Avrupa'nın en büyük ve en deneyimli termal otel işletmecisi Danubius'a hoş geldiniz! Terapötik ve sağlıklı yaşam hizmetlerini, dünyanın doğal kaynaklarının iyileştirici ve rahatlatıcı etkileri üzerine yoğunlaştırdılar. Sağlığınıza yatırım yapın ve lüks termal otellerinden birini ziyaret edin.",
+            "hotel-eggensberger": "Hotel Eggensberger, Almanya'daki ilk TÜV sertifikalı Tıbbi Sağlık tesisidir. Terapi merkezi ve ISO 9001:2000 sertifikasına sahip organik ve sağlıklı yaşam oteli olarak, bilimsel olarak kanıtlanmış sağlık teşvik edici veya tıbbi faktörler bağlamında bütünsel bireysel refahın üretimiyle el ele giden çok boyutlu, dinamik-sistematik süreçler sunmaktadır.",
+            "hotel-elbresidenz-bad-schandau": "Sakson İsviçre ve çevre şehirlerde doğanın ve kültürün tadını çıkarmak isteyenler için Bad Schandau ziyaret edilecek yerdir. Doğa severler için büyüleyici bir manzara, her türden kültürel çeşitlilik ve isteğe bağlı olarak tıbbi önlemlerle birleştirilebilen saf rahatlama sunar.",
+            "hotel-monchgut-auf-rugen": "Yeni açılan spa ve sağlıklı yaşam oteli, 15.000'den fazla gülün bulunduğu bir park alanıyla çevrili Waldhotel arazisinde yer almakta olup, Baltık Denizi'nin muhteşem manzarasını ve kehribar rengi gezinti yoluna doğrudan erişim imkanı sunmaktadır.",
+            "oceano-vitality-hotel": "Tenerife'nin kuzeyindeki yeşil ve sessiz Punta del Hidalgo adlı küçük balıkçı köyünde, özel olarak işletilen OCÃ‰ANO Vitality Hotel & Medical Spa, İspanya'nın ilk sertifikalı Tıbbi Sağlık Oteli'dir. Her odadan okyanusun enginliğinin doğrudan manzarası ve rüya gibi gün batımları hayranlıkla izlenebilir.",
+            "rondane-spa-hoytjellshotell": "Rondane Milli Parkı'nın girişindeki eşsiz konumuyla Rondane Spa, dağlarda yürüyüşten vahşi dağ nehirlerinde rafting yapmaya kadar her şeyi sunmaktadır. Otelin kendi sağlıklı yaşam alanı, günün deneyimlerinden sonra mükemmel bir sondur.",
+            "santiburi-golf-resort": "Santiburi, pitoresk Mae Nam Plajı'ndaki 3 km uzunluğundaki özel plajda bulunan özel bir villa kompleksidir. Benzersiz bir botanik bahçesinde klasik Tay mimarisine sahiptir - \"Dünyanın Önde Gelen Küçük Otelleri\" üyesidir.",
+            "sirona": "Uluslararası balneoloji ve turizm derneği \"SIRONA\", balneoterapi ve dağ turizmi programıyla konut ve otel balneo komplekslerinin yatırım projeleri, inşaatı ve yönetimi konusunda uzmanlaşmıştır.",
+            "medizinisches-zentrum-albena": "Bulgaristan'ın Karadeniz kıyısındaki sahil beldesi Albena, 43 otel ve 5 villa kompleksinde 14.900 yatak kapasitesinin yanı sıra 100'den fazla restoran, spa & wellness merkezleri ile çok sayıda spor ve eğlence olanağı sunuyor.",
+            "parkhotel-sulzhayn": "Parkhotel Sülzhayn, Harz Dağları'nın güney ucundaki kaplıca kasabası Sülzhayn'da yer almaktadır. Karışık ormanlar ve dağ çayırlarıyla çevrili olan tesis, yakınlarda birçok gezi noktası ile dinlenme ve aktif tatiller için ideal bir ortam sunmaktadır.",
+            "dr-wahlmann-und-dr-griesse": "Dr. Wahlmann ve Ortakları, diş hekimliğinin çeşitli alanlarının yanı sıra diş estetiği ve kozmetik diş hekimliğinde kendini kanıtlamış uzmanlar ve inovasyon liderleridir.",
+            "zentrum-fuer-sportmedizin": "Sağlık ve zindelik durumunuz hakkında bilgi edinmek ister misiniz? Antrenmanınızı optimize etmek veya spor yoluyla sağlığınız için bir şeyler yapmak ister misiniz? Spor Hekimliği Merkezi her durumda sizin için doğru teklifi sunar.",
+            "johannesbad-unternehmensgruppe": "Johannesbad Group, üç Avrupa ülkesinde dokuz lokasyonu bulunan başarılı bir tıbbi ve sağlık odaklı hizmet sağlayıcısıdır. Yaklaşık 1.300 çalışanı bulunan grup, sağlık sektöründeki en büyüklerden biridir.",
+            "thueringen-kliniken": "Thüringen-Kliniken \"Georgius-Agricola\" Saalfeld-Rudolstadt GmbH kendisini ileri bakım hastanesi olarak görmektedir. Şirket 1991'den beri tek hissedarı Saalfeld-Rudolstadt bölgesi olan bir GmbH'nin yasal formundadır. Thüringen-Kliniken Saalfeld-Rudolstadt GmbH, Friedrich-Schiller-Üniversitesi Jena'nın akademik öğretim hastanelerinden biridir.",
+            "michels-kliniken": "Saksonya, Berlin-Brandenburg ve Aşağı Saksonya bölgelerindeki rehabilitasyon kliniklerimizde nöroloji, ortopedi, kardiyoloji, pnömoloji, dermatoloji, pediatri ve psikosomatik alanlarında rehabilitasyon hizmetleri sunuyoruz.",
+            "internationale-praevention-organisation": "1992'de kurulan IPO, şu anda Avrupa'daki en büyük bağımsız kar amacı gütmeyen sağlık iletişimi ağıdır. Sağlık pazarındaki önemli konu komplekslerini sunma konusunda disiplinler arası yeterlilik en yüksek öneme sahiptir. Odak noktası, sağlık politikası, tıp, bilim ve ekonomideki önemli gelişmeleri sunmak için çeşitli platformların üretilmesidir. Sağlık sistemindeki yapısal değişim için - net bir sağlık ekonomisine doğru - IPO, tüm ortaklar için geleceğe yönelik çözüm yaklaşımları geliştirmektedir.",
+            "berufsverband-deutscher-praeventologinnen-und-praeventologen": "Alman Önleyici Uzmanlar Meslek Birliği e.V. önleme ve sağlık teşvikine kendini adamış kişilerden oluşan bir ağdır. Önleyici uzmanlar, zamanımızın ve toplumumuzun sağlık sorunlarıyla başa çıkmada yeni düşünce ve eylem için cesur öncülerdir.",
+            "proventika": "Proventika Akademisi, beyin araştırmaları, sinir bilimleri ve nöromedikal alanındaki yeni bulguları ilgili hekimlere, tıbbi asistanlara, koçlara ve eğitmenlere uygulama açısından uygun bir şekilde aktarmayı hedeflemiştir. Bu amaçla, Alman Bütünleşik Nöromedikal Enstitüsü e.V. (DINM) ile işbirliği içinde, bütünleşik stres danışmanlığı ve stres tıbbı, bütünleşik stres ve nöro-koçluğun tıbbi ve mesleki faaliyetlerde nitelikli bir şekilde uygulanmasını sağlayan öğretim içerikleri ve müfredatları geliştirilmiştir.",
+            "thomas-wildey-institut": "Klinik ve uygulama bağlantılı temel araştırma enstitüsü. Thomas-Wildey Enstitüsü, 1977'de çalışmalarını tıpta yeni yollara adamış olan Dr. Karl Daxl tarafından Münih'te kuruldu. TWI'nin üyeleri arasında artık çok sayıda hekim, kurum, araştırma tesisi ve en çeşitli tıbbi, ekonomik, sosyal, toplumsal ve politik yönlerden ve gruplardan kişiler bulunmaktadır ve bunların hepsi, tıpta toplumumuzun geleceğini insan uyumlu bir şekilde daha da geliştirmek için kendi katkılarını yapmaktadır.",
+            "mediplus-reisen": "Mediplus Travel, benzersiz konseptiyle tatil ve sağlığı, beden, zihin ve ruh için bütünsel bir seyahat deneyiminde bir araya getiriyor.",
+            "shanghai-jin-jiang-tours": "Shanghai China International Travel Service Co., Ltd 1994 yılında kuruldu. O zamandan beri CITS B hisseleri Şanghay Borsası'nda listelendi. Şirket, Çin'deki en büyük profesyonel seyahat hizmeti sağlayıcılarından biridir.",
+            "tourvital": "TOUR VITAL, dünya çapında tıbbi refakatli geziler konusunda uzmandır. Her yıl 400'den fazla doktor konuklarımızla birlikte seyahat eder. Seçilmiş spa ve sağlık gezileri, nehir ve okyanus yolculukları, uzun süreli tatiller ve şehir gezileri teklifi tamamlar."
+        },
+        "backToPartners": "Ortaklara geri dön"
+    },
+    "SearchModal": {
+        "SearchPlaceholder": "Aramak...",
+        "SearchResults": "Arama Sonuçları",
+        "StartTyping": "Aramak için yazmaya başlayın...",
+        "SearchModalTitle": "Aramak",
+        "SearchModalDescription": "Web sitemizdeki içerikleri bulmak için arama sorgunuzu girin.",
+        "SearchingFor": "Aranıyor: {query}",
+        "SearchTip": "'Sağlıklı yaşam', 'sertifikasyon' veya 'ortaklar' gibi konuları aramayı deneyin"
+    },
+    "Footer": {
+        "description": "Alman Tıbbi Sağlık Derneği (DMWV), Almanya'daki Tıbbi Sağlık için profesyonel dernektir. Tıbbi Sağlığın kalite güvencesine ve daha da geliştirilmesine bağlıyız.",
+        "newsletterTitle": "Bültene Abone Ol",
+        "emailPlaceholder": "E-posta adresiniz",
+        "subscribe": "Abone",
+        "quickLinks": "Hızlı Bağlantılar",
+        "menuItems": [
+            {
+                "name": "Ev",
+                "href": "/"
+            },
+            {
+                "name": "Haberler",
+                "href": "/news"
+            },
+            {
+                "name": "Dernek",
+                "href": "/verband/organisation"
+            },
+            {
+                "name": "Sertifikasyon",
+                "href": "/zertifizierung"
+            },
+            {
+                "name": "Tıbbi Sağlık",
+                "href": "/medical-wellness"
+            },
+            {
+                "name": "Planlama",
+                "href": "/planning"
+            }
+        ],
+        "Home": "Ev",
+        "News": "Haberler",
+        "Association": "Dernek",
+        "Certification": "Sertifikasyon",
+        "MedicalWellness": "Tıbbi Sağlık",
+        "Planning": "Planlama",
+        "contact": "Temas etmek",
+        "address": "HeidelÃ¤uferweg 75a, 12353 Berlin",
+        "phone": "+49 30 8973 5139",
+        "email": "bilgi@dmwv.de",
+        "aboutUs": "Hakkımızda",
+        "aboutUsDescription": "DMWV, Tıbbi Refahın entegrasyonu yoluyla sağlık ve refahı teşvik etmeye kendini adamıştır. Sağlık turizmi sektöründeki şirketlere endüstri sertifikaları, rehberlik ve destek sunuyoruz.",
+        "learnMore": "Daha fazla bilgi edin",
+        "copyright": "© {year} Alman Tıbbi Sağlık Derneği. Tüm hakları saklıdır.",
+        "imprint": "Baskı",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Şartlar ve koşullar"
+    }
+}

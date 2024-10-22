@@ -113,6 +113,18 @@ const languages = [
         <rect y="9.33" width="24" height="4.67" fill="#000000" />
       </svg>
     ),
+  },
+  {
+    code: "tr",
+    label: "Türkçe",
+    flag: (
+      <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+        <rect width="24" height="14" fill="#E30A17" />
+        <circle cx="10" cy="7" r="3.5" fill="#FFFFFF"/>
+        <circle cx="11" cy="7" r="3" fill="#E30A17"/>
+        <polygon points="13.5,7 12.6,7.4 13,6.5 12.1,6.5 12.5,5.6 12.1,5 13,5.3 13.5,4.5 14,5.3 14.9,5 14.5,5.6 14.9,6.5 14,6.5 14.5,7.4" fill="#FFFFFF"/>
+      </svg>
+    ),
   }
 ];
 

@@ -1,1 +1,927 @@
-{}
+{
+    "metadata": {
+        "defaultTitle": "Associazione tedesca per il benessere medico",
+        "description": "L'Associazione tedesca per il benessere medico si impegna a promuovere la salute e il benessere attraverso l'integrazione di pratiche di benessere medico.",
+        "keywords": "benessere medico, salute, benessere, associazione tedesca, programmi benessere",
+        "ogTitle": "Associazione tedesca per il benessere medico - Promozione della salute e del benessere",
+        "ogDescription": "Scopri il futuro del benessere con la German Medical Wellness Association. Offriamo approcci innovativi alla salute e al benessere.",
+        "siteName": "Ministero dei trasporti",
+        "twitterTitle": "Associazione tedesca per il benessere medico",
+        "twitterDescription": "All'avanguardia negli approcci olistici al benessere medico e alla salute."
+    },
+    "NotFound": {
+        "title": "Pagina non trovata",
+        "description": "Spiacenti, non siamo riusciti a trovare la pagina che stai cercando.",
+        "homeButton": "Vai alla homepage",
+        "contactButton": "Contattaci"
+    },
+    "Home": "Casa",
+    "News": "Notizia",
+    "Association": "Associazione",
+    "Certification": "Certificazione",
+    "MedicalWellness": "Benessere medico",
+    "Planning": "Pianificazione",
+    "Search": "Ricerca",
+    "Organisation": "Organizzazione",
+    "Expertise": "Competenza",
+    "Cooperation": "Cooperazione",
+    "Membership": "Iscrizione",
+    "AreasOfCompetence": "Aree di competenza",
+    "Partners": "Partner",
+    "Hero": {
+        "welcome": "Benvenuti a",
+        "title": "Associazione tedesca per il benessere medico",
+        "description": "Il tuo partner di fiducia per la salute olistica, la vitalità e la qualità della vita. Scopri il futuro del benessere con noi.",
+        "learnMore": "Saperne di più",
+        "becomeMember": "Diventa un membro",
+        "memberImageAlt": "Membro {numero}",
+        "memberCount": "Oltre 500+ membri soddisfatti",
+        "previousSlide": "Diapositiva precedente",
+        "nextSlide": "Diapositiva successiva",
+        "goToSlide": "Vai alla diapositiva {numero}",
+        "slide1": {
+            "title": "Salute olistica",
+            "description": "Scopri i nostri approcci innovativi per il tuo benessere."
+        },
+        "slide2": {
+            "title": "Vitalità in Focus",
+            "description": "Aumenta la tua energia vitale con i nostri programmi benessere."
+        },
+        "slide3": {
+            "title": "Prova la gioia della vita",
+            "description": "Trova la strada verso maggiore equilibrio e soddisfazione."
+        }
+    },
+    "WelcomeSection": {
+        "subtitle": "Benvenuti a",
+        "title": "Associazione tedesca per il benessere medico",
+        "description": "Presso la German Medical Wellness Association, siamo orgogliosi di offrirti i migliori servizi per la tua salute e il tuo benessere. Il nostro team di professionisti è dedicato a coltivare e migliorare il benessere dei nostri clienti con soluzioni personalizzate.",
+        "imageAlt": "Trattamento benessere presso l'Associazione tedesca per il benessere medico",
+        "philosophyTitle": "La nostra filosofia",
+        "philosophyDescription": "Crediamo in un approccio olistico alla salute e al benessere. I nostri servizi combinano la saggezza tradizionale con la tecnologia medica all'avanguardia per fornirti la migliore assistenza possibile.",
+        "feature1": "Piani di trattamento personalizzati",
+        "feature2": "Professionisti altamente qualificati",
+        "feature3": "Strutture all'avanguardia",
+        "learnMore": "Saperne di più",
+        "learnMoreAriaLabel": "Scopri di più sul benessere medico",
+        "missionTitle": "Missione",
+        "missionDescription": "La nostra missione è promuovere la salute e il benessere attraverso l'integrazione di pratiche di benessere medico.",
+        "visionTitle": "Visione",
+        "visionDescription": "La nostra visione è quella di essere l'associazione leader per il benessere medico in Germania e di promuovere la salute e il benessere attraverso l'integrazione delle pratiche di benessere medico.",
+        "statsNumber": "Più di 100",
+        "statsText": "Strutture certificate per il benessere medico",
+        "philosophyImageAlt": "La nostra filosofia del benessere in azione",
+        "statsClients": "Clienti soddisfatti",
+        "statsPartners": "Partner di fiducia",
+        "statsYears": "Anni di esperienza"
+    },
+    "Contact": {
+        "title": "Contattaci",
+        "subtitle": "Ci piacerebbe sentire la tua opinione! Utilizza il modulo o i nostri recapiti per contattarci.",
+        "formTitle": "Inviaci un messaggio",
+        "nameLabel": "Il tuo nome",
+        "namePlaceholder": "Giovanni Rossi",
+        "emailLabel": "La tua email",
+        "emailPlaceholder": "john@esempio.com",
+        "subjectLabel": "Soggetto",
+        "subjectPlaceholder": "Come possiamo aiutarti?",
+        "messageLabel": "Il tuo messaggio",
+        "messagePlaceholder": "Descrivi la tua richiesta...",
+        "sendButton": "Invia messaggio",
+        "contactInfoTitle": "Informazioni sui contatti",
+        "phoneTitle": "Telefono",
+        "phoneNumber": "+49 123 456 7890",
+        "emailTitle": "E-mail",
+        "emailAddress": "info@dmwv.de",
+        "addressTitle": "Indirizzo",
+        "addressLine1": "Heideläuferweg 75a",
+        "addressLine2": "12353 Berlino",
+        "addressLine3": "Germania",
+        "followUs": "Seguici",
+        "stayConnected": "Rimani in contatto con noi per gli ultimi aggiornamenti e novità!",
+        "socialAriaLabel": "Visitaci su {socialName}"
+    },
+    "Team": {
+        "ourExperts": "I nostri esperti",
+        "teamTitle": "Il team DMWV",
+        "teamDescription": "Incontra gli esperti dedicati che dirigono l'Associazione tedesca per il benessere medico e portano avanti la nostra missione.",
+        "memberImageAlt": "Ritratto di {nome}",
+        "linkedinAria": "Profilo LinkedIn di {nome}",
+        "twitterAria": "Profilo Twitter di {nome}",
+        "members": [
+            {
+                "position": "1° Presidente",
+                "bio": "Lutz Lungwitz è il primo presidente della German Medical Wellness Association e.V., con sede a Berlino."
+            },
+            {
+                "position": "1° Vice Presidente",
+                "bio": "Axel Donald Sauer supporta la direzione dell'associazione in qualità di primo vicepresidente."
+            },
+            {
+                "position": "2° Vice Presidente",
+                "bio": "Il Prof. Dr. Joachim Willms è professore universitario di sviluppo del turismo e secondo vicepresidente del DMWV."
+            },
+            {
+                "position": "Membro del Consiglio",
+                "bio": "Karsten Urspruch mette a disposizione la sua competenza come membro del consiglio direttivo dell'Associazione tedesca per il benessere medico."
+            },
+            {
+                "position": "Tesoriere",
+                "bio": "Rigobert Walzer è socio amministratore della W+ST Treuhand GmbH Steuerberatungsgesellschaft e tesoriere della DMWV."
+            },
+            {
+                "position": "Membro del Consiglio (associato)",
+                "bio": "Il console a.h. Michael Häckel della DMZâ€‘R&E Häckel GmbH è membro associato del consiglio direttivo dell'Associazione tedesca per il benessere medico."
+            }
+        ]
+    },
+    "NewsDetails": {
+        "backToOverview": "Torna alla panoramica",
+        "relatedNews": "Ultime notizie",
+        "readingTime": "{tempo} min di lettura"
+    },
+    "NewsPage": {
+        "title": "Notizie e aggiornamenti",
+        "subtitle": "Rimani informato sulle ultime novità nel mondo del Medical Wellness",
+        "home": "Casa",
+        "news": "Notizia",
+        "searchPlaceholder": "Cerca notizie...",
+        "allCategories": "Tutte le categorie",
+        "readMore": "Per saperne di più",
+        "noNewsFound": "Nessuna notizia trovata. Prova una ricerca o una categoria diversa."
+    },
+    "NewsSection": {
+        "stayInformed": "Rimani informato",
+        "latestNews": "Ultime notizie",
+        "newsDescription": "Scopri di più sugli ultimi sviluppi e tendenze nel mondo del benessere e della salute.",
+        "readMore": "Per saperne di più",
+        "read": "Leggere",
+        "discoverMoreNews": "Scopri altre notizie"
+    },
+    "WellnessHotels": {
+        "exclusiveExperiences": "Esperienze di Benessere Esclusive",
+        "ourPartners": "I nostri partner contrattuali",
+        "discoverHotels": "Scopri gli hotel benessere di prima classe per la tua salute e il tuo benessere",
+        "viewAllPartners": "Visualizza tutti i partner",
+        "viewAllPartnersAriaLabel": "Visualizza tutti i partner del benessere",
+        "hotels": {
+            "sonnenberg": {
+                "name": "Resort benessere Sonnenberg",
+                "location": "Baden-Baden"
+            },
+            "schwarzwald": {
+                "name": "Hotel Spa Foresta Nera",
+                "location": "Friburgo"
+            },
+            "bodensee": {
+                "name": "Centro sanitario Lago di Costanza",
+                "location": "Costanza"
+            },
+            "alpenblick": {
+                "name": "Vital Hotel Vista Alpina",
+                "location": "Garmisch-Partenkirchen"
+            }
+        },
+        "features": {
+            "spa": "Stazione termale",
+            "pool": "Piscina",
+            "yoga": "Yoga",
+            "massage": "Massaggio",
+            "sauna": "Sauna",
+            "fitness": "Fitness",
+            "therapy": "Terapia",
+            "nutrition": "Nutrizione",
+            "meditation": "Meditazione",
+            "mountainView": "Vista sulle montagne",
+            "hiking": "Escursionismo",
+            "wellness": "Benessere"
+        }
+    },
+    "FAQSection": {
+        "subtitle": "La tua guida al benessere",
+        "title": "Domande frequenti",
+        "description": "Trova le risposte alle domande più importanti sul DMWV e sui nostri servizi",
+        "ariaLabel": "Domande frequenti",
+        "faq1": {
+            "question": "Qual è il ruolo del DMWV nel settore del benessere?",
+            "answer": "La DMWV (German Medical Wellness Association) è un'associazione tedesca dedicata alla promozione della salute e del benessere attraverso l'integrazione del benessere medico. Fornisce certificazioni di settore, guida e supporto per le aziende focalizzate sul benessere e sul turismo sanitario, svolgendo un ruolo cruciale nel definire gli standard e promuovere la qualità nel settore."
+        },
+        "faq2": {
+            "question": "Quali vantaggi ricevono i membri del DMWV?",
+            "answer": "I membri del DMWV hanno accesso a una rete di professionisti del benessere, certificazioni di settore, partecipazione a eventi e risorse per promuovere servizi di salute e benessere. Questa rete e queste risorse aiutano i membri a rimanere all'avanguardia nel settore del benessere e a fornire servizi di alta qualità ai propri clienti."
+        },
+        "faq3": {
+            "question": "In che modo il DMWV supporta il turismo sanitario?",
+            "answer": "DMWV promuove il turismo sanitario tramite partnership con centri benessere e centri termali medici, fornendo standard e certificazioni che migliorano la reputazione e la qualità dei servizi offerti. Ciò aiuta a stabilire la Germania come destinazione di prim'ordine per il turismo sanitario e del benessere, attraendo visitatori in cerca di esperienze di benessere medico di alta qualità."
+        }
+    },
+    "certification": {
+        "title": "Certificazione",
+        "subtitle": "Scopri i vantaggi della certificazione per la tua struttura di Medical Wellness",
+        "home": "Casa",
+        "certification": "Certificazione",
+        "sections": {
+            "benefits": "Vantaggi della certificazione",
+            "criteria": "Criteri di certificazione",
+            "requirements": "Requisiti per la certificazione",
+            "procedure": "Procedura"
+        },
+        "benefits": {
+            "intro1": "Le strutture certificate Medical Wellness operano sotto il logo del TÜV Rheinland Group in tutte le misure di comunicazione e marketing dell'associazione.",
+            "intro2": "L'Associazione Tedesca per il Benessere Medico e.V. (DMWV) si considera rappresentante degli interessi del Benessere Medico.",
+            "list": {
+                "item1": "fornisce ai consumatori un orientamento in un mercato che si presenta come meno trasparente a causa della sua rapida crescita e che travolge facilmente i professionisti non medici a causa della complessità delle sue offerte",
+                "item2": "offre agli operatori, ai fornitori e ai progettisti del mercato del Medical Wellness un forum per raggruppare le loro attività e coordinare i risultati attuali della ricerca e dell'insegnamento; ciò è reso possibile, tra l'altro, dalle pubblicazioni dell'associazione nonché da seminari e corsi di formazione.",
+                "item3": "crea standard di qualità basati sui risultati della ricerca della medicina convenzionale, della medicina complementare e della salutogenesi, secondo i quali i fornitori di Medical Wellness sono certificati, i prodotti sono testati e i termini nel campo del Medical Wellness sono protetti",
+                "item4": "gestisce la comunicazione esterna con istituzioni politiche, autorità e associazioni"
+            },
+            "downloads": "Scaricare",
+            "statute": "Statuto DMWV (PDF)",
+            "application": "Modulo di domanda DMWV (PDF)"
+        },
+        "criteria": {
+            "qm": {
+                "title": "1. Il Sistema di Gestione della Qualità (QM)",
+                "content": "Le aziende da certificare devono avere un sistema di gestione della qualità che sostanzialmente soddisfa i requisiti della DIN EN ISO 9001: 2000. Questo standard rappresenta lo stato delle conoscenze al momento per quanto riguarda l'organizzazione di un'azienda. Se questo sistema QM non è disponibile, il DMWV e.V. può mostrare e implementare modi per ottenerlo con le aziende interessate. Questi requisiti indipendenti dal settore sono adattati all'orientamento alla salute di un'azienda Medical Wellness, in modo che questo standard costituisca la base delle certificazioni DMWV."
+            },
+            "specific": {
+                "title": "2. Requisiti specifici",
+                "content": "Questi requisiti non sono stati sviluppati di recente, ma il DMWV e.V. utilizza soluzioni già esistenti e consolidate. Ad esempio, nel segmento alberghiero, consistono in una combinazione dei requisiti a 4 stelle e dei criteri a 3 W. Inoltre, le aziende devono anche soddisfare specifici criteri di Medical Wellness."
+            },
+            "hotel": {
+                "title": "3. Requisiti di benessere medico utilizzando un hotel come esempio",
+                "content": "Anche in quest'area, sono stati sviluppati requisiti aggiuntivi per categoria, laddove sembra appropriato. Ecco un esempio dei requisiti per un Medical Wellness Hotel:",
+                "list": [
+                    "Definizione di un ambito sotto direzione medica. Questo deve coprire una parte significativa dell'offerta di trattamento nella Medical Spa.",
+                    "La gestione medica deve essere esercitata da almeno un medico autorizzato con una specializzazione pertinente.",
+                    "Il/I medico/i devono esercitare la propria attività professionale esclusivamente presso l'hotel.",
+                    "Inoltre, nell'hotel deve essere impiegato a tempo pieno almeno un terapista (ad esempio un fisioterapista) con formazione pertinente.",
+                    "In caso di assenza del medico, nell'hotel o nelle immediate vicinanze deve essere disponibile un servizio medico di guardia.",
+                    "In caso di cambio di specializzazione medica all'esterno dell'hotel, viene garantito il trasferimento dei dati relativi ai partecipanti.",
+                    "Deve essere disponibile una relazione finale scritta.",
+                    "Quando si applicano terapie mediche complementari, è necessario specificare su quale base si basa l'applicazione.",
+                    "Le applicazioni nell'area Medical Spa si basano su moduli di esame standardizzati e piani terapeutici.",
+                    "Gli ambulatori e le sale per le visite e i trattamenti sono dotati di attrezzature moderne e trasmettono competenza medica senza creare un'atmosfera clinica.",
+                    "La struttura soddisfa i requisiti per la documentazione dei risultati e per la fornitura di raccomandazioni per proseguire quanto appreso (piano nutrizionale, piano di esercizi, stile di vita sano, riferimento a pagine Internet).",
+                    "La struttura è dotata di un medico che garantisce il controllo medico iniziale fortemente raccomandato.",
+                    "La struttura garantisce che, in genere, prima di un programma di movimento e/o fitness, sui pazienti ospiti venga effettuata una diagnosi delle prestazioni.",
+                    "Su richiesta, l'ospite riceve una valutazione scritta delle sue prestazioni/cambiamenti nelle prestazioni con raccomandazioni per la sua nuova casa."
+                ],
+                "conclusion": "L'azienda deve raggiungere almeno il 70% dei punti possibili sia nel punteggio totale che nelle singole categorie. I prodotti vengono testati e certificati dal DMWV e.V. anche secondo un sistema standardizzato."
+            },
+            "contact": {
+                "intro": "Le aziende e le istituzioni interessate sono invitate a contattare l'",
+                "address": "Associazione tedesca per il benessere medico e.V.",
+                "street": "Via Eichen 3b",
+                "city": "12435 Berlino",
+                "phone": "Tel: 030 / 81873-310",
+                "email": "E-Mail: kontakt@dmwv.de",
+                "outro": "per ulteriori informazioni."
+            }
+        },
+        "requirements": {
+            "intro": "Il prerequisito per la certificazione di una struttura Medical Wellness da parte dell'associazione è la volontà di partecipare al programma di certificazione secondo i criteri di audit dell'associazione e del TÃœV Rheinland Group. La certificazione secondo lo standard di qualità Medical Wellness (TÃœV Rheinland/DMWV) è quindi indipendente dall'associazione.",
+            "navigator": {
+                "title": "\"Navigatore\"",
+                "content": "Un prerequisito indispensabile per la percezione dei servizi di Medical Wellness nel senso dell'associazione è l'integrazione di un medico nel funzionamento della rispettiva struttura. Nel DMWV, questo medico porta la designazione di \"Navigatore\" per chiarire il suo ruolo nel trattare con gli ospiti sani che utilizzano la rispettiva struttura di Medical Wellness."
+            },
+            "doctor": {
+                "title": "Il Dottore",
+                "content1": "Il ruolo centrale del navigatore diventa chiaro dalla figura sottostante. Ciò significa che quando si certifica una struttura di Medical Wellness, il risultato complessivo dipende molto dalla percezione di questo ruolo da parte del navigatore/medico.",
+                "content2": "La figura chiarisce inoltre che l'area diagnostica, l'area di accoglienza e l'area di attuazione medica non devono necessariamente formare un'unità infrastrutturale."
+            }
+        },
+        "procedure": {
+            "intro": "Le strutture partecipanti al programma di certificazione dell'associazione vengono controllate da collaudatori professionisti annunciati da TÃœV Rheinland Group in base a criteri di audit definiti. La certificazione è valida per 3 anni ciascuno.",
+            "categories": {
+                "intro": "Le strutture di Medical Wellness sono certificate nelle seguenti categorie:",
+                "list": [
+                    "Clinica di benessere medico",
+                    "Hotel Benessere Medico",
+                    "Resort di benessere medico",
+                    "Centro medico benessere Day Spa/Clinica",
+                    "Destinazione di benessere medico"
+                ],
+                "destination": "Per ottenere la certificazione di Medical Wellness Destination è necessario che siano certificati almeno tre singoli elementi delle categorie."
+            },
+            "process": {
+                "intro": "Il processo di certificazione è aperto e viene svolto secondo criteri di audit che vengono resi disponibili al candidato in anticipo. I criteri di audit sono suddivisi in quattro aree principali:",
+                "list": [
+                    "Diagnostica",
+                    "Implementazione medica",
+                    "Struttura termale e di benessere medico",
+                    "Area Hotel/Clinica"
+                ]
+            },
+            "basis": "La base dell'audit è il processo definito dall'associazione e dal TÃœV Rheinland Group, che il cliente Medical Wellness dovrebbe sostanzialmente seguire. La struttura da sottoporre ad audit determina in modo indipendente in quale forma e in quale misura l'operazione soddisfa il processo specificato. Solo questi elementi sono inclusi nell'audit. Nel rapporto di audit, gli elementi in sospeso o non soddisfatti del processo vengono valutati e riassunti in una valutazione complessiva, che appare sulla targa da assegnare dall'associazione.",
+            "download": "La procedura per ottenere la certificazione con successo è scaricabile (PDF)"
+        }
+    },
+    "medicalWellness": {
+        "title": "Benessere medico",
+        "subtitle": "Scopri i vantaggi del Medical Wellness per la tua salute e il tuo benessere",
+        "sections": {
+            "begriff": {
+                "title": "Concetto",
+                "intro": "La definizione di Benessere Medico si trova attualmente in un processo dinamico e multistrato, influenzato dagli sviluppi internazionali.",
+                "currentDefinition": "La definizione attuale di \"benessere medico\"",
+                "definitionText": "\"Il benessere medico comprende misure scientificamente supportate per il miglioramento sostenibile della qualità della vita e della percezione soggettiva della salute attraverso la prevenzione e la promozione della salute responsabili, nonché la motivazione per uno stile di vita attento alla salute.\"",
+                "supportedBy": "La nuova definizione di Medical Wellness è sostenuta da organizzazioni tra cui l'Associazione tedesca del turismo, l'Associazione tedesca del Medical Wellness, l'Associazione tedesca delle terme e la Federazione tedesca di ginnastica.",
+                "eschTitle": "Benessere medico secondo il Prof. Dr. T. Esch",
+                "eschText": "Il benessere medico si riferisce a un processo multidimensionale, dinamico-sistematico verso la creazione attiva di un benessere individuale olistico nel contesto di fattori medici o di promozione della salute scientificamente provati. Questi fattori si basano su bisogni biopsicosociali, i \"motivatori\", che gli individui cercano di soddisfare con l'aiuto di trattamenti o comportamenti con efficacia comprovata. L'attenzione è rivolta alla realizzazione di uno stile di vita che promuova la salute utilizzando risorse individuali, competenza e responsabilità personale nel senso di prevenzione applicata o \"promozione integrata della salute\". Le misure terapeutiche per l'equilibrio desiderato di fattori e bisogni individuali nonché per la realizzazione di salute soggettiva, salutogenesi e benessere sono solitamente offerte in centri di benessere medico professionali, cliniche o strutture simili ad alberghi in collaborazione con corrispondenti dipartimenti di terapia gestiti da medici e basati scientificamente."
+            },
+            "kernbereiche": {
+                "title": "Aree principali",
+                "intro": "Nel DMWV, le attività di promozione della salute sono suddivise in quattro aree principali del Benessere Medico, finalizzate principalmente alla prevenzione.",
+                "navigator": "Navigatore",
+                "diagnosticsText": "L'attenzione è quindi rivolta alla diagnosi, alla salutogenesi e all'adattamento attivo della propria vita a comportamenti che promuovono la salute. Il prerequisito per questo successo è la fondamentale volontà di agire in modo indipendente. Ciò consente di attivare le risorse individuali esistenti rafforzando il potenziale positivo che promuove la salute. Ciò a sua volta richiede la volontà di partecipare all'educazione sanitaria: la volontà di impegnarsi in un processo che duri tutta la vita con l'obiettivo di mantenere la salute attraverso uno stile di vita orientato alla salute."
+            },
+            "markt": {
+                "title": "Potenziale di mercato e sviluppo attuale",
+                "gkvInfo": "Per molti anni la quota di spesa dell'assicurazione sanitaria pubblica (GKV) ha superato solo di poco la soglia del 6% del prodotto interno lordo.",
+                "marketGrowth1": "Il budget permanentemente limitato dell'assicurazione sanitaria pubblica finanziata con fondi solidali (GKV), l'elevata disoccupazione, le tendenze demografiche verso una società che invecchia e un numero elevato di malati cronici faranno sì che la spesa sanitaria nel primo mercato sanitario (GKV) si concentri sui servizi essenziali. Di conseguenza, il mercato out-of-pocket (inclusi i co-pagamenti o l'assicurazione integrativa privata) acquisirà sempre più importanza.",
+                "marketGrowth2": "L'istituto per l'economia del tempo libero di Monaco di Baviera fa le seguenti previsioni: il numero di viaggiatori in Germania nel campo delle vacanze sanitarie aumenterà del 46% dal 2002 al 2010. Ciò corrisponde a oltre 2 milioni di viaggiatori all'anno (nel 2002, c'erano poco meno di 1,4 milioni di viaggiatori). Altre forme di turismo sanitario (vacanze anti-invecchiamento, vacanze benessere, vacanze di bellezza) stanno già sperimentando una forte crescita. La quota di vacanze sanitarie rappresenterà quasi la metà (48,3%) di tutti i viaggi correlati alla salute entro il 2010. La spesa totale delle famiglie per tutti i viaggi correlati alla salute in Germania aumenterà a 3,7 miliardi di euro entro il 2010.",
+                "marketGrowth3": "Anche il mercato statunitense delle spa mediche raggiungerà un volume di vendite di oltre 400 milioni di dollari entro il 2006 e registrerà una crescita annuale delle vendite del 10,1% (Feedback Research Services).",
+                "marketGrowth4": "Le misure anti-invecchiamento sono tra le aree di crescita chiave nella salute e nel tempo libero. Ciò vale sia per gli USA (Feedback Research Services) che per l'Europa (Institute for Leisure Economics). In questo settore, si prevede che il segmento di mercato crescerà del 2.500% tra il 2002 e il 2010."
+            },
+            "gesundheitskarte": {
+                "title": "Tessera Sanitaria",
+                "subtitle": "L'inizio di una vita sana",
+                "priceTag": "Con solo 1 euro al mese fai di più per la tua salute!",
+                "description1": "Con la Medical Wellness Health Card, ti offriamo una guida professionale al secondo mercato sanitario, fornendoti informazioni aggiornate, sviluppi, tendenze, suggerimenti e offerte su salute e benessere medico. Inoltre, puoi usufruire di numerosi sconti e vantaggi di prezzo dai nostri partner Medical Wellness.",
+                "description2": "Abbiamo selezionato per voi partner di servizi esclusivi dai segmenti di benessere medico, benessere e bellezza, viaggi, prodotti farmaceutici, regali, eventi/attività e forniamo anche numerosi partner aggiuntivi \"bonus & more\". Le aziende \"bonus & more\" e TÃœV Card Services sono tra i nostri partner di cooperazione.",
+                "description3": "Se desiderate offrire i vantaggi della Medical Wellness Health Card anche come struttura di benessere medico, vi preghiamo di contattarci all'indirizzo gesundheitskarte@dmwv.de o di chiamare il numero +49 (0)30 81873–333."
+            },
+            "hotels": {
+                "title": "I migliori hotel e resort per il benessere medico",
+                "subtitle": "Navigatore",
+                "description": "\"The Leading Medical Wellness Hotels & Resorts\" è un marchio premium registrato a livello internazionale che ha l'obiettivo di riunire sotto lo stesso tetto i principali hotel e resort dedicati al benessere medico, dando così vita a una cooperazione alberghiera che plasma attivamente il mercato del turismo sanitario.",
+                "description2": "\"The Leading Medical Wellness Hotels & Resorts\", in collaborazione con la German Medical Wellness Association, è un fornitore di servizi di consulenza, marketing e posizionamento per hotel e resort dedicati al benessere medico.",
+                "description3": "Il nostro portfolio unisce competenza medica, servizi di alta qualità e infrastrutture. Offriamo consulenza su servizi di benessere medico professionali, verificati e di qualità garantita con effetti sostenibili e assistenza medica responsabile. I viaggiatori della salute possono contare su un'atmosfera accogliente e sull'esclusività dei nostri partner alberghieri."
+            },
+            "clinics": {
+                "title": "Le principali cliniche e spa per il benessere medico",
+                "subtitle": "Navigatore",
+                "description1": "Il marchio premium \"The Leading Medical Wellness Clinics & Spas\", attivo e registrato a livello internazionale, si è posto l'obiettivo di riunire sotto lo stesso tetto le principali cliniche e spa dedicate al benessere medico e di dare forma attivamente a questo mercato sanitario.",
+                "description2": "\"The Leading Medical Wellness Clinics & Spas\" coniuga il benessere medico con le cliniche e funge da guida per i pazienti che vogliono essere sicuri della loro scelta in fatto di clinica.",
+                "description3": "Il marchio offre agli ospiti una guida su servizi di benessere medico professionali, verificati e di qualità garantita con effetti sostenibili e cure mediche responsabili. I viaggiatori della salute possono contare su un'atmosfera accogliente e sull'esclusività dei nostri partner clinici."
+            }
+        },
+        "breadcrumbs": {
+            "home": "Casa",
+            "medicalWellness": "Benessere medico"
+        }
+    },
+    "planning": {
+        "title": "Pianificazione di eventi",
+        "subtitle": "Organizza in modo efficiente i tuoi congressi ed eventi benessere",
+        "home": "Casa",
+        "planning": "Pianificazione",
+        "upcomingEvents": "Prossimi Eventi",
+        "planAttendance": "Pianifica la tua presenza ai nostri prossimi congressi e workshop.",
+        "eventDetails": "Dettagli dell'evento",
+        "selectEvent": "Seleziona un evento per visualizzarne i dettagli",
+        "viewDetails": "Visualizza i dettagli",
+        "today": "Oggi",
+        "month": "Mese",
+        "week": "Settimana",
+        "day": "Giorno",
+        "agenda": "Ordine del giorno"
+    },
+    "organisation": {
+        "title": "Il nostro team",
+        "subtitle": "Incontra gli esperti dedicati che dirigono l'Associazione tedesca per il benessere medico e portano avanti la nostra missione.",
+        "home": "Casa",
+        "association": "Associazione",
+        "organisation": "Organizzazione",
+        "teamCategories": "Categorie di squadra",
+        "allTeams": "Tutte le squadre",
+        "selectCategory": "Seleziona una categoria",
+        "categories": {
+            "board": "Consiglio DMWV",
+            "medicine": "Medicina e stile di vita",
+            "development": "Sviluppo del progetto, costruzione e tecnologia",
+            "quality": "Gestione della qualità",
+            "training": "Personale e Formazione"
+        }
+    },
+    "expertise": {
+        "title": "La nostra competenza",
+        "subtitle": "L'Associazione Tedesca per il Benessere Medico (DMWV) - Il vostro rappresentante per il Benessere Medico",
+        "breadcrumbs": {
+            "home": "Casa",
+            "association": "Associazione",
+            "expertise": "Competenza"
+        },
+        "areas": {
+            "orientation": {
+                "title": "Orientamento e Forum",
+                "description": "Offre ai consumatori un orientamento in un mercato complesso e offre un forum per operatori, fornitori e progettisti."
+            },
+            "standards": {
+                "title": "Standard di qualità",
+                "description": "Crea standard di qualità basati sui risultati della ricerca in medicina convenzionale, medicina complementare e salutogenesi."
+            },
+            "communication": {
+                "title": "Comunicazione e Promozione",
+                "description": "Comunica con le istituzioni e promuove il concetto di Benessere Medico presso il pubblico."
+            },
+            "research": {
+                "title": "Ricerca sui consumatori",
+                "description": "Conduce ricerche sui consumatori per consentire ai membri di acquisire informazioni preziose sulle tendenze del mercato."
+            }
+        },
+        "commitment": {
+            "title": "Il nostro impegno per l'eccellenza",
+            "list": [
+                "Fornisce ai consumatori un orientamento in un mercato che si presenta come meno trasparente a causa della sua rapida crescita e che travolge facilmente i professionisti non medici a causa della complessità delle sue offerte",
+                "Offre agli operatori, ai fornitori e ai progettisti del mercato del Medical Wellness un forum per raggruppare le loro attività e coordinare i risultati attuali della ricerca e dell'insegnamento; ciò è reso possibile, tra l'altro, dalle pubblicazioni dell'associazione nonché da seminari e corsi di formazione.",
+                "Crea standard di qualità basati sui risultati della ricerca sulla medicina convenzionale, sulla medicina complementare e sulla salutogenesi, in base ai quali i fornitori di Medical Wellness sono certificati, i prodotti sono testati e i termini nel campo del Medical Wellness sono protetti",
+                "Gestisce la comunicazione esterna con istituzioni politiche, autorità e associazioni",
+                "Promuove il concetto di Medical Wellness presso il pubblico attraverso la partecipazione a forum e associazioni idonei nonché attraverso misure di marketing proprie",
+                "Conduce ricerche sui consumatori per i membri"
+            ]
+        },
+        "promotion": {
+            "title": "Promuovere il benessere medico",
+            "description": "Grazie alla nostra competenza e al nostro impegno, ci impegniamo a far progredire il campo del benessere medico, a garantire elevati standard qualitativi e a promuovere approcci innovativi alla salute e al benessere."
+        }
+    },
+    "cooperation": {
+        "title": "Cooperazione",
+        "subtitle": "Le nostre partnership e reti per il benessere medico",
+        "breadcrumbs": {
+            "home": "Casa",
+            "association": "Associazione",
+            "cooperation": "Cooperazione"
+        },
+        "competenceNetworks": {
+            "title": "Le reti di competenza",
+            "description1": "Per garantire il marchio \"Medical Wellness\", l'associazione raggrupperà sistematicamente i risultati del lavoro fondamentale sull'argomento per garantire una definizione chiara e sostenibile del marchio. L'integrazione di aree specialistiche esterne è garantita tramite reti di competenze idonee.",
+            "description2": "L'associazione ottiene risultati simili tramite l'appartenenza a comitati e forum selezionati. Ciò vale in particolare per il rafforzamento previsto dal governo federale del settore della prevenzione.",
+            "imageAlt": "Reti di competenze"
+        },
+        "certification": {
+            "title": "Certificazione e reputazione",
+            "description1": "L'obiettivo è quello di ottenere una reputazione per l'associazione che faccia della designazione \"Certificato/testato dal DMWV\" un marchio distintivo universalmente riconosciuto.",
+            "description2": "A tal fine è stata concordata una collaborazione con TÃœV Rheinland Group per la certificazione dei fornitori di Medical Wellness. Per le aziende classificate secondo la classificazione alberghiera tedesca di DEHOGA (Associazione alberghiera e ristoratrice tedesca), il DMWV assume la classificazione. Può quindi fare a meno di una propria ispezione di questa attività nelle aree coperte dalla classificazione alberghiera tedesca."
+        },
+        "imwa": "Il DMWV è membro dell'International Medical Wellness Association (IMWA)."
+    },
+    "membership": {
+        "title": "Iscrizione",
+        "subtitle": "Scopri i vantaggi dell'iscrizione al DMWV",
+        "breadcrumbs": {
+            "home": "Casa",
+            "association": "Associazione",
+            "membership": "Iscrizione"
+        },
+        "downloads": {
+            "statute": "Statuto DMWV (PDF)",
+            "application": "Modulo di domanda DMWV (PDF)"
+        },
+        "annualFee": "Quota annuale",
+        "benefits": "Benefici",
+        "services": "Servizi",
+        "convinced": "Sei convinto?",
+        "sendApplication": "Inviateci poi via fax o e-mail il modulo di domanda per diventare soci sostenitori del DMWV e.V.",
+        "types": {
+            "privatperson": {
+                "title": "Supporto all'iscrizione per privati",
+                "fee": "250,- Euro",
+                "date": "26 febbraio 2019",
+                "description": "Qualsiasi individuo privato che generalmente si identifica con i principi e gli ideali dell'associazione e desidera essere costantemente informato su Medical Wellness da fonti di prima mano può diventare un membro sostenitore. Il membro beneficia quindi dei vantaggi definiti dell'iscrizione.",
+                "benefits": {
+                    "1": "Sicurezza nella scelta dei prodotti o servizi Medical Wellness",
+                    "2": "Sconti su servizi e prodotti dei nostri soci",
+                    "3": "Consulenza medica professionale e individuale",
+                    "4": "Creazione di un profilo personale",
+                    "5": "Partecipazione a progetti, eventi e corsi di formazione dell'associazione"
+                }
+            },
+            "einpersonen": {
+                "title": "Socio sostenitore di una sola persona per professione",
+                "fee": "900,- Euro",
+                "date": "26 febbraio 2019",
+                "description": "L'iscrizione come socio sostenitore di una singola persona in base a una professione è fondamentalmente aperta a chiunque lavori nel campo medico.",
+                "benefits": {
+                    "1": "Rafforzamento della posizione di mercato attraverso la presenza sotto un marchio ombrello professionale",
+                    "2": "Profilazione nel mercato del Medical Wellness",
+                    "3": "Trasmettere qualità e credibilità",
+                    "4": "Newsletter periodica sugli sviluppi attuali",
+                    "5": "Integrazione nelle misure di marketing dell'associazione"
+                }
+            },
+            "betrieb": {
+                "title": "Supporto per la struttura di benessere medico, spa",
+                "fee": "1.200,- Euro",
+                "date": "26 febbraio 2019",
+                "description": "Le strutture di Medical Wellness che offrono Medical Wellness ai sensi dell'associazione hanno la possibilità di diventare soci sostenitori dell'associazione.",
+                "services": "L'iscrizione come membro di supporto funge da punto di ingresso per la certificazione successiva. Quando si partecipa al processo di certificazione, vengono forniti tutti i documenti necessari.",
+                "benefits": {
+                    "1": "Rafforzamento della posizione di mercato",
+                    "2": "Profilazione nel mercato del Medical Wellness",
+                    "3": "Trasmettere qualità e credibilità",
+                    "4": "Newsletter periodica",
+                    "5": "Integrazione nelle misure di marketing dell'associazione"
+                }
+            },
+            "reiseveranstalter": {
+                "title": "Supporto all'iscrizione per i tour operator",
+                "fee": "1.500,- Euro",
+                "date": "4 maggio 2011",
+                "benefits": {
+                    "1": "Rafforzamento della posizione di mercato",
+                    "2": "Profilazione nel mercato del Medical Wellness",
+                    "3": "Trasmettere qualità e credibilità",
+                    "4": "Accesso alla rete Medical Wellness",
+                    "5": "Newsletter periodica",
+                    "6": "Integrazione nelle misure di marketing dell'associazione"
+                }
+            },
+            "unternehmen": {
+                "title": "Società di produzione di membri di supporto e società di consulenza",
+                "fee": "su richiesta",
+                "date": "26 febbraio 2019",
+                "description": "Per aziende manifatturiere del settore Medical Wellness e società di consulenza.",
+                "benefits": {
+                    "1": "Rafforzamento della posizione di mercato",
+                    "2": "Profilazione nel mercato del Medical Wellness",
+                    "3": "Trasmettere qualità e credibilità",
+                    "4": "Newsletter periodica",
+                    "5": "Integrazione nelle misure di marketing dell'associazione"
+                },
+                "contact": "Per favore chiama: +49 (0) 30 81873 310"
+            },
+            "verbaende": {
+                "title": "Supporto alle Associazioni, Università",
+                "fee": "1.290,- Euro",
+                "date": "26 febbraio 2019",
+                "description": "Per associazioni o università che sostengono il Medical Wellness in senso associativo.",
+                "benefits": {
+                    "1": "Rafforzamento della posizione di mercato",
+                    "2": "Profilazione nel mercato del Medical Wellness",
+                    "3": "Trasmettere qualità e credibilità",
+                    "4": "Accesso alla rete Medical Wellness",
+                    "5": "Newsletter periodica",
+                    "6": "Integrazione nelle misure di marketing dell'associazione"
+                }
+            },
+            "zertifizierung": {
+                "title": "Iscrizione con Certificazione",
+                "fee": "Vedi i dettagli",
+                "date": "26 febbraio 2019",
+                "description": "Le strutture certificate Medical Wellness operano con il logo \"Raccomandato dal DMWV\" in tutte le misure di comunicazione e marketing dell'associazione.",
+                "services": {
+                    "1": "Utilizzo del logo protetto per i soci certificati",
+                    "2": "Profilazione tramite ricezione ed esposizione della targa",
+                    "3": "Consulenza e formazione aziendale competente",
+                    "4": "Sconti sulla formazione e l'aggiornamento professionale",
+                    "5": "Presenza esclusiva su internet",
+                    "6": "Newsletter periodica",
+                    "7": "Partecipazione ad azioni di cross-marketing",
+                    "8": "Networking esclusivo",
+                    "9": "Integrazione in misure di marketing esclusive"
+                }
+            }
+        }
+    },
+    "areasOfExpertise": {
+        "title": "Aree di competenza",
+        "subtitle": "Scopri i nostri diversi ambiti di competenza",
+        "breadcrumbs": {
+            "home": "Casa",
+            "association": "Associazione",
+            "areasOfExpertise": "Aree di competenza"
+        },
+        "areas": {
+            "communication": {
+                "title": "Comunicazione",
+                "description": "Anche il marketing professionale, la pubblicità convincente e le pubbliche relazioni sono essenziali per le operazioni di Medical Wellness. Oggi, è necessaria una comunicazione intensiva e persuasiva per posizionare in modo sostenibile prodotti e servizi sul mercato. Il DMWV vi offre un servizio completo qui."
+            },
+            "network": {
+                "title": "Rete",
+                "description": "Per supportare le aziende che vogliono posizionarsi, specializzarsi o espandersi e assicurarsi la propria posizione di mercato nel mercato del Medical Wellness, il DMWV offre un'ampia rete di competenze. Questa include l'International Medical Wellness Association e l'European Medical Wellness Association. Beneficiate di partecipanti competenti nei settori di marketing, coaching e consulenza, ricerca e sviluppo e servizi sanitari."
+            },
+            "thomasWildey": {
+                "title": "Thomas â€” Wildey â€” Istituto e. V.",
+                "description": "Istituto per la ricerca di base clinica e pratica. La motivazione di adveda è: supportare la medicina convenzionale e complementare in una cooperazione basata sulla partnership su una base orientata agli obiettivi e alle soluzioni. Un sistema sanitario ed educativo equilibrato aiuta a risolvere le sfide imminenti in modo orientato al processo. Il nostro centro è concepito come una piattaforma per il networking, per i pazienti che a volte sono sopraffatti dalla vasta offerta terapeutica di medici, terapisti e professionisti alternativi."
+            },
+            "adveda": {
+                "title": "Avveda",
+                "description": "La motivazione di adveda è: supportare la medicina convenzionale e complementare in una cooperazione basata sulla partnership su una base orientata agli obiettivi e alle soluzioni. Un sistema sanitario ed educativo equilibrato aiuta a risolvere le sfide imminenti in modo orientato al processo. Il nostro centro è concepito come una piattaforma per il networking, per i pazienti che a volte sono sopraffatti dalla vasta offerta terapeutica di medici, terapisti e professionisti alternativi."
+            },
+            "projects": {
+                "title": "Progetti",
+                "description": "Il DMWV sviluppa continuamente nuove offerte e servizi per ampliare le competenze in linea con il mercato. Esempi di ciò sono i marchi premium \"The Leading Medical Wellness Hotels & Resort\" e \"The Leading Medical Wellness Clinics & Spas\" nonché un Medical Wellness Shop, che funge da piattaforma online ottimale per la distribuzione dei loro prodotti e servizi."
+            },
+            "science": {
+                "title": "Scienza",
+                "description": "La nostra offerta formativa comprende sia aspetti fisiologici del lavoro che aspetti psicologici dell'apprendimento e utilizza forme di lavoro ed eventi orientati all'esperienza e all'azione. Vengono presi in considerazione tutti gli interessi del settore della salute e della malattia, dai contenuti di gestione aziendale alla prevenzione, promozione della salute e salutogenesi, sviluppo del personale e garanzia della qualità."
+            }
+        },
+        "holisticApproach": {
+            "title": "Il nostro approccio olistico",
+            "description": "Combiniamo competenze provenienti da diversi settori per creare soluzioni innovative ed efficaci nel settore del Medical Wellness.",
+            "contactUs": "Contattaci"
+        }
+    },
+    "partners": {
+        "title": "I nostri partner",
+        "subtitle": "Scopri le organizzazioni che collaborano con noi per fare la differenza",
+        "breadcrumbs": {
+            "association": "Associazione",
+            "partners": "Partner"
+        },
+        "category": "Categoria",
+        "subcategory": "Sottocategoria",
+        "az": "dalla A alla Z",
+        "searchPlaceholder": "Cerca partner...",
+        "allCategories": "Tutte le categorie",
+        "uncategorized": "Non categorizzato",
+        "all": "Tutto",
+        "subcategoriesTitle": "Sottocategorie",
+        "letters": "Lettere",
+        "learnMore": "Saperne di più",
+        "visitWebsite": "Visita il sito web",
+        "categories": {
+            "Branche A bis Z": "Settore dalla A alla Z",
+            "Unternehmen von A bis Z": "Aziende dalla A alla Z"
+        },
+        "subcategories": {
+            "Bildung": "Istruzione",
+            "Dienstleistung": "Servizio",
+            "Einzelhandel": "Vedere al dettaglio",
+            "Hotellerie": "Ospitalità",
+            "Klinik": "Clinica",
+            "Medizin": "Medicinale",
+            "Reisen": "Viaggio",
+            "Netzwerk": "Rete"
+        },
+        "groups": {
+            "Bildung": "Istruzione",
+            "Dienstleistung": "Servizio",
+            "Einzelhandel": "Vedere al dettaglio",
+            "Hotellerie": "Ospitalità",
+            "Klinik": "Clinica",
+            "Medizin": "Medicinale",
+            "Reisen": "Viaggio",
+            "Netzwerk": "Rete"
+        },
+        "partnerNames": {
+            "akademie-der-gesundheit": "Accademia della Salute",
+            "baltic-college": "Collegio Baltico",
+            "baz": "BAZ",
+            "best-sabel-hochschule": "Università Best-Sabel",
+            "pingou-vital": "Pingou Vitale",
+            "sofi-goettingen": "Istituto di ricerca sociologica di Gottinga",
+            "physiotherapie-schule-ortenau": "Scuola di fisioterapia riconosciuta dallo Stato Ortenau gGmbH",
+            "chi-spa": "CHI SPA",
+            "dermatocosmetics": "dermatocosmetici",
+            "dewea": "Dea",
+            "ibs-mentaltraining": "Allenamento mentale IBS",
+            "omron": "OMRON",
+            "centrovital": "centrovitale",
+            "dmz": "Zona demilitarizzata",
+            "innosenso": "Innosenso",
+            "liviwell": "vivere bene",
+            "medical-wellness-management": "Gestione del benessere medico GmbH",
+            "physiotherapie-lorch": "Fisioterapia Lorch",
+            "tuv-rheinland-group": "Gruppo TÜV Rheinland",
+            "vitadom": "Vitadom",
+            "wedicon": "WEDICON",
+            "yorktest": "Prova di York",
+            "hohenbalance": "equilibrio di altezza",
+            "dr-illing-partner": "Dott. Illing e socio",
+            "premedion": "Premedio",
+            "pacific-wings-consulting": "consulenza ali pacifiche",
+            "quality-spa": "SPA di qualità",
+            "thv-gruppe": "Gruppo THV",
+            "unternehmensberatung-klaus-dribbusch": "Consulenza di Klaus Dribbusch",
+            "thalgo": "Marchio Thalgo",
+            "progenom": "ProGenomica",
+            "healomed": "Guarigione",
+            "terme-dobrna": "Terme Dobrna",
+            "pino-gmbh": "Pino GmbH",
+            "salt-of-life-international-ag": "Sale della vita International AG",
+            "schupp-gmbh": "Azienda Schupp GmbH & Co. KG",
+            "deagecosmetics": "deageCOSMETICI",
+            "his-solution": "Soluzione HIS",
+            "vibb-fit-medical-gmbh": "Vibb-FIT-Medical GmbH",
+            "purity-factor": "Fattore di purezza",
+            "svg": "SVG Medical Systems GmbH & Co. KG",
+            "danubius-health-spa": "Centro benessere Danubius",
+            "hotel-eggensberger": "Hotel Eggensberger",
+            "hotel-elbresidenz-bad-schandau": "Hotel Elbresidenz Bad Schandau",
+            "hotel-monchgut-auf-rugen": "Hotel Mönchgut a Rügen",
+            "oceano-vitality-hotel": "OCÉANO Vitality Hotel & Medical Spa",
+            "rondane-spa-hoytjellshotell": "Rondane Spa Höytjellshotell",
+            "santiburi-golf-resort": "Santiburi Golf & Ocean Resort",
+            "sirona": "Sirona",
+            "medizinisches-zentrum-albena": "Centro medico Albena",
+            "parkhotel-sulzhayn": "Parkhotel Sülzhayn",
+            "dr-wahlmann-und-dr-griesse": "Il dottor Wahlmann e il dottor Grieße",
+            "zentrum-fuer-sportmedizin": "Centro di Medicina Sportiva",
+            "johannesbad-unternehmensgruppe": "Gruppo Johannesbad",
+            "thueringen-kliniken": "Cliniche della Turingia",
+            "michels-kliniken": "Cliniche Michels",
+            "internationale-praevention-organisation": "Organizzazione Internazionale per la Prevenzione e. V.",
+            "berufsverband-deutscher-praeventologinnen-und-praeventologen": "Associazione professionale dei preventologi tedeschi",
+            "proventika": "Proventika",
+            "thomas-wildey-institut": "Thomas â€” Wildey â€” Istituto e. V.",
+            "mediplus-reisen": "Viaggi Mediplus",
+            "shanghai-jin-jiang-tours": "Shanghai Jin Jiang Tours Co. Ltd.",
+            "tourvital": "TourVitale"
+        },
+        "partnerDates": {
+            "akademie-der-gesundheit": "7 marzo 2019",
+            "baltic-college": "7 marzo 2019",
+            "baz": "7 marzo 2019",
+            "best-sabel-hochschule": "7 marzo 2019",
+            "pingou-vital": "7 marzo 2019",
+            "sofi-goettingen": "7 marzo 2019",
+            "physiotherapie-schule-ortenau": "7 marzo 2019",
+            "chi-spa": "7 marzo 2019",
+            "dermatocosmetics": "7 marzo 2019",
+            "dewea": "7 marzo 2019",
+            "ibs-mentaltraining": "7 marzo 2019",
+            "omron": "7 marzo 2019",
+            "centrovital": "7 marzo 2019",
+            "dmz": "7 marzo 2019",
+            "innosenso": "7 marzo 2019",
+            "liviwell": "7 marzo 2019",
+            "medical-wellness-management": "7 marzo 2019",
+            "physiotherapie-lorch": "7 marzo 2019",
+            "tuv-rheinland-group": "7 marzo 2019",
+            "vitadom": "7 marzo 2019",
+            "wedicon": "7 marzo 2019",
+            "yorktest": "7 marzo 2019",
+            "hohenbalance": "7 marzo 2019",
+            "dr-illing-partner": "7 marzo 2019",
+            "premedion": "7 marzo 2019",
+            "pacific-wings-consulting": "7 marzo 2019",
+            "quality-spa": "7 marzo 2019",
+            "thv-gruppe": "7 marzo 2019",
+            "unternehmensberatung-klaus-dribbusch": "7 marzo 2019",
+            "thalgo": "7 marzo 2019",
+            "progenom": "7 marzo 2019",
+            "healomed": "7 marzo 2019",
+            "terme-dobrna": "7 marzo 2019",
+            "pino-gmbh": "7 marzo 2019",
+            "salt-of-life-international-ag": "7 marzo 2019",
+            "schupp-gmbh": "7 marzo 2019",
+            "deagecosmetics": "7 marzo 2019",
+            "his-solution": "7 marzo 2019",
+            "vibb-fit-medical-gmbh": "7 marzo 2019",
+            "purity-factor": "7 marzo 2019",
+            "svg": "7 marzo 2019",
+            "danubius-health-spa": "7 marzo 2019",
+            "hotel-eggensberger": "7 marzo 2019",
+            "hotel-elbresidenz-bad-schandau": "7 marzo 2019",
+            "hotel-monchgut-auf-rugen": "7 marzo 2019",
+            "oceano-vitality-hotel": "7 marzo 2019",
+            "rondane-spa-hoytjellshotell": "7 marzo 2019",
+            "santiburi-golf-resort": "7 marzo 2019",
+            "sirona": "7 marzo 2019",
+            "medizinisches-zentrum-albena": "7 marzo 2019",
+            "parkhotel-sulzhayn": "7 marzo 2019",
+            "dr-wahlmann-und-dr-griesse": "7 marzo 2019",
+            "zentrum-fuer-sportmedizin": "7 marzo 2019",
+            "johannesbad-unternehmensgruppe": "7 marzo 2019",
+            "thueringen-kliniken": "7 marzo 2019",
+            "michels-kliniken": "7 marzo 2019",
+            "internationale-praevention-organisation": "7 marzo 2019",
+            "berufsverband-deutscher-praeventologinnen-und-praeventologen": "7 marzo 2019",
+            "proventika": "7 marzo 2019",
+            "thomas-wildey-institut": "7 marzo 2019",
+            "mediplus-reisen": "7 marzo 2019",
+            "shanghai-jin-jiang-tours": "7 marzo 2019",
+            "tourvital": "7 marzo 2019"
+        },
+        "partnerDescriptions": {
+            "akademie-der-gesundheit": "L'Accademia della Salute di Berlino/Brandeburgo e. V. riconosciuta dallo Stato con sedi a Berlino-Buch, Eberswalde e Bad Saarow è una delle più grandi istituzioni educative private per i servizi sanitari e sociali in Germania. L'accademia attualmente gestisce un Centro di Formazione Professionale con 12 professioni formative riconosciute e un Centro di Formazione Professionale Avanzata. In totale, il personale dell'accademia supporta 1050 partecipanti alla formazione.",
+            "baltic-college": "Il Baltic College è la prima università privata per la gestione, l'ospitalità, il turismo e il turismo sanitario nel Meclemburgo-Pomerania Anteriore. Fondata nel 2001, la giovane e dinamica università offre ai suoi studenti l'opportunità di completare un corso di studi impegnativo e prepararsi per una posizione di responsabilità nel mondo degli affari e della società.",
+            "baz": "Dal 1986, il BAZ di Amburgo ha formato più di 2500 laureati, il che lo rende di gran lunga l'istituto di formazione per informatori scientifici del settore farmaceutico di maggior successo nella Germania settentrionale.",
+            "best-sabel-hochschule": "Studiare alla BEST-Sabel University Berlin unisce i vantaggi dello studio privato con la laurea di un'università statale, il Bachelor of Arts (B.A.) internazionale e accreditato. Orientati a livello internazionale, attuali e orientati alla pratica, i programmi di Bachelor forniscono le basi importanti per una carriera professionale nella gestione di aziende e società che operano a livello internazionale.",
+            "pingou-vital": "Il centro di salute energetica Pingou Vital offre programmi di trattamento personalizzati basati sulla teoria cinese dei cinque elementi per gli ambiti \"salute e benessere\" e \"vitalità fino alla vecchiaia\".",
+            "sofi-goettingen": "Il Sociological Research Institute Göttingen (SOFI) è stato fondato nel 1968 come istituto non commerciale affiliato all'università. La forma giuridica è un'associazione senza scopo di lucro registrata. Gli obiettivi dell'istituto sono determinati dalla comprensione scientifica della ricerca di base applicata.",
+            "physiotherapie-schule-ortenau": "Collaborazione con colleghi francesi in numerose cliniche in Alsazia. Nella comunità del villaggio di Eckartsweier, beneficiamo dell'ambiente idilliaco e rurale. È nostra preoccupazione trasmettere una solida conoscenza teorica e competenze pratiche agli studenti, nonché modellare il profilo della personalità del fisioterapista.",
+            "chi-spa": "Tra Werbellinsee e Grimnitzsee nella Schorfheide vicino a Berlino, si trova 'chi spa' Wellness â€” Beauty â€” Health. Qui viene offerta una prevenzione olistica della salute in relazione a benessere, cura e bellezza.",
+            "dermatocosmetics": "Dietro l'istituto dermatocosmetics for Perfect Skin and Medical Wellness c'è il rinomato studio dermatologico della dott. ssa Dagmar Ludolph-Hauser e colleghi. Le competenze dermatologiche all'avanguardia sono alla base dei moderni metodi di trattamento dell'istituto.",
+            "dewea": "Offrire un servizio completo a condizioni ragionevoli è la preoccupazione dell'agenzia pubblicitaria tedesca dewea. Il piccolo nucleo di dipendenti qualificati e motivati, che possono contare su una moltitudine di partner liberi e specialisti comprovati a seconda delle esigenze, consente a dewea di offrire soluzioni su misura mantenendo bassi i costi.",
+            "ibs-mentaltraining": "Il meta-obiettivo dell'allenamento mentale IBS è promuovere la stabilità emotiva in tutti gli ambiti della vita. L'allenamento mentale come supplemento all'allenamento pratico è da tempo un concetto, soprattutto nello sport. Tecniche come la concentrazione rilassata, la visualizzazione e il controllo del dialogo interiore possono essere applicate in tutti gli ambiti della vita.",
+            "omron": "Quando si tratta di tecnologia medica intelligente e pratica, la società tecnologica internazionale OMRON è all'avanguardia. Per decenni, OMRON è stata un pioniere nei dispositivi medico-tecnici.",
+            "centrovital": "L'Hotel centrovital Berlin unisce Medical Wellness, bagni termali, conferenze e palestra a Spandauer See. Il centro sanitario offre programmi di trattamento olistici con metodi di guarigione classici e alternativi. Riabilitazione ambulatoriale, fisioterapia, cardiologia, terapia di rafforzamento medico e consulenza nutrizionale completano l'offerta.",
+            "dmz": "Il German Medical Center DMZ con offerte termali, riabilitative e sanitarie presso il Mar Morto in Israele è la clinica contrattuale delle compagnie assicurative sanitarie tedesche, della German Pension Insurance Central Germany e di altri istituti assicurativi statali. Grazie alla costante espansione dell'offerta medica e terapeutica e ai costanti contributi alla garanzia della qualità, il DMZ è stato in grado di creare un moderno centro terapeutico con un concetto di terapia olistica.",
+            "innosenso": "La consulenza aziendale Innosenso per l'elettrobiologia è specializzata nella consulenza, pianificazione e implementazione di misure di protezione della salute elettrobiologica nel campo della riduzione dell'elettrosmog. Per l'industria alberghiera, nonché per centri sanitari, cliniche private e pensioni, Innosenso pone accenti importanti nel mercato in crescita del benessere con l'innovativo concetto di protezione della salute Sensual Living â€” Healthier Living, Living & Working e pone così una pietra miliare in termini di sostenibilità nel turismo.",
+            "liviwell": "Il campo di attività della società liviwell consiste nel combinare tecnologie moderne con le esigenze personali di una dieta sana ed equilibrata. Il concetto che ne deriva, costituito da analisi metabolica CRSÂ® e micronutrienti su misura, costituisce la base qui. L'obiettivo è quello di offrire un metodo di analisi conveniente e di supportare le esigenze risultanti di ogni individuo con sostanze vitali selezionate.",
+            "medical-wellness-management": "MWM Medical Wellness Management GmbH integra i comitati consultivi DMWV dei settori medicina, benessere, architettura e pianificazione, sviluppo e formazione del personale, sistemi di qualità, marketing e vendite, pubbliche relazioni, amministrazione aziendale e consulenza all'interno della propria piattaforma di azione neutrale negli ordini acquisiti. Questi vettori di competenza sono integrati dalle risorse proprie di MWM e, se necessario, da altri specialisti esterni.",
+            "physiotherapie-lorch": "Il Centro di Fisioterapia Lorch è uno studio specializzato in fisioterapia, benessere medico, riabilitazione e prevenzione.",
+            "tuv-rheinland-group": "In qualità di gruppo di servizi internazionale, il TÜV Rheinland Group documenta la sicurezza e la qualità di prodotti, sistemi e servizi nuovi ed esistenti.",
+            "vitadom": "Da oltre 20 anni, Vitadom progetta e realizza con successo strutture per il benessere in hotel, spa e strutture sanitarie. Il settore del benessere è soggetto a continui cambiamenti e sviluppi fino ad oggi. Vitadom risponde ai desideri individuali dei clienti con idee innovative, conoscenze specialistiche approfondite e metodi di lavoro strutturati.",
+            "wedicon": "WEDICON si occupa intensamente di metodi di trattamento non invasivi e micronutrienti naturali per stimolare i poteri di autoguarigione del corpo. Così facendo, WEDICON guarda oltre il mercato sanitario tradizionale e colma il divario tra medicina convenzionale applicata e medicina alternativa a beneficio delle persone. Con una combinazione unica di applicazioni mediche efficienti e prodotti naturali, WEDICON ti supporta nel raggiungimento di maggiore armonia e qualità della vita.",
+            "yorktest": "Quando il cibo sano ti fa ammalare... Le intolleranze alimentari (IF) sono tra i fattori scatenanti più diffusi per una serie di disturbi che compromettono il nostro benessere. Secondo le ultime scoperte scientifiche, un cittadino dell'Europa centrale su cinque soffre di un'IF. Yorktest offre la possibilità di confermare o escludere in anticipo la presenza di un'IF tramite il test: FoodSCAN Indicator e consiglia i test: FoodSCAN Totality o FoodSCAN Quality in caso di risultato positivo del test Indicator.",
+            "hohenbalance": "Allenamento in quota: montagne artificiali nello sport e nella terapia! Höhenbalance AG, leader di mercato europeo nel campo dei concetti di allenamento in quota, offre ai propri clienti la migliore tecnologia possibile. Ciò è reso possibile dalla stretta collaborazione con diverse aziende fornitrici (Hypoxico, b-cat, Alto2Lab e go2altitude), che offrono diversi sistemi di allenamento in quota. Il team interdisciplinare sotto la direzione medico-scientifica del Prof. Dr. Hermann Buhl supporta i clienti nei settori della prevenzione e della terapia, nonché gli atleti e gli appassionati di sport alpini che si allenano per la prossima competizione o il prossimo tour di trekking. Höhenbalance convince con procedure diagnostiche all'avanguardia per lo sport e metodi altamente attuali nel campo del sovrappeso e di altre malattie della civiltà.",
+            "dr-illing-partner": "Indipendentemente dal successo e dalla durata dell'esistenza dell'azienda, a un certo punto sorge la necessità di cambiare qualcosa. Ciò può comportare un investimento di espansione, un nuovo orientamento di mercato (riposizionamento) o semplicemente un'analisi IS dello stato attuale per identificare la necessità di un'azione per il futuro. In queste situazioni, entrano in gioco le aziende TDC e prof. fh dr. illing & partner.",
+            "premedion": "Premedion è lo specialista per la consulenza completa, lo sviluppo su misura e l'implementazione professionale di progetti e concetti nei settori Health & SPA Business. Fa parte del gruppo di aziende Deutsche Seereederei ed è azionista di maggioranza del Medical Prevention Center Hamburg (MPCH).",
+            "pacific-wings-consulting": "Specializzata in servizi di consulenza nel settore turistico, Pacific Wings Consulting offre supporto e assistenza per destinazioni turistiche, hotel e tour operator. In un contesto di mercato sempre più dinamico, la qualità del servizio, la gestione del credito e lo sviluppo e la formazione dei dipendenti sono tra i fattori più importanti per poter competere con successo sul mercato. Pacific Wings Consulting ti offre un'ampia gamma di strumenti e opportunità per migliorare la tua presenza sul mercato.",
+            "quality-spa": "QUALITY SPA crea concetti operativi e progettuali per strutture wellness, spa e sanitarie e fornisce supporto in tutte le fasi di sviluppo strutturale ed economico.",
+            "thv-gruppe": "Il gruppo THV comprende THV Versicherungsmakler GmbH, Paetau Sports Versicherungsmakler GmbH e THS Services Versicherungsvermittlung GmbH. Tutte e tre le aziende sono impegnate professionalmente in tutte le questioni di identificazione e protezione del rischio per conto dei loro clienti. I loro servizi includono: analisi, consulenza e ottimizzazione dei contratti assicurativi esistenti, nuove soluzioni assicurative innovative, gestione sostenibile di contratti e sinistri, soluzioni IT e di outsourcing.",
+            "unternehmensberatung-klaus-dribbusch": "Lo studio di consulenza Klaus Dribbusch, specializzato in pianificazione aziendale e controllo di gestione, nonché gestione dei documenti e gestione dei processi, vi consiglia e supporta su tutte le questioni relative alla gestione economica aziendale della vostra azienda o istituzione.",
+            "thalgo": "THALGO è un gruppo attivo a livello mondiale, presente in 85 paesi, ed è diventato sinonimo di qualità e autenticità nei trattamenti e nei prodotti a base di mare. L'azienda ricerca, sviluppa, testa e produce presso la sua sede centrale a Roquebrune-sur-Argens sulla Costa Azzurra e continua a espandersi in nuovi mercati attraverso un'innovazione costante.",
+            "progenom": "ProGenom offre analisi genetiche nei reparti medici dei suoi hotel partner Medical Wellness e con medici partner. Lavorano all'interno di una rete di rinomati medici, scienziati naturali, genetisti umani e biologi molecolari, utilizzando le ultime scoperte scientifiche nei sistemi di test medici preventivi.",
+            "healomed": "Healomed GmbH, con sede a Monaco, è un'azienda attiva a livello internazionale specializzata nella distribuzione di prodotti medicali, in particolare dispositivi a impulsi magnetici. In qualità di importatore generale del generatore di campo elettromagnetico PEMF-100 di PEMF Systems Incorporated, è responsabile della sua distribuzione in Germania, Austria e Svizzera.",
+            "terme-dobrna": "Terme Dobrna è uno dei centri termali più antichi della Slovenia. L'acqua termale di Dobrna è nota da secoli per i suoi effetti curativi. Oggi, Terme Dobrna è un moderno centro benessere che unisce la tradizione alle più recenti conoscenze mediche.",
+            "pino-gmbh": "PINO GmbH è un produttore di prodotti per massaggi e terapia di alta qualità. Da oltre 30 anni, l'azienda sviluppa e produce soluzioni innovative per la fisioterapia, il benessere e lo sport.",
+            "salt-of-life-international-ag": "I sistemi FREELAXX FLOATING sono l'ultimo prodotto di SALT OF LIFE TECHNOLOGY GMBH, che appartiene alla svizzera SALT OF LIFE AG. Da oltre 15 anni, le aziende di SALT OF LIFE AG sviluppano applicazioni pratiche nel campo delle terapie con bagno/luce per le malattie croniche della pelle.",
+            "schupp-gmbh": "In qualità di fornitore completo nei settori della fisioterapia, della terapia di formazione medica e del benessere, Schupp GmbH & Co KG offre tutto il necessario per un trattamento di successo: dalle attrezzature come lettini per trattamenti, apparecchi MTT o radiatori a infrarossi ai preparati come sostanze per massaggi, fanghi e additivi per il bagno, fino all'organizzazione dello studio con agende per appuntamenti e cartelle cliniche dei pazienti.",
+            "deagecosmetics": "deageCOSMETICS â€” contro i segni del tempo â€” rappresenta le creazioni cosmetiche più moderne e naturali ed è garanzia di qualità e competenza nello sviluppo. La loro gamma si basa sui risultati di anni di intensa ricerca ed è specificamente studiata per le esigenze individuali.",
+            "his-solution": "HIS-Solution, azienda leader in Germania, offre uno dei più moderni sistemi software configurabili individualmente per la pianificazione degli appuntamenti nel settore SPA-Vital-Beauty-Wellness.",
+            "vibb-fit-medical-gmbh": "vibb-FIT-medical GmbH fornisce dispositivi di vibrazione a clienti, ospiti o pazienti, offrendo loro la possibilità di migliorare salute, forma fisica, benessere e bellezza. Proprio come ogni persona è diversa, con esigenze e requisiti unici, la tua isola di benessere di vibrazione deve essere progettata individualmente.",
+            "purity-factor": "Purity Factor è una piattaforma di distribuzione per TriSerumÂ®, una cura completa di 30 giorni per un trattamento antirughe permanente che funziona come una fonte naturale di giovinezza. È composto da alcuni degli ingredienti più ambiti nel settore cosmetico: acido ialuronico, collagene e aminoacidi.",
+            "svg": "Sin dalla sua fondazione nel 1997, SVG Medizinsysteme GmbH & Co. KG si è basata sul principio di ispirare attraverso prestazioni elevate e il miglior servizio. Come uno dei principali fornitori di gamma completa nei paesi di lingua tedesca, offre oltre 2.000 articoli, molti dei quali disponibili direttamente in magazzino.",
+            "danubius-health-spa": "Benvenuti a Danubius, il più grande e più esperto gestore di hotel termali d'Europa! Hanno specializzato i loro servizi terapeutici e di benessere sugli effetti curativi e rilassanti delle risorse naturali della terra. Investi nella tua salute e visita uno dei loro lussuosi hotel termali.",
+            "hotel-eggensberger": "L'Hotel Eggensberger è la prima struttura Medical Wellness certificata TÃœV in Germania. Come hotel biologico e wellness con centro terapeutico e certificazione ISO 9001:2000, offre processi multidimensionali, dinamico-sistematici che vanno di pari passo con la produzione di un benessere individuale olistico nel contesto di fattori medici o di promozione della salute scientificamente provati.",
+            "hotel-elbresidenz-bad-schandau": "Per chi vuole godersi la natura e la cultura nella Svizzera sassone e nelle città circostanti, Bad Schandau è il posto da visitare. Offre un paesaggio incantevole per gli amanti della natura, diversità culturale di tutti i generi e puro relax, opzionalmente combinabile con la prevenzione medica.",
+            "hotel-monchgut-auf-rugen": "Il nuovo hotel benessere e spa è immerso nel parco del Waldhotel, circondato da un paesaggio con oltre 15.000 rose, e offre una magnifica vista sul Mar Baltico e un accesso diretto alla passeggiata color ambra.",
+            "oceano-vitality-hotel": "Nel verde e tranquillo nord di Tenerife, nel piccolo villaggio di pescatori di Punta del Hidalgo, si trova l'OCÃ‰ANO Vitality Hotel & Medical Spa, a gestione privata, il primo Medical Wellness Hotel certificato in Spagna. La vista diretta sulla vastità dell'oceano e i tramonti da sogno possono essere ammirati da ogni camera.",
+            "rondane-spa-hoytjellshotell": "La Rondane Spa, con la sua posizione unica alle porte del Rondane National Park, offre di tutto, dalle escursioni in montagna al rafting nei fiumi selvaggi di montagna. L'area benessere dell'hotel è la conclusione perfetta dopo le esperienze della giornata.",
+            "santiburi-golf-resort": "Santiburi è un esclusivo complesso di ville sulla spiaggia privata lunga 3 km della pittoresca Mae Nam Beach. Presenta la classica architettura thailandese in un giardino botanico unico, membro di \"The Leading Small Hotels of the World\".",
+            "sirona": "L'associazione internazionale per la balneologia e il turismo \"SIRONA\" è specializzata in progetti di investimento, costruzione e gestione di complessi balneari residenziali e alberghieri, con un programma per la balneoterapia e il turismo montano.",
+            "medizinisches-zentrum-albena": "La località balneare di Albena, sulla costa bulgara del Mar Nero, offre 14.900 posti letto in 43 hotel e 5 complessi di ville, oltre a più di 100 ristoranti, centri benessere e spa, nonché numerose strutture sportive e di intrattenimento.",
+            "parkhotel-sulzhayn": "Il Parkhotel Sülzhayn si trova nella città termale di Sülzhayn, sul margine meridionale dei Monti Harz. Circondato da foreste miste e prati montani, offre un ambiente ideale per il relax e le vacanze attive, con numerose mete escursionistiche nelle vicinanze.",
+            "dr-wahlmann-und-dr-griesse": "Il Dott. Wahlmann e i suoi partner sono specialisti affermati e leader dell'innovazione in vari campi dell'odontoiatria, nonché dell'estetica dentale e dell'odontoiatria cosmetica.",
+            "zentrum-fuer-sportmedizin": "Vorresti conoscere il tuo stato di salute e forma fisica? Vorresti ottimizzare il tuo allenamento o fare qualcosa per la tua salute attraverso lo sport? Il Center for Sports Medicine ha l'offerta giusta per te in ogni caso.",
+            "johannesbad-unternehmensgruppe": "Il Johannesbad Group è un fornitore di successo di servizi medici e orientati alla salute con nove sedi in tre paesi europei. Con quasi 1.300 dipendenti, il gruppo è uno dei più grandi nel settore sanitario.",
+            "thueringen-kliniken": "La ThÃ¼ringen-Kliniken \"Georgius-Agricola\" Saalfeld-Rudolstadt GmbH si considera un ospedale per cure avanzate. Dal 1991, la società ha la forma giuridica di una GmbH, il cui unico azionista è il distretto di Saalfeld-Rudolstadt. La ThÃ¼ringen-Kliniken Saalfeld-Rudolstadt GmbH è uno degli ospedali universitari della Friedrich-Schiller-Universität Jena.",
+            "michels-kliniken": "Nelle nostre cliniche di riabilitazione nelle zone della Sassonia, Berlino-Brandeburgo e Bassa Sassonia offriamo servizi di riabilitazione nei settori della neurologia, ortopedia, cardiologia, pneumologia, dermatologia, pediatria e psicosomatica.",
+            "internationale-praevention-organisation": "Fondata nel 1992, l'IPO è oggi la più grande rete indipendente non-profit per la comunicazione sanitaria in Europa. La competenza interdisciplinare per la presentazione di importanti complessi di argomenti nel mercato sanitario è della massima importanza. L'attenzione è rivolta alla produzione di varie piattaforme per la presentazione di importanti sviluppi nella politica sanitaria, nella medicina, nella scienza e nell'economia. Per il cambiamento strutturale nel sistema sanitario, verso una chiara economia sanitaria, l'IPO sviluppa approcci di soluzioni orientati al futuro per tutti i partner.",
+            "berufsverband-deutscher-praeventologinnen-und-praeventologen": "La Professional Association of German Preventologists e.V. è una rete di persone impegnate nella prevenzione e nella promozione della salute. I preventologi sono coraggiosi pionieri di nuovi modi di pensare e agire nell'affrontare i problemi di salute del nostro tempo e della nostra società.",
+            "proventika": "La Proventika Academy si è posta l'obiettivo di trasmettere le nuove scoperte della ricerca sul cervello, delle neuroscienze e della neuromedicina a medici, assistenti medici, coach e formatori interessati in modo pertinente alla pratica. A questo scopo, in collaborazione con il German Institute for Integrative Neuromedicine e.V. (DINM), sono stati sviluppati contenuti didattici e programmi di studio che consentono un'implementazione qualificata della consulenza sullo stress integrativo e della medicina dello stress, dello stress integrativo e del neuro-coaching nelle attività mediche e professionali.",
+            "thomas-wildey-institut": "Istituto per la ricerca di base clinica e pratica. Nel 1977, il Thomas-Wildey-Institute è stato fondato dal dott. Karl Daxl a Monaco, che ha dedicato il suo lavoro a nuovi percorsi in medicina. Il TWI annovera ora tra i suoi membri numerosi medici, istituzioni, centri di ricerca e persone provenienti dalle più diverse direzioni e raggruppamenti medici, economici, sociali, societari e politici, i quali danno tutti i rispettivi contributi per sviluppare ulteriormente il futuro della nostra società in un modo compatibile con l'uomo in medicina.",
+            "mediplus-reisen": "Mediplus Travel coniuga vacanza e salute in un'esperienza di viaggio olistica per corpo, mente e anima attraverso il suo concetto unico.",
+            "shanghai-jin-jiang-tours": "Shanghai China International Travel Service Co., Ltd è stata fondata nel 1994. Da allora, le azioni CITS B sono state quotate alla Borsa di Shanghai. La società è uno dei maggiori fornitori di servizi di viaggio professionali in Cina.",
+            "tourvital": "TOUR VITAL è lo specialista per viaggi con accompagnamento medico in tutto il mondo. Oltre 400 medici viaggiano con i nostri ospiti ogni anno. Viaggi selezionati di spa e benessere, crociere fluviali e oceaniche, vacanze di lunga durata e viaggi in città completano l'offerta."
+        },
+        "backToPartners": "Torna ai partner"
+    },
+    "SearchModal": {
+        "SearchPlaceholder": "Ricerca...",
+        "SearchResults": "Risultati della ricerca",
+        "StartTyping": "Inizia a digitare per cercare...",
+        "SearchModalTitle": "Ricerca",
+        "SearchModalDescription": "Inserisci la tua query di ricerca per trovare contenuti sul nostro sito web.",
+        "SearchingFor": "Ricerca per: {query}",
+        "SearchTip": "Prova a cercare argomenti come \"benessere\", \"certificazione\" o \"partner\""
+    },
+    "Footer": {
+        "description": "La German Medical Wellness Association (DMWV) è l'associazione professionale per il Medical Wellness in Germania. Ci impegniamo per la garanzia della qualità e l'ulteriore sviluppo del Medical Wellness.",
+        "newsletterTitle": "Iscriviti alla Newsletter",
+        "emailPlaceholder": "Il tuo indirizzo di posta elettronica",
+        "subscribe": "Iscriviti",
+        "quickLinks": "Collegamenti rapidi",
+        "menuItems": [
+            {
+                "name": "Casa",
+                "href": "/"
+            },
+            {
+                "name": "Notizia",
+                "href": "/news"
+            },
+            {
+                "name": "Associazione",
+                "href": "/verband/organisation"
+            },
+            {
+                "name": "Certificazione",
+                "href": "/zertifizierung"
+            },
+            {
+                "name": "Benessere medico",
+                "href": "/medical-wellness"
+            },
+            {
+                "name": "Pianificazione",
+                "href": "/planning"
+            }
+        ],
+        "Home": "Casa",
+        "News": "Notizia",
+        "Association": "Associazione",
+        "Certification": "Certificazione",
+        "MedicalWellness": "Benessere medico",
+        "Planning": "Pianificazione",
+        "contact": "Contatto",
+        "address": "Heideläuferweg 75a, 12353 Berlino",
+        "phone": "+49 30 8973 5139",
+        "email": "info@dmwv.de",
+        "aboutUs": "Chi siamo",
+        "aboutUsDescription": "Il DMWV si impegna a promuovere la salute e il benessere attraverso l'integrazione del Medical Wellness. Offriamo certificazioni di settore, guida e supporto per le aziende del settore del turismo sanitario.",
+        "learnMore": "Saperne di più",
+        "copyright": "© {anno} Associazione tedesca per il benessere medico. Tutti i diritti riservati.",
+        "imprint": "Impronta",
+        "privacy": "politica sulla riservatezza",
+        "terms": "Termini e Condizioni"
+    }
+}
