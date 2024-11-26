@@ -105,9 +105,9 @@
         "ourExperts": "Uzmanlarımız",
         "teamTitle": "DMWV Ekibi",
         "teamDescription": "Alman Tıbbi Sağlık Derneği'ni yöneten ve misyonumuzu ileriye taşıyan özverili uzmanlarla tanışın.",
-        "memberImageAlt": "{isim} portresi",
+        "memberImageAlt": "{name} portresi",
         "linkedinAria": "{name} adlı kişinin LinkedIn profili",
-        "twitterAria": "{isim} adlı kişinin Twitter profili",
+        "twitterAria": "{name} adlı kişinin Twitter profili",
         "members": [
             {
                 "position": "1. Başkan",
