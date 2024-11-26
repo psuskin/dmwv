@@ -881,30 +881,12 @@
         "subscribe": "Подписаться",
         "quickLinks": "Быстрые ссылки",
         "menuItems": [
-            {
-                "name": "Дом",
-                "href": "/"
-            },
-            {
-                "name": "Новости",
-                "href": "/news"
-            },
-            {
-                "name": "Ассоциация",
-                "href": "/verband/organisation"
-            },
-            {
-                "name": "Сертификация",
-                "href": "/zertifizierung"
-            },
-            {
-                "name": "Медицинское благополучие",
-                "href": "/medical-wellness"
-            },
-            {
-                "name": "Планирование",
-                "href": "/planning"
-            }
+            { "name": "Home", "href": "/" },
+            { "name": "News", "href": "/news" },
+            { "name": "Verband", "href": "/verband/organisation" },
+            { "name": "Zertifizierung", "href": "/zertifizierung" },
+            { "name": "Medical Wellness", "href": "/medical-wellness" },
+            { "name": "Planung", "href": "/planning" }
         ],
         "Home": "Дом",
         "News": "Новости",

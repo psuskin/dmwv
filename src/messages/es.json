@@ -881,30 +881,12 @@
         "subscribe": "Suscribir",
         "quickLinks": "Enlaces rápidos",
         "menuItems": [
-            {
-                "name": "Hogar",
-                "href": "/"
-            },
-            {
-                "name": "Noticias",
-                "href": "/news"
-            },
-            {
-                "name": "Asociación",
-                "href": "/verband/organisation"
-            },
-            {
-                "name": "Proceso de dar un título",
-                "href": "/zertifizierung"
-            },
-            {
-                "name": "Bienestar médico",
-                "href": "/medical-wellness"
-            },
-            {
-                "name": "Planificación",
-                "href": "/planning"
-            }
+            { "name": "Home", "href": "/" },
+            { "name": "News", "href": "/news" },
+            { "name": "Verband", "href": "/verband/organisation" },
+            { "name": "Zertifizierung", "href": "/zertifizierung" },
+            { "name": "Medical Wellness", "href": "/medical-wellness" },
+            { "name": "Planung", "href": "/planning" }
         ],
         "Home": "Hogar",
         "News": "Noticias",

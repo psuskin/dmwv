@@ -881,30 +881,12 @@
         "subscribe": "Iscriviti",
         "quickLinks": "Collegamenti rapidi",
         "menuItems": [
-            {
-                "name": "Casa",
-                "href": "/"
-            },
-            {
-                "name": "Notizia",
-                "href": "/news"
-            },
-            {
-                "name": "Associazione",
-                "href": "/verband/organisation"
-            },
-            {
-                "name": "Certificazione",
-                "href": "/zertifizierung"
-            },
-            {
-                "name": "Benessere medico",
-                "href": "/medical-wellness"
-            },
-            {
-                "name": "Pianificazione",
-                "href": "/planning"
-            }
+            { "name": "Home", "href": "/" },
+            { "name": "News", "href": "/news" },
+            { "name": "Verband", "href": "/verband/organisation" },
+            { "name": "Zertifizierung", "href": "/zertifizierung" },
+            { "name": "Medical Wellness", "href": "/medical-wellness" },
+            { "name": "Planung", "href": "/planning" }
         ],
         "Home": "Casa",
         "News": "Notizia",

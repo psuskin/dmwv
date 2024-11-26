@@ -881,30 +881,12 @@
         "subscribe": "Abone",
         "quickLinks": "Hızlı Bağlantılar",
         "menuItems": [
-            {
-                "name": "Ev",
-                "href": "/"
-            },
-            {
-                "name": "Haberler",
-                "href": "/news"
-            },
-            {
-                "name": "Dernek",
-                "href": "/verband/organisation"
-            },
-            {
-                "name": "Sertifikasyon",
-                "href": "/zertifizierung"
-            },
-            {
-                "name": "Tıbbi Sağlık",
-                "href": "/medical-wellness"
-            },
-            {
-                "name": "Planlama",
-                "href": "/planning"
-            }
+            { "name": "Home", "href": "/" },
+            { "name": "News", "href": "/news" },
+            { "name": "Verband", "href": "/verband/organisation" },
+            { "name": "Zertifizierung", "href": "/zertifizierung" },
+            { "name": "Medical Wellness", "href": "/medical-wellness" },
+            { "name": "Planung", "href": "/planning" }
         ],
         "Home": "Ev",
         "News": "Haberler",

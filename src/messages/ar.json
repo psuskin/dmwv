@@ -881,30 +881,12 @@
         "subscribe": "يشترك",
         "quickLinks": "روابط سريعة",
         "menuItems": [
-            {
-                "name": "بيت",
-                "href": "/"
-            },
-            {
-                "name": "أخبار",
-                "href": "/news"
-            },
-            {
-                "name": "منظمة",
-                "href": "/verband/organisation"
-            },
-            {
-                "name": "شهادة",
-                "href": "/zertifizierung"
-            },
-            {
-                "name": "العافية الطبية",
-                "href": "/medical-wellness"
-            },
-            {
-                "name": "تخطيط",
-                "href": "/planning"
-            }
+            { "name": "Home", "href": "/" },
+            { "name": "News", "href": "/news" },
+            { "name": "Verband", "href": "/verband/organisation" },
+            { "name": "Zertifizierung", "href": "/zertifizierung" },
+            { "name": "Medical Wellness", "href": "/medical-wellness" },
+            { "name": "Planung", "href": "/planning" }
         ],
         "Home": "بيت",
         "News": "أخبار",
