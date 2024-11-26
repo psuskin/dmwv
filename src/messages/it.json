@@ -34,11 +34,11 @@
         "description": "Il tuo partner di fiducia per la salute olistica, la vitalità e la qualità della vita. Scopri il futuro del benessere con noi.",
         "learnMore": "Saperne di più",
         "becomeMember": "Diventa un membro",
-        "memberImageAlt": "Membro {numero}",
+        "memberImageAlt": "Membro {number}",
         "memberCount": "Oltre 500+ membri soddisfatti",
         "previousSlide": "Diapositiva precedente",
         "nextSlide": "Diapositiva successiva",
-        "goToSlide": "Vai alla diapositiva {numero}",
+        "goToSlide": "Vai alla diapositiva {number}",
         "slide1": {
             "title": "Salute olistica",
             "description": "Scopri i nostri approcci innovativi per il tuo benessere."
@@ -105,9 +105,9 @@
         "ourExperts": "I nostri esperti",
         "teamTitle": "Il team DMWV",
         "teamDescription": "Incontra gli esperti dedicati che dirigono l'Associazione tedesca per il benessere medico e portano avanti la nostra missione.",
-        "memberImageAlt": "Ritratto di {nome}",
-        "linkedinAria": "Profilo LinkedIn di {nome}",
-        "twitterAria": "Profilo Twitter di {nome}",
+        "memberImageAlt": "Ritratto di {name}",
+        "linkedinAria": "Profilo LinkedIn di {name}",
+        "twitterAria": "Profilo Twitter di {name}",
         "members": [
             {
                 "position": "1° Presidente",
