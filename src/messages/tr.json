@@ -34,11 +34,11 @@
         "description": "Bütünsel sağlık, canlılık ve yaşam kalitesi için güvendiğiniz ortağınız. Bizimle refahın geleceğini keşfedin.",
         "learnMore": "Daha fazla bilgi edin",
         "becomeMember": "Üye Ol",
-        "memberImageAlt": "Üye {numara}",
+        "memberImageAlt": "Üye {number}",
         "memberCount": "500'den fazla memnun üye",
         "previousSlide": "Önceki slayt",
         "nextSlide": "Sonraki slayt",
-        "goToSlide": "{numara} numaralı slayda git",
+        "goToSlide": "{number} numaralı slayda git",
         "slide1": {
             "title": "Bütünsel Sağlık",
             "description": "Refahınıza yönelik yenilikçi yaklaşımlarımızı keşfedin."
