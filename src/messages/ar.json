@@ -105,7 +105,7 @@
         "ourExperts": "خبرائنا",
         "teamTitle": "فريق DMWV",
         "teamDescription": "تعرف على الخبراء المتفانين الذين يقودون جمعية العافية الطبية الألمانية ويقودون مهمتنا إلى الأمام.",
-        "memberImageAlt": "صورة {الاسم}",
+        "memberImageAlt": "صورة {name}",
         "linkedinAria": "الملف الشخصي لـ {name} على LinkedIn",
         "twitterAria": "الملف الشخصي لـ {name} على تويتر",
         "members": [
