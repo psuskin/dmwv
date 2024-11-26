@@ -34,7 +34,7 @@
         "description": "شريكك الموثوق به في الصحة الشاملة والحيوية وجودة الحياة. اكتشف مستقبل العافية معنا.",
         "learnMore": "يتعلم أكثر",
         "becomeMember": "كن عضوا",
-        "memberImageAlt": "عضو {رقم}",
+        "memberImageAlt": "عضو {number}",
         "memberCount": "أكثر من 500 عضو راضٍ",
         "previousSlide": "الشريحة السابقة",
         "nextSlide": "الشريحة التالية",
