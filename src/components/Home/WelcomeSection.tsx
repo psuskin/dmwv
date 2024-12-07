@@ -4,10 +4,11 @@ import React from "react";
 import Image from "next/image";
 import { ArrowRight, Heart, Shield, Zap } from "lucide-react";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const WelcomeSection: React.FC = () => {
   const t = useTranslations("WelcomeSection");
+  const locale = useLocale();
 
   const stats = [
     { icon: Heart, value: "10,000+", label: "statsClients" },
@@ -100,7 +101,7 @@ const WelcomeSection: React.FC = () => {
             </ul>
             <div className="flex justify-end mt-6">
               <Link
-                href="/medical-wellness"
+                href={`/${locale}/medical-wellness`}
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-primary-600 hover:bg-primary-700 transition duration-300 group"
                 aria-label={t("learnMoreAriaLabel")}
               >

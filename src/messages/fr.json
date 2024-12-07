@@ -34,11 +34,11 @@
         "description": "Votre partenaire de confiance pour une santé holistique, une vitalité et une qualité de vie. Découvrez avec nous l'avenir du bien-être.",
         "learnMore": "Apprendre encore plus",
         "becomeMember": "Devenir membre",
-        "memberImageAlt": "Membre {numéro}",
+        "memberImageAlt": "Membre {number}",
         "memberCount": "Plus de 500 membres satisfaits",
         "previousSlide": "Diapositive précédente",
         "nextSlide": "Diapositive suivante",
-        "goToSlide": "Accéder à la diapositive {numéro}",
+        "goToSlide": "Accéder à la diapositive {number}",
         "slide1": {
             "title": "Santé holistique",
             "description": "Découvrez nos approches innovantes pour votre bien-être."
@@ -105,7 +105,7 @@
         "ourExperts": "Nos experts",
         "teamTitle": "L'équipe DMWV",
         "teamDescription": "Rencontrez les experts dévoués qui dirigent l'Association allemande de bien-être médical et font avancer notre mission.",
-        "memberImageAlt": "Portrait de {nom}",
+        "memberImageAlt": "Portrait de {name}",
         "linkedinAria": "Profil LinkedIn de {name}",
         "twitterAria": "Profil Twitter de {name}",
         "members": [
@@ -157,6 +157,16 @@
         "readMore": "En savoir plus",
         "read": "Lire",
         "discoverMoreNews": "Découvrez plus d'actualités"
+    },
+    "wellnessPartners": {
+        "allPartners": "Tous les partenaires de bien-être",
+    "title": "Découvrez des Oasis de Bien-être",
+    "subtitle": "Votre chemin vers la détente et le bien-être commence ici",
+    "searchPlaceholder": "Rechercher des hôtels ou des lieux",
+    "searchButton": "Rechercher",
+    "learnMore": "En savoir plus",
+        "partners": "Partenaires",
+        "home": "Accueil"
     },
     "WellnessHotels": {
         "exclusiveExperiences": "Expériences de bien-être exclusives",

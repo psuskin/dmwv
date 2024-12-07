@@ -4,11 +4,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Star, MapPin, ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const WellnessHotels: React.FC = () => {
   const [activeHotel, setActiveHotel] = useState(0);
   const t = useTranslations("WellnessHotels");
+  const locale = useLocale();
 
   const hotels = [
     {
@@ -63,10 +64,17 @@ const WellnessHotels: React.FC = () => {
       aria-labelledby="wellness-hotels-title"
     >
       {/* Medical-themed background pattern */}
-      <div className="absolute inset-0 z-0 opacity-5">
+      <div className="absolute inset-0 z-0 opacity-[0.015]">
         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
           <defs>
-            <pattern id="medical-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+            <pattern
+              id="medical-pattern"
+              x="0"
+              y="0"
+              width="40"
+              height="40"
+              patternUnits="userSpaceOnUse"
+            >
               <path d="M20 0v40M0 20h40" stroke="#000" strokeWidth="1" />
               <circle cx="20" cy="20" r="8" fill="#000" />
             </pattern>
@@ -170,7 +178,7 @@ const WellnessHotels: React.FC = () => {
 
         <div className="mt-12 text-end">
           <Link
-            href="/wellness-partners"
+            href={`/${locale}/wellness-partners`}
             className="group bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300 inline-flex items-center text-lg"
             aria-label={t("viewAllPartnersAriaLabel")}
           >

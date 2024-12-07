@@ -158,6 +158,16 @@
     "read": "Lesen",
     "discoverMoreNews": "Mehr Neuigkeiten entdecken"
   },
+  "wellnessPartners": {
+    "allPartners": "Alle Wellness-Partner",
+    "title": "Entdecken Sie Wellness-Oasen",
+    "subtitle": "Ihr Weg zu Entspannung und Wohlbefinden beginnt hier",
+    "searchPlaceholder": "Suche nach Hotels oder Orten",
+    "searchButton": "Suchen",
+    "learnMore": "Mehr erfahren",
+    "partners": "Partner",
+    "home": "Startseite"
+  },
   "WellnessHotels": {
     "exclusiveExperiences": "Exklusive Wellness-Erlebnisse",
     "ourPartners": "Unsere Vertragspartner",

@@ -34,11 +34,11 @@
         "description": "Su socio de confianza para la salud integral, la vitalidad y la calidad de vida. Descubra el futuro del bienestar con nosotros.",
         "learnMore": "Más información",
         "becomeMember": "Hazte miembro",
-        "memberImageAlt": "Miembro {número}",
+        "memberImageAlt": "Miembro {number}",
         "memberCount": "Más de 500 miembros satisfechos",
         "previousSlide": "Diapositiva anterior",
         "nextSlide": "Diapositiva siguiente",
-        "goToSlide": "Ir a la diapositiva {número}",
+        "goToSlide": "Ir a la diapositiva {number}",
         "slide1": {
             "title": "Salud Holística",
             "description": "Descubra nuestros enfoques innovadores para su bienestar."
@@ -105,7 +105,7 @@
         "ourExperts": "Nuestros expertos",
         "teamTitle": "El equipo del DMWV",
         "teamDescription": "Conozca a los expertos dedicados que dirigen la Asociación Alemana de Bienestar Médico e impulsan nuestra misión.",
-        "memberImageAlt": "Retrato de {nombre}",
+        "memberImageAlt": "Retrato de {name}",
         "linkedinAria": "Perfil de LinkedIn de {name}",
         "twitterAria": "Perfil de Twitter de {name}",
         "members": [
@@ -138,7 +138,7 @@
     "NewsDetails": {
         "backToOverview": "Volver a la descripción general",
         "relatedNews": "Últimas noticias",
-        "readingTime": "{tiempo} min de lectura"
+        "readingTime": "{time} min de lectura"
     },
     "NewsPage": {
         "title": "Noticias y actualizaciones",
@@ -158,6 +158,16 @@
         "read": "Leer",
         "discoverMoreNews": "Descubra más noticias"
     },
+    "wellnessPartners": {
+        "allPartners": "Todos los socios de bienestar",
+        "title": "Descubre Oasis de Bienestar",
+        "subtitle": "Tu camino hacia la relajación y el bienestar comienza aquí",
+        "searchPlaceholder": "Buscar hoteles o ubicaciones",
+        "searchButton": "Buscar",
+        "learnMore": "Más información",
+        "partners": "Socios",
+        "home": "Inicio"
+      },
     "WellnessHotels": {
         "exclusiveExperiences": "Experiencias de bienestar exclusivas",
         "ourPartners": "Nuestros socios contractuales",

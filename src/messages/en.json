@@ -159,6 +159,17 @@
     "read": "Read",
     "discoverMoreNews": "Discover More News"
   },
+  "wellnessPartners": {
+    "allPartners": "All Wellness Partners",
+    "subHeaderTitle": "Wellness Partners",
+    "title": "Discover Wellness Oases",
+    "subtitle": "Your path to relaxation and well-being starts here",
+    "searchPlaceholder": "Search for hotels or locations",
+    "searchButton": "Search",
+    "learnMore": "Learn More",
+    "partners": "Partners",
+    "home": "Home"
+  },
   "WellnessHotels": {
     "exclusiveExperiences": "Exclusive Wellness Experiences",
     "ourPartners": "Our Contract Partners",

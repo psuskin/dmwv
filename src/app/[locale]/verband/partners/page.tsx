@@ -28,10 +28,11 @@ import {
 } from "@/constants/partnersData";
 import Link from "next/link";
 import SubHeader from "@/components/SubHeader";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Partners = () => {
   const t = useTranslations("partners");
+  const locale = useLocale();
   const [selectedCategory, setSelectedCategory] = useState<string>(
     t("categories.Branche A bis Z")
   );
@@ -210,7 +211,7 @@ const Partners = () => {
                       className="text-primary-600 border-primary-300 hover:bg-primary-50"
                       asChild
                     >
-                      <Link href={`/verband/partners/${partner.id}`}>
+                      <Link href={`/${locale}/verband/partners/${partner.id}`}>
                         {t("learnMore")}
                       </Link>
                     </Button>

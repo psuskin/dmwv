@@ -2,18 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
-import { newsData, NewsItem } from "@/constants/newsData";
+import { newsData, NewsItem, Locale } from "@/constants/newsData";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { unstable_setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
-// Define valid locales
-type Locale = "en" | "de";
-
 export function generateStaticParams() {
   return newsData.flatMap((news) => [
-    { locale: "en", id: news.id.toString() },
     { locale: "de", id: news.id.toString() },
+    { locale: "en", id: news.id.toString() },
+    { locale: "es", id: news.id.toString() },
+    { locale: "fr", id: news.id.toString() },
+    { locale: "it", id: news.id.toString() },
+    { locale: "ru", id: news.id.toString() },
+    { locale: "ar", id: news.id.toString() },
+    { locale: "tr", id: news.id.toString() },
   ]);
 }
 
@@ -45,7 +48,6 @@ export default function NewsDetail({
 }: {
   params: { id: string; locale: string };
 }) {
-  // Assert that locale is of type Locale
   const safeLocale = locale as Locale;
   unstable_setRequestLocale(safeLocale);
   const t = useTranslations("NewsDetails");
@@ -58,7 +60,7 @@ export default function NewsDetail({
 
   const paragraphs = splitIntoParagraphs(news.excerpt[safeLocale]);
   const readingTime = Math.ceil(
-    news.excerpt[safeLocale].split(" ").length / 200
+    news.excerpt[safeLocale].split(/\s+/).length / 200
   );
 
   const breadcrumbItems = [

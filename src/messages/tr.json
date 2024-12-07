@@ -34,11 +34,11 @@
         "description": "Bütünsel sağlık, canlılık ve yaşam kalitesi için güvendiğiniz ortağınız. Bizimle refahın geleceğini keşfedin.",
         "learnMore": "Daha fazla bilgi edin",
         "becomeMember": "Üye Ol",
-        "memberImageAlt": "Üye {numara}",
+        "memberImageAlt": "Üye {number}",
         "memberCount": "500'den fazla memnun üye",
         "previousSlide": "Önceki slayt",
         "nextSlide": "Sonraki slayt",
-        "goToSlide": "{numara} numaralı slayda git",
+        "goToSlide": "{number} numaralı slayda git",
         "slide1": {
             "title": "Bütünsel Sağlık",
             "description": "Refahınıza yönelik yenilikçi yaklaşımlarımızı keşfedin."
@@ -105,9 +105,9 @@
         "ourExperts": "Uzmanlarımız",
         "teamTitle": "DMWV Ekibi",
         "teamDescription": "Alman Tıbbi Sağlık Derneği'ni yöneten ve misyonumuzu ileriye taşıyan özverili uzmanlarla tanışın.",
-        "memberImageAlt": "{isim} portresi",
+        "memberImageAlt": "{name} portresi",
         "linkedinAria": "{name} adlı kişinin LinkedIn profili",
-        "twitterAria": "{isim} adlı kişinin Twitter profili",
+        "twitterAria": "{name} adlı kişinin Twitter profili",
         "members": [
             {
                 "position": "1. Başkan",
@@ -157,6 +157,16 @@
         "readMore": "Devamını oku",
         "read": "Okumak",
         "discoverMoreNews": "Daha Fazla Haber Keşfedin"
+    },
+    "wellnessPartners": {
+        "allPartners": "Tüm Sağlıklı Yaşam Ortakları",
+    "title": "Sağlık ve Zindelik Vahalarını Keşfedin",
+    "subtitle": "Rahatlama ve esenliğe giden yolunuz burada başlıyor",
+    "searchPlaceholder": "Otel veya konum arayın",
+    "searchButton": "Ara",
+        "learnMore": "Daha fazla bilgi",
+        "partners": "Partner",
+        "home": "Ev"
     },
     "WellnessHotels": {
         "exclusiveExperiences": "Özel Sağlıklı Yaşam Deneyimleri",

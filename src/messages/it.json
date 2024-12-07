@@ -34,11 +34,11 @@
         "description": "Il tuo partner di fiducia per la salute olistica, la vitalità e la qualità della vita. Scopri il futuro del benessere con noi.",
         "learnMore": "Saperne di più",
         "becomeMember": "Diventa un membro",
-        "memberImageAlt": "Membro {numero}",
+        "memberImageAlt": "Ritratto di {number}",
         "memberCount": "Oltre 500+ membri soddisfatti",
         "previousSlide": "Diapositiva precedente",
         "nextSlide": "Diapositiva successiva",
-        "goToSlide": "Vai alla diapositiva {numero}",
+        "goToSlide": "Vai alla diapositiva {number}",
         "slide1": {
             "title": "Salute olistica",
             "description": "Scopri i nostri approcci innovativi per il tuo benessere."
@@ -105,9 +105,9 @@
         "ourExperts": "I nostri esperti",
         "teamTitle": "Il team DMWV",
         "teamDescription": "Incontra gli esperti dedicati che dirigono l'Associazione tedesca per il benessere medico e portano avanti la nostra missione.",
-        "memberImageAlt": "Ritratto di {nome}",
-        "linkedinAria": "Profilo LinkedIn di {nome}",
-        "twitterAria": "Profilo Twitter di {nome}",
+        "memberImageAlt": "Ritratto di {name}",
+        "linkedinAria": "Profilo LinkedIn di {name}",
+        "twitterAria": "Profilo Twitter di {name}",
         "members": [
             {
                 "position": "1° Presidente",
@@ -138,7 +138,7 @@
     "NewsDetails": {
         "backToOverview": "Torna alla panoramica",
         "relatedNews": "Ultime notizie",
-        "readingTime": "{tempo} min di lettura"
+        "readingTime": "{time} min di lettura"
     },
     "NewsPage": {
         "title": "Notizie e aggiornamenti",
@@ -157,6 +157,16 @@
         "readMore": "Per saperne di più",
         "read": "Leggere",
         "discoverMoreNews": "Scopri altre notizie"
+    },
+    "wellnessPartners": {
+        "allPartners": "Tutti i partner del benessere",
+    "title": "Scopri Oasi di Benessere",
+    "subtitle": "Il tuo percorso verso il relax e il benessere inizia qui",
+    "searchPlaceholder": "Cerca hotel o località",
+    "searchButton": "Cerca",
+        "learnMore": "Scopri di più",
+        "partners": "Partner",
+        "home": "Casa"
     },
     "WellnessHotels": {
         "exclusiveExperiences": "Esperienze di Benessere Esclusive",
@@ -919,7 +929,7 @@
         "aboutUs": "Chi siamo",
         "aboutUsDescription": "Il DMWV si impegna a promuovere la salute e il benessere attraverso l'integrazione del Medical Wellness. Offriamo certificazioni di settore, guida e supporto per le aziende del settore del turismo sanitario.",
         "learnMore": "Saperne di più",
-        "copyright": "© {anno} Associazione tedesca per il benessere medico. Tutti i diritti riservati.",
+        "copyright": "© {year} Associazione tedesca per il benessere medico. Tutti i diritti riservati.",
         "imprint": "Impronta",
         "privacy": "politica sulla riservatezza",
         "terms": "Termini e Condizioni"

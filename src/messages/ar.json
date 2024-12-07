@@ -34,7 +34,7 @@
         "description": "شريكك الموثوق به في الصحة الشاملة والحيوية وجودة الحياة. اكتشف مستقبل العافية معنا.",
         "learnMore": "يتعلم أكثر",
         "becomeMember": "كن عضوا",
-        "memberImageAlt": "عضو {رقم}",
+        "memberImageAlt": "عضو {number}",
         "memberCount": "أكثر من 500 عضو راضٍ",
         "previousSlide": "الشريحة السابقة",
         "nextSlide": "الشريحة التالية",
@@ -105,7 +105,7 @@
         "ourExperts": "خبرائنا",
         "teamTitle": "فريق DMWV",
         "teamDescription": "تعرف على الخبراء المتفانين الذين يقودون جمعية العافية الطبية الألمانية ويقودون مهمتنا إلى الأمام.",
-        "memberImageAlt": "صورة {الاسم}",
+        "memberImageAlt": "صورة {name}",
         "linkedinAria": "الملف الشخصي لـ {name} على LinkedIn",
         "twitterAria": "الملف الشخصي لـ {name} على تويتر",
         "members": [
@@ -138,7 +138,7 @@
     "NewsDetails": {
         "backToOverview": "العودة إلى النظرة العامة",
         "relatedNews": "أحدث الأخبار",
-        "readingTime": "{الوقت} دقيقة للقراءة"
+        "readingTime": "{time} دقيقة للقراءة"
     },
     "NewsPage": {
         "title": "الأخبار والتحديثات",
@@ -158,6 +158,16 @@
         "read": "يقرأ",
         "discoverMoreNews": "اكتشف المزيد من الأخبار"
     },
+    "wellnessPartners": {
+        "allPartners": "جميع شركاء العافية",
+        "title": "اكتشف واحات العافية",
+        "subtitle": "طريقك نحو الاسترخاء والرفاهية يبدأ هنا",
+        "searchPlaceholder": "ابحث عن الفنادق أو المواقع",
+        "searchButton": "بحث",
+        "learnMore": "اعرف المزيد",
+        "partners": "شركاء",
+        "home": "بيت"
+      },
     "WellnessHotels": {
         "exclusiveExperiences": "تجارب صحية حصرية",
         "ourPartners": "شركاؤنا التعاقديون",

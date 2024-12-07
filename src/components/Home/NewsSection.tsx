@@ -4,14 +4,14 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Calendar } from "lucide-react";
-import { newsData, NewsItem } from "@/constants/newsData";
+import { newsData, NewsItem, Locale } from "@/constants/newsData";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 
 const NewsSection: React.FC = () => {
   const t = useTranslations("NewsSection");
   const pathname = usePathname();
-  const locale = pathname.startsWith("/de") ? "de" : "en";
+  const locale = pathname.split('/')[1] as Locale;
 
   const formatDate = (dateString: string) => {
     const options: Intl.DateTimeFormatOptions = {

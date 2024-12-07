@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Star, MapPin, Search } from "lucide-react";
 import SubHeader from "@/components/SubHeader";
+import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
 // Expanded mock data for all wellness hotels
 const allHotels = [
@@ -48,6 +50,8 @@ const allHotels = [
 
 const AllPartnersPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const t = useTranslations("wellnessPartners");
+  const locale = useLocale();
 
   const filteredHotels = allHotels.filter(
     (hotel) =>
@@ -58,17 +62,17 @@ const AllPartnersPage = () => {
   return (
     <div>
       <SubHeader
-        title="Entdecken Sie Wellness-Oasen"
-        subtitle="Ihr Weg zu Entspannung und Wohlbefinden beginnt hier"
+        title={t("title")}
+        subtitle={t("subtitle")}
         backgroundImage="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         breadcrumbs={[
-          { label: "Home", href: "/" },
-          { label: "Partner", href: "/partners" },
+          { label: t("home"), href: `/` },
+          { label: t("partners"), href: `/${locale}/partners` },
         ]}
       />
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-8 text-primary-800">
-          Alle Wellness-Partner
+          {t("allPartners")}
         </h1>
 
         <div className="mb-8 sm:mb-12">
@@ -76,7 +80,7 @@ const AllPartnersPage = () => {
             <div className="relative flex-grow">
               <input
                 type="text"
-                placeholder="Suche nach Hotels oder Orten"
+                placeholder={t("searchPlaceholder")}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full px-4 py-3 border border-primary-200 rounded-full focus:outline-none focus:ring-2 focus:ring-primary-500 transition-all duration-300 pl-12 text-sm sm:text-base"
@@ -85,7 +89,7 @@ const AllPartnersPage = () => {
             </div>
             <button className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center whitespace-nowrap text-sm sm:text-base">
               <Search className="mr-2 h-5 w-5" />
-              <span>Suchen</span>
+              <span>{t("searchButton")}</span>
             </button>
           </div>
         </div>
@@ -128,7 +132,7 @@ const AllPartnersPage = () => {
                   ))}
                 </div>
                 <button className="w-full bg-primary-500 hover:bg-primary-600 text-white py-2 rounded-lg transition-colors duration-300">
-                  Mehr erfahren
+                  {t("learnMore")}
                 </button>
               </div>
             </div>

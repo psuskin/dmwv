@@ -4,16 +4,13 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Calendar, Search, ChevronDown } from "lucide-react";
-import { newsData, NewsItem } from "@/constants/newsData";
+import { newsData, NewsItem, Locale } from "@/constants/newsData";
 import SubHeader from "@/components/SubHeader";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
-// Define valid locales
-type Locale = "en" | "de";
-
-const NewsPage: React.FC<{ params: { locale: string } }> = ({ params }) => {
-  // Assert that locale is of type Locale
-  const locale = params.locale as Locale;
+const NewsPage: React.FC = () => {
+  const locale = useLocale() as Locale;
   const t = useTranslations("NewsPage");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -44,12 +41,13 @@ const NewsPage: React.FC<{ params: { locale: string } }> = ({ params }) => {
   };
 
   const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
     const options: Intl.DateTimeFormatOptions = {
       year: "numeric",
       month: "long",
       day: "numeric",
     };
-    return new Date(dateString).toLocaleDateString(locale, options);
+    return new Intl.DateTimeFormat(locale, options).format(date);
   };
 
   const filteredNews = newsData.filter((item) => {
@@ -66,7 +64,7 @@ const NewsPage: React.FC<{ params: { locale: string } }> = ({ params }) => {
   );
 
   return (
-    <div>
+    <div dir={locale === "ar" ? "rtl" : "ltr"}>
       <SubHeader
         title={t("title")}
         subtitle={t("subtitle")}
