@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+// import React, { useState } from "react";
 // import Image from "next/image";
 // import { motion, AnimatePresence } from "framer-motion";
 // import { Button } from "@/components/ui/button";
@@ -13,15 +13,15 @@ import React, { useState } from "react";
 //   SheetTrigger,
 // } from "@/components/ui/sheet";
 // import { LinkedinIcon, TwitterIcon, ChevronDownIcon } from "lucide-react";
-import { teamMembers } from "@/constants/teamsData";
+// import { teamMembers } from "@/constants/teamsData";
 // import SubHeader from "@/components/SubHeader";
-import { useTranslations } from "next-intl";
-import { useLocale } from "next-intl";
+// import { useTranslations } from "next-intl";
+// import { useLocale } from "next-intl";
 
 const Organisation = () => {
-  const t = useTranslations("organisation");
-  const locale = useLocale();
-  const [activeTeam, setActiveTeam] = useState("all");
+  // const t = useTranslations("organisation");
+  // const locale = useLocale();
+  // const [activeTeam, setActiveTeam] = useState("all");
   // const [hoveredMember, setHoveredMember] = useState<number | null>(null);
   // const [isSheetOpen, setIsSheetOpen] = useState(false);
 
