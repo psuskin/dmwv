@@ -179,16 +179,6 @@ const ContactPage: React.FC = () => {
                 </h2>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <Phone
-                      className="w-6 h-6 mt-1 flex-shrink-0"
-                      aria-hidden="true"
-                    />
-                    <div>
-                      <p className="font-semibold text-lg">{t("phoneTitle")}</p>
-                      <p className="text-primary-100">{t("phoneNumber")}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
                     <Mail
                       className="w-6 h-6 mt-1 flex-shrink-0"
                       aria-hidden="true"
@@ -221,6 +211,16 @@ const ContactPage: React.FC = () => {
                       </p>
                     </div>
                   </div>
+                  <div className="flex items-start space-x-4">
+                    <Phone
+                      className="w-6 h-6 mt-1 flex-shrink-0"
+                      aria-hidden="true"
+                    />
+                    <div>
+                      <p className="font-semibold text-lg">{t("phoneTitle")}</p>
+                      <p className="text-primary-100">{t("phoneNumber")}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="mt-12">
@@ -229,28 +229,20 @@ const ContactPage: React.FC = () => {
                   {socialIcons.map((social) => (
                     <a
                       key={social.name}
-                      href={`https://${social.name.toLowerCase()}.com/dmwv`}
+                      href={
+                      social.name.toLowerCase() === "linkedin"
+                        ? "https://www.linkedin.com/in/lutz-lungwitz-98999335/"
+                        : `https://${social.name.toLowerCase()}.com/lutz.lungwitz.dmwv`
+                      }
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${social.color} p-3 rounded-full hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center`}
                       aria-label={t("socialAriaLabel", {
-                        socialName: social.name,
                       })}
                     >
                       <social.icon className="h-6 w-6 text-white" />
                     </a>
                   ))}
-                  <a
-                    href="https://twitter.com/dmwv"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-black p-3 rounded-full hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center"
-                    aria-label={t("socialAriaLabel", {
-                      socialName: "X (Twitter)",
-                    })}
-                  >
-                    <XIcon className="h-6 w-6 text-white" />
-                  </a>
                 </div>
                 <p className="mt-6 text-primary-100 text-sm">
                   {t("stayConnected")}

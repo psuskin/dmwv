@@ -2,7 +2,7 @@ import ContactPage from "@/components/Home/Contact";
 import FAQSection from "@/components/Home/FAQSection";
 import Hero from "@/components/Home/Hero";
 import NewsSection from "@/components/Home/NewsSection";
-import Team from "@/components/Home/Team";
+// import Team from "@/components/Home/Team";
 import WelcomeSection from "@/components/Home/WelcomeSection";
 import WellnessHotels from "@/components/Home/WellnessHotels";
 import { unstable_setRequestLocale } from "next-intl/server";
@@ -15,7 +15,7 @@ const Home = ({ params: { locale } }: { params: { locale: string } }) => {
       <Hero />
       <WelcomeSection />
       <ContactPage />
-      <Team />
+      {/* <Team /> */}
       <WellnessHotels />
       <FAQSection />
       <NewsSection />
