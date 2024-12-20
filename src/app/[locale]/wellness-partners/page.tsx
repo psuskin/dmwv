@@ -162,10 +162,6 @@ const AllPartnersPage = () => {
         ]}
       />
       <div className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold mb-8 text-primary-800">
-          {t("title")}
-        </h1>
-
         <div className="mb-8 sm:mb-12">
           <div className="flex flex-col sm:flex-row gap-4 max-w-3xl mx-auto">
             <div className="relative flex-grow">
