@@ -103,7 +103,7 @@ export default function Navbar() {
   return (
     <nav className="bg-primary-800 text-white shadow-md relative z-50">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-24">
+        <div className="flex items-center justify-between h-28">
           <div className="flex items-center">
             <Link href={`/${locale}`} className="flex-shrink-0">
               <Image
@@ -111,7 +111,7 @@ export default function Navbar() {
                 alt="DMWV Logo"
                 width={68}
                 height={68}
-                className="h-[75px] w-auto bg-white rounded-full p-0"
+                className="h-[85px] w-auto bg-white rounded-full p-0"
               />
             </Link>
           </div>
@@ -121,7 +121,7 @@ export default function Navbar() {
                 <div key={item.name} className="relative group">
                   <Link
                     href={`/${locale}${item.href}`}
-                    className={`px-2 lg:px-3 xl:px-4 py-2 lg:py-3 rounded-md text-sm lg:text-base xl:text-xl font-medium hover:text-[#BFD2F8] flex items-center transition-colors duration-200 relative
+                    className={`px-2 lg:px-3 xl:px-4 py-3 lg:py-4 xl:py-4 rounded-md text-sm lg:text-base xl:text-xl font-medium hover:text-[#BFD2F8] flex items-center transition-colors duration-200 relative
                       ${
                         isActive(item.href)
                           ? "text-[#BFD2F8]"
@@ -186,10 +186,10 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
             <button
               onClick={toggleSearchModal}
-              className="p-2 rounded-full hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
+              className="p-3 rounded-full hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
               aria-label="Toggle search"
             >
-              <Search className="h-5 w-5 lg:h-6 lg:w-6 text-white" />
+              <Search className="h-6 w-6 lg:h-7 lg:w-7 text-white" />
             </button>
             <LanguageSwitcher />
           </div>
@@ -197,21 +197,21 @@ export default function Navbar() {
             <LanguageSwitcher />
             <button
               onClick={toggleSearchModal}
-              className="p-2 rounded-md text-white hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
+              className="p-3 rounded-md text-white hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
               aria-label="Toggle search"
             >
-              <Search className="h-7 w-7" />
+              <Search className="h-8 w-8" />
             </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-md text-white hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
+              className="p-3 rounded-md text-white hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
               aria-expanded={isOpen}
               aria-label="Main menu"
             >
               {isOpen ? (
-                <X className="h-7 w-7" aria-hidden="true" />
+                <X className="h-8 w-8" aria-hidden="true" />
               ) : (
-                <Menu className="h-7 w-7" aria-hidden="true" />
+                <Menu className="h-8 w-8" aria-hidden="true" />
               )}
             </button>
           </div>
@@ -219,13 +219,13 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`md:hidden inset-x-0 top-24 bg-[#1F2B6C] shadow-lg transition-all duration-300 ease-in-out z-50 ${
+        className={`md:hidden inset-x-0 top-28 bg-[#1F2B6C] shadow-lg transition-all duration-300 ease-in-out z-50 ${
           isOpen
-            ? "max-h-[calc(100vh-6rem)] opacity-100"
+            ? "max-h-[calc(100vh-7rem)] opacity-100"
             : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 overflow-y-auto max-h-[calc(100vh-6rem)]">
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 overflow-y-auto max-h-[calc(100vh-7rem)]">
           {menuItems.map((item) => (
             <div key={item.name}>
               <button
