@@ -19,14 +19,32 @@ import { useLocale } from "next-intl";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const t = useTranslations("Footer");
   const locale = useLocale();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle newsletter subscription
-    console.log("Subscribed:", email);
-    setEmail("");
+    setIsLoading(true);
+    
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
+      });
+      
+      if (!response.ok) throw new Error();
+      
+      setStatus('success');
+      setEmail('');
+      setTimeout(() => setStatus('idle'), 3000);
+    } catch (error) {
+      setStatus('error');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const menuItems = t.raw("menuItems");
@@ -52,11 +70,23 @@ export default function Footer() {
                   onChange={(e) => setEmail(e.target.value)}
                   className="border-primary-100 text-white placeholder-white text-lg"
                   required
+                  disabled={isLoading}
                 />
-                <Button type="submit" variant="secondary" className="text-lg">
-                  {t("subscribe")}
+                <Button 
+                  type="submit" 
+                  variant="secondary" 
+                  className="text-lg"
+                  disabled={isLoading}
+                >
+                  {isLoading ? t("subscribing") : t("subscribe")}
                 </Button>
               </div>
+              {status === 'success' && (
+                <p className="text-green-400 text-sm">{t("subscribeSuccess")}</p>
+              )}
+              {status === 'error' && (
+                <p className="text-red-400 text-sm">{t("subscribeError")}</p>
+              )}
             </form>
           </div>
 

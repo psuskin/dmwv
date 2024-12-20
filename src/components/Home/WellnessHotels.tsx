@@ -13,47 +13,55 @@ const WellnessHotels: React.FC = () => {
 
   const hotels = [
     {
-      name: t("hotels.sonnenberg.name"),
-      location: t("hotels.sonnenberg.location"),
+      name: t("hotels.centrovital.name"),
+      location: t("hotels.centrovital.location"),
       image:
-        "https://images.adsttc.com/media/images/5bd1/b78a/f197/ccd6/5300/0162/newsletter/DPA_DukeStudentWellness_14.jpg?1540470656",
+        "https://www.centrovital-berlin.de/fileadmin/_processed_/1/3/csm_Aussenansicht_Neuendorfer_Strasse_2_C_98af5c60c9.jpg",
       rating: 4.8,
-      features: [t("features.spa"), t("features.pool"), t("features.yoga")],
-    },
-    {
-      name: t("hotels.schwarzwald.name"),
-      location: t("hotels.schwarzwald.location"),
-      image:
-        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      rating: 4.9,
       features: [
-        t("features.massage"),
-        t("features.sauna"),
-        t("features.fitness"),
+        t("features.spa"),
+        t("features.sportClub"),
+        t("features.yoga"),
       ],
     },
     {
-      name: t("hotels.bodensee.name"),
-      location: t("hotels.bodensee.location"),
+      name: t("hotels.ensana.name"),
+      location: t("hotels.ensana.location"),
       image:
-        "https://www.hksinc.com/wp-content/uploads/2023/04/Confidential-Wellness-Center-body-scaled.jpg",
+        "https://europeanspas.eu/wp-content/uploads/2023/01/marianske-lazne-ensana-hotels.jpeg",
+      rating: 4.9,
+      features: [
+        t("features.medicalTreatments"),
+        t("features.naturalHealing"),
+        t("features.wellnessPrograms"),
+        t("features.healthRetreats"),
+      ],
+    },
+    {
+      name: t("hotels.biohotelEggensberger.name"),
+      location: t("hotels.biohotelEggensberger.location"),
+      image:
+        "https://www.eggensberger.de/(cms)/media/resize/size=1920x1080%2Cscale=crop%2Cquality=70%2Cinterlace=1/2765679",
       rating: 4.7,
       features: [
-        t("features.therapy"),
-        t("features.nutrition"),
-        t("features.meditation"),
+        t("features.organicCertified"),
+        t("features.medicalTreatments"),
+        t("features.naturalHealing"),
+        t("features.wellnessPrograms"),
+        t("features.healthRetreats"),
       ],
     },
     {
-      name: t("hotels.alpenblick.name"),
-      location: t("hotels.alpenblick.location"),
-      image:
-        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      name: t("hotels.hotelElbresidenz.name"),
+      location: t("hotels.hotelElbresidenz.location"),
+      image: "/images/hotel4.png",
       rating: 4.9,
       features: [
-        t("features.mountainView"),
-        t("features.hiking"),
-        t("features.wellness"),
+        t("features.thermalSpa"),
+        t("features.medicalTreatments"),
+        t("features.naturalHealing"),
+        t("features.wellnessPrograms"),
+        t("features.healthRetreats"),
       ],
     },
   ];

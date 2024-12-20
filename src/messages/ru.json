@@ -99,7 +99,13 @@
         "addressLine3": "Германия",
         "followUs": "Подписывайтесь на нас",
         "stayConnected": "Оставайтесь с нами, чтобы быть в курсе последних обновлений и новостей!",
-        "socialAriaLabel": "Посетите нас в {socialName}"
+        "socialAriaLabel": "Посетите нас в {socialName}",
+        "successModalTitle": "Сообщение отправлено",
+        "successModalDescription": "Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.",
+        "errorModalTitle": "Ошибка при отправке сообщения",
+        "errorModalDescription": "Произошла ошибка. Пожалуйста, попробуйте еще раз позже.",
+        "errorModalButton": "Закрыть",
+        "sending": "Отправка..."
     },
     "Team": {
         "ourExperts": "Наши эксперты",
@@ -175,25 +181,26 @@
         "viewAllPartners": "Просмотреть всех партнеров",
         "viewAllPartnersAriaLabel": "Просмотреть всех партнеров по оздоровлению",
         "hotels": {
-            "sonnenberg": {
-                "name": "Wellness Resort Зонненберг",
-                "location": "Баден-Баден"
+            "centrovital": {
+                "name": "Центровитал Отель | Спа и спортивный клуб",
+                "location": "Берлин-Шпандау"
             },
-            "schwarzwald": {
-                "name": "Спа-отель Шварцвальд",
-                "location": "Фрайбург"
+            "ensana": {
+                "name": "Ensana Health Spa Hotels",
+                "location": "Несколько европейских локаций"
             },
-            "bodensee": {
-                "name": "Центр здоровья Боденского озера",
-                "location": "Констанция"
+            "biohotelEggensberger": {
+                "name": "Biohotel Eggensberger",
+                "location": "Hopfen am See"
             },
-            "alpenblick": {
-                "name": "Vital Hotel Alpine View",
-                "location": "Гармиш-Партенкирхен"
+            "hotelElbresidenz": {
+                "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+                "location": "Bad Schandau, Sächsische Schweiz"
             }
         },
         "features": {
             "spa": "Спа",
+            "sportClub": "Спортивный клуб",
             "pool": "Бассейн",
             "yoga": "Йога",
             "massage": "Массаж",
@@ -204,7 +211,22 @@
             "meditation": "Медитация",
             "mountainView": "Вид на горы",
             "hiking": "Пеший туризм",
-            "wellness": "Оздоровление"
+            "wellness": "Оздоровление",
+            "thermalSpa": "Термальный спа",
+            "medicalTreatments": "Медицинские процедуры",
+            "naturalHealing": "Естественная регенерация",
+            "wellnessPrograms": "Программы оздоровления",
+            "healthRetreats": "Ретриты здоровья",
+            "organicCertified": "Органический сертификат",
+            "gardenSPA": "SPA в саду",
+            "organicRestaurant": "Органический ресторан",
+            "eMobility": "Электромобили",
+            "toskanaTherme": "Терма Тоскана",
+            "auroraSpa": "Спа Аврора",
+            "gourmetRestaurant": "Гастрономический ресторан",
+            "wellnessPark": "Парк благополучия",
+            "fitnessCenter": "Фитнес-центр",
+            "riverView": "Вид на реку"
         }
     },
     "FAQSection": {
@@ -889,6 +911,9 @@
         "newsletterTitle": "Подписаться на рассылку новостей",
         "emailPlaceholder": "Ваш электронный адрес",
         "subscribe": "Подписаться",
+        "subscribing": "Подписка...",
+        "subscribeSuccess": "Спасибо за подписку!",
+        "subscribeError": "Произошла ошибка при подписке. Пожалуйста, попробуйте еще раз позже.",
         "quickLinks": "Быстрые ссылки",
         "menuItems": [
             {
@@ -933,5 +958,52 @@
         "imprint": "Отпечаток",
         "privacy": "политика конфиденциальности",
         "terms": "Условия и положения"
+    },
+    "AllWellnessHotels": {
+    "title": "Наши партнёры по велнесу",
+    "subtitle": "Откройте для себя наши сертифицированные велнес-отели и курорты",
+    "searchPlaceholder": "Искать отели по имени или местоположению...",
+    "searchButton": "Поиск",
+    "learnMore": "Узнать больше",
+    "partners": "Партнеры",
+    "home": "Дом",
+    "all": "Все",
+    "AllHotels": {
+      "centrovital": {
+        "name": "Centrovital Hotel | Spa & Sportclub",
+        "location": "Берлин-Шпандау",
+        "description": "Отель 4 звезды с 158 номерами, спа и спортивный клуб, бассейн и сауна, велнес и аюрведический центр. Находится у озера Шпандау в историческом пивоваренном заводе Шультейс."
+      },
+      "ensana": {
+        "name": "Ensana Health Spa Hotels",
+        "location": "Множество европейских локаций",
+        "description": "Крупнейший операторы велнес-курортов Европы с люксовыми отелями в 6 странах. Специализируется на природных целебных ресурсах, включая термальную воду, минеральные воды, соленую воду, лечебную грязь и натуральные CO₂ процедуры."
+      },
+      "biohotelEggensberger": {
+        "name": "Biohotel Eggensberger",
+        "location": "Фюссен - Хопфен ам Зее, Алльгей",
+        "description": "Органический отель 4 звезды с фантастическим видом на 'Алльгей Ривьера'. Климатически позитивный семейный отель с органичной кухней, садом спа, терапевтическим центром и электромобильностью."
+      },
+      "hotelElbresidenz": {
+        "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+        "location": "Бад-Шандау, Саксонская Швейцария",
+        "description": "Люксовый отель прямо на реке Эльба, окруженный впечатляющими природными пейзажами Эльбских песчаных гор. Находится между Дрезденом и Прагой."
+      },
+      "oceano": {
+        "name": "OCÉANO Health Spa Hotel",
+        "location": "Пунта дель Ильадо, Тенерифе",
+        "description": "Эксклюзивный велнес-отель, расположенный прямо на Атлантическом океане у подножия биосферного заповедника Анга. Семейный отель третьего поколения с F.X. Mayr Center."
+      },
+      "rondane": {
+        "name": "Rondane Høyfjellshotell",
+        "location": "Мисусетер - Национальный парк Рондане, Норвегия",
+        "description": "Традиционный горный отель, расположенный рядом с Национальным парком Рондане, с полным набором велнес-услуг и возможностями для активного отдыха на природе."
+      },
+      "hotelFlamingo": {
+        "name": "Flamingo Grand Hotel & SPA Albena",
+        "location": "Курорт Альбена, Черное море, Болгария",
+        "description": "Люксовый отель 5 звезд в Альбене, награжденный эколейблом «Синий флаг». Часть комплекса устойчивого туризма с 6 км прекрасного пляжа и природным заповедником."
+      }
     }
+  }
 }

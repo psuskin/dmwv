@@ -99,7 +99,14 @@
     "addressLine3": "Deutschland",
     "followUs": "Folgen Sie uns",
     "stayConnected": "Bleiben Sie mit uns verbunden für die neuesten Updates und Neuigkeiten!",
-    "socialAriaLabel": "Besuchen Sie uns auf {socialName}"
+    "socialAriaLabel": "Besuchen Sie uns auf {socialName}",
+    "successModalTitle": "Nachricht erfolgreich gesendet",
+    "successModalDescription": "Wir freuen uns, von Ihnen zu hören! Wir werden uns in Kürze bei Ihnen melden.",
+    "successModalButton": "Schließen",
+    "errorModalTitle": "Fehler beim Senden der Nachricht",
+    "errorModalDescription": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "errorModalButton": "Schließen",
+    "sending": "Senden..."
   },
   "Team": {
     "ourExperts": "Unsere Experten",
@@ -175,26 +182,27 @@
     "viewAllPartners": "Alle Partner anzeigen",
     "viewAllPartnersAriaLabel": "Alle Wellness-Partner anzeigen",
     "hotels": {
-      "sonnenberg": {
-        "name": "Wellness Resort Sonnenberg",
-        "location": "Baden-Baden"
+      "centrovital": {
+        "name": "Centrovital Hotel | Spa & Sportclub",
+        "location": "Berlin-Spandau"
       },
-      "schwarzwald": {
-        "name": "Spa Hotel Schwarzwald",
-        "location": "Freiburg"
+      "ensana": {
+        "name": "Ensana Health Spa Hotels",
+        "location": "Mehrere europäische Standorte"
       },
-      "bodensee": {
-        "name": "Gesundheitszentrum Bodensee",
-        "location": "Konstanz"
+      "biohotelEggensberger": {
+        "name": "Biohotel Eggensberger",
+        "location": "Füssen - Hopfen am See, Allgäu"
       },
-      "alpenblick": {
-        "name": "Vitalhotel Alpenblick",
-        "location": "Garmisch-Partenkirchen"
+      "hotelElbresidenz": {
+        "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+        "location": "Bad Schandau, Sächsische Schweiz"
       }
     },
     "features": {
       "spa": "Spa",
       "pool": "Pool",
+      "sportClub": "Sportclub",
       "yoga": "Yoga",
       "massage": "Massage",
       "sauna": "Sauna",
@@ -204,7 +212,22 @@
       "meditation": "Meditation",
       "mountainView": "Bergblick",
       "hiking": "Wandern",
-      "wellness": "Wellness"
+      "wellness": "Wellness",
+      "thermalSpa": "Thermal Spa",
+      "medicalTreatments": "Medizinische Behandlungen",
+      "naturalHealing": "Natürliche Heilung",
+      "wellnessPrograms": "Wellness-Programme",
+      "healthRetreats": "Gesundheits-Rückzüge",
+      "organicCertified": "Organic Certified",
+      "gardenSPA": "Garden SPA",
+      "organicRestaurant": "Organic Restaurant",
+      "eMobility": "E-Mobility",
+      "toskanaTherme": "Toskana Therme",
+      "auroraSpa": "Aurora Spa",
+      "gourmetRestaurant": "Gourmet Restaurant",
+      "wellnessPark": "Wellness Park",
+      "fitnessCenter": "Fitness Center",
+      "riverView": "River View"
     }
   },
   "FAQSection": {
@@ -895,6 +918,9 @@
     "newsletterTitle": "Newsletter abonnieren",
     "emailPlaceholder": "Ihre E-Mail-Adresse",
     "subscribe": "Abonnieren",
+    "subscribing": "Abonnieren...",
+    "subscribeSuccess": "Danke für Ihre Anmeldung!",
+    "subscribeError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
     "quickLinks": "Quick Links",
     "menuItems": [
       { "name": "Home", "href": "/" },
@@ -921,5 +947,53 @@
     "imprint": "Impressum",
     "privacy": "Datenschutz",
     "terms": "AGB"
+  },
+  "AllWellnessHotels": {
+    "title": "Unsere Wellness-Partner",
+    "subtitle": "Entdecken Sie unsere zertifizierten Wellnesshotels und Gesundheitsresorts",
+    "searchPlaceholder": "Hotels nach Name oder Standort suchen...",
+    "searchButton": "Suchen",
+    "learnMore": "Mehr erfahren",
+    "partners": "Partner-Angebote",
+    "home": "Startseite",
+    "all": "Alle",
+    "AllHotels": {
+      "centrovital": {
+        "name": "Centrovital Hotel | Spa & Sportclub",
+        "location": "Berlin-Spandau",
+        "description": "4-Sterne Superior Hotel mit 158 Zimmern, Spa & Sportclub, Pool- und Saunalandschaft, Wellness und Ayurveda Center. Gelegen am Spandauer See in der historischen Schultheiss-Brauerei."
+      },
+      "ensana": {
+        "name": "Ensana Health Spa Hotels",
+        "location": "Mehrere europäische Standorte",
+        "description": "Europas größter Gesundheits-Spa-Betreiber mit Luxushotels in 6 Ländern. Spezialisiert auf natürliche Heilressourcen wie Thermalwasser, Mineralwasser, Salzwasser, Heilschlamm und natürliche CO₂-Behandlungen."
+      },
+      "biohotelEggensberger": {
+        "name": "Biohotel Eggensberger",
+        "location": "Füssen - Hopfen am See, Allgäu",
+        "description": "4-Sterne Bio-Hotel mit traumhafter Aussicht über die 'Allgäuer Riviera'. Klimapositives, familiengeführtes Hotel mit Bio-Vitalküche, Garten-SPA, Therapiezentrum und E-Mobilität."
+      },
+      "hotelElbresidenz": {
+        "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+        "location": "Bad Schandau, Sächsische Schweiz",
+        "description": "Luxushotel direkt an der Elbe, umgeben von der beeindruckenden Naturkulisse des Elbsandsteingebirges. Gelegen zwischen Dresden und Prag."
+      },
+      "hotelFlamingo": {
+        "name": "Hotel Flamingo",
+        "location": "Bad Schandau, Sächsische Schweiz",
+        "description": "Luxushotel direkt an der Elbe, umgeben von der beeindruckenden Naturkulisse des Elbsandsteingebirges. Gelegen zwischen Dresden und Prag."
+      },
+      "oceano": {
+        "name": "OCÉANO Health Spa Hotel",
+        "location": "Punta del Hidalgo, Teneriffa",
+        "description": "Exklusives Gesundheits-Spa-Hotel direkt am Atlantischen Ozean am Fuße des Anaga-Biosphärenreservats. In dritter Generation familiengeführt, mit F.X. Mayr Center."
+      },
+      "rondane": {
+        "name": "Rondane Høyfjellshotell",
+        "location": "Mysuseter - Rondane Nationalpark, Norwegen",
+        "description": "Traditionelles Berghotel, am nächsten zum Rondane Nationalpark, mit vollständigen Wellness-Strukturen und Outdoor-Aktivitäten in der unberührten Natur."
+      }
+    }
   }
 }
+

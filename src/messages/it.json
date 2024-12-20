@@ -99,7 +99,13 @@
         "addressLine3": "Germania",
         "followUs": "Seguici",
         "stayConnected": "Rimani in contatto con noi per gli ultimi aggiornamenti e novità!",
-        "socialAriaLabel": "Visitaci su {socialName}"
+        "socialAriaLabel": "Visitaci su {socialName}",
+        "successModalTitle": "Messaggio inviato con successo",
+        "successModalDescription": "Grazie per il tuo messaggio! Ti contatteremo il prima possibile.",
+        "errorModalTitle": "Errore durante l'invio del messaggio",
+        "errorModalDescription": "Si è verificato un errore. Per favore, riprova più tardi.",
+        "errorModalButton": "Chiudi",
+        "sending": "Inviando..."
     },
     "Team": {
         "ourExperts": "I nostri esperti",
@@ -175,25 +181,30 @@
         "viewAllPartners": "Visualizza tutti i partner",
         "viewAllPartnersAriaLabel": "Visualizza tutti i partner del benessere",
         "hotels": {
-            "sonnenberg": {
-                "name": "Resort benessere Sonnenberg",
-                "location": "Baden-Baden"
+            "centrovital": {
+                "name": "Centrovital Hotel | Centro termale e sportivo",
+                "location": "Berlin-Spandau"
             },
-            "schwarzwald": {
-                "name": "Hotel Spa Foresta Nera",
-                "location": "Friburgo"
+            "ensana": {
+                "name": "Ensana Health Spa Hotels",
+                "location": "Múltiples ubicaciones europeas"
             },
-            "bodensee": {
-                "name": "Centro sanitario Lago di Costanza",
-                "location": "Costanza"
+            "bodenseer": {
+                "name": "Biohotel Eggensberger",
+                "location": "Hopfen am See"
             },
-            "alpenblick": {
-                "name": "Vital Hotel Vista Alpina",
-                "location": "Garmisch-Partenkirchen"
+            "hotelElbresidenz": {
+                "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+                "location": "Bad Schandau, Sächsische Schweiz"
+            },
+            "biohotelEggensberger": {
+                "name": "Biohotel Eggensberger",
+                "location": "Füssen - Hopfen am See, Allgäu"
             }
         },
         "features": {
             "spa": "Stazione termale",
+            "sportClub": "Club sportivo",
             "pool": "Piscina",
             "yoga": "Yoga",
             "massage": "Massaggio",
@@ -204,7 +215,22 @@
             "meditation": "Meditazione",
             "mountainView": "Vista sulle montagne",
             "hiking": "Escursionismo",
-            "wellness": "Benessere"
+            "wellness": "Benessere",
+            "thermalSpa": "Spa termale",
+            "medicalTreatments": "Trattamenti medici",
+            "naturalHealing": "Guarigione naturale",
+            "wellnessPrograms": "Programmi di benessere",
+            "healthRetreats": "Retreat di salute",
+            "organicCertified": "Certificato organico",
+            "gardenSPA": "SPA di giardino",
+            "organicRestaurant": "Ristorante organico",
+            "eMobility": "Mobilità elettrica",
+            "toskanaTherme": "Therme Toskana",
+            "auroraSpa": "Spa Aurora",
+            "gourmetRestaurant": "Ristorante gourmet",
+            "wellnessPark": "Parco benessere",
+            "fitnessCenter": "Centro fitness",
+            "riverView": "Vista sul fiume"
         }
     },
     "FAQSection": {
@@ -889,6 +915,9 @@
         "newsletterTitle": "Iscriviti alla Newsletter",
         "emailPlaceholder": "Il tuo indirizzo di posta elettronica",
         "subscribe": "Iscriviti",
+        "subscribing": "Iscrivendo...",
+        "subscribeSuccess": "Grazie per esserti iscritto!",
+        "subscribeError": "Si è verificato un errore durante l'iscrizione. Per favore, riprova più tardi.",
         "quickLinks": "Collegamenti rapidi",
         "menuItems": [
             {
@@ -933,5 +962,52 @@
         "imprint": "Impronta",
         "privacy": "politica sulla riservatezza",
         "terms": "Termini e Condizioni"
+    },
+    "AllWellnessHotels": {
+    "title": "I Nostri Partner Wellness",
+    "subtitle": "Scopri i nostri hotel wellness certificati e i resort di salute",
+    "searchPlaceholder": "Cerca hotel per nome o posizione...",
+    "searchButton": "Cerca",
+    "learnMore": "Saperne di più",
+    "partners": "Partner",
+    "home": "casa",
+    "all": "Tutti",
+    "AllHotels": {
+      "centrovital": {
+        "name": "Centrovital Hotel | Spa & Sportclub",
+        "location": "Berlino-Spandau",
+        "description": "Hotel a 4 stelle superior con 158 camere, spa e centro sportivo, piscina e area sauna, centro wellness e Ayurveda. Situato al lago Spandauer See nel storico birrificio Schultheiss."
+      },
+      "ensana": {
+        "name": "Ensana Health Spa Hotels",
+        "location": "Più località in Europa",
+        "description": "Il più grande operatore di spa termali d'Europa con hotel di lusso in 6 paesi. Specializzato in risorse naturali curative, tra cui acqua termale, acqua minerale, acqua salata, fanghi curativi e trattamenti naturali con CO₂."
+      },
+      "biohotelEggensberger": {
+        "name": "Biohotel Eggensberger",
+        "location": "Füssen - Hopfen am See, Allgäu",
+        "description": "Hotel biologico a 4 stelle con una vista fantastica sulla 'Riviera Allgäu'. Hotel a conduzione familiare, ecologico e positivo per il clima, con cucina biologica vitale, spa in giardino, centro terapeutico e mobilità elettrica."
+      },
+      "hotelElbresidenz": {
+        "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+        "location": "Bad Schandau, Svizzera sassone",
+        "description": "Hotel di lusso direttamente sul fiume Elba, circondato dallo straordinario paesaggio naturale delle montagne di arenaria dell'Elba. Situato tra Dresda e Praga."
+      },
+      "oceano": {
+        "name": "OCÉANO Health Spa Hotel",
+        "location": "Punta del Hidalgo, Tenerife",
+        "description": "Hotel esclusivo di salute e spa situato direttamente sull'Oceano Atlantico ai piedi della Riserva della Biosfera di Anaga. Gestito dalla famiglia da tre generazioni, offre il F.X. Mayr Center."
+      },
+      "rondane": {
+        "name": "Rondane Høyfjellshotell",
+        "location": "Mysuseter - Parco Nazionale Rondane, Norvegia",
+        "description": "Hotel di montagna tradizionale, il più vicino al Parco Nazionale Rondane, che offre strutture wellness complete e attività all'aperto nella natura incontaminata."
+      },
+      "hotelFlamingo": {
+        "name": "Flamingo Grand Hotel & SPA Albena",
+        "location": "Albena Resort, Mar Nero, Bulgaria",
+        "description": "Hotel di lusso a 5 stelle ad Albena, premiato con il marchio ecologico Bandiera Blu. Fa parte di un complesso turistico sostenibile con una bellissima spiaggia lunga 6 km e una riserva naturale."
+      }
     }
+  }
 }

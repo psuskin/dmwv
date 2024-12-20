@@ -100,7 +100,14 @@
     "addressLine3": "Germany",
     "followUs": "Follow Us",
     "stayConnected": "Stay connected with us for the latest updates and news!",
-    "socialAriaLabel": "Visit us on {socialName}"
+    "socialAriaLabel": "Visit us on {socialName}",
+    "successModalTitle": "Message sent successfully",
+    "successModalDescription": "Thank you for your message. We'll get back to you as soon as possible.",
+    "successModalButton": "Close",
+    "errorModalTitle": "Error sending message",
+    "errorModalDescription": "An error occurred. Please try again.",
+    "errorModalButton": "Close",
+    "sending": "Sending..."
   },
   "Team": {
     "ourExperts": "Our Experts",
@@ -177,25 +184,26 @@
     "viewAllPartners": "View All Partners",
     "viewAllPartnersAriaLabel": "View all wellness partners",
     "hotels": {
-      "sonnenberg": {
-        "name": "Wellness Resort Sonnenberg",
-        "location": "Baden-Baden"
+      "centrovital": {
+        "name": "Centrovital Hotel | Spa & Sportclub",
+        "location": "Berlin-Spandau"
       },
-      "schwarzwald": {
-        "name": "Spa Hotel Black Forest",
-        "location": "Freiburg"
+      "ensana": {
+        "name": "Ensana Health Spa Hotels",
+        "location": "Multiple European Locations"
       },
-      "bodensee": {
-        "name": "Health Center Lake Constance",
-        "location": "Constance"
+      "biohotelEggensberger": {
+        "name": "Biohotel Eggensberger",
+        "location": "Hopfen am See"
       },
-      "alpenblick": {
-        "name": "Vital Hotel Alpine View",
-        "location": "Garmisch-Partenkirchen"
+      "hotelElbresidenz": {
+        "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+        "location": "Bad Schandau, Sächsische Schweiz"
       }
     },
     "features": {
       "spa": "Spa",
+      "sportClub": "Sport Club",
       "pool": "Pool",
       "yoga": "Yoga",
       "massage": "Massage",
@@ -206,7 +214,22 @@
       "meditation": "Meditation",
       "mountainView": "Mountain View",
       "hiking": "Hiking",
-      "wellness": "Wellness"
+      "wellness": "Wellness",
+      "thermalSpa": "Thermal Spa",
+      "medicalTreatments": "Medical Treatments",
+      "naturalHealing": "Natural Healing",
+      "wellnessPrograms": "Wellness Programs",
+      "healthRetreats": "Health Retreats",
+      "organicCertified": "Organic Certified",
+      "gardenSPA": "Garden SPA",
+      "organicRestaurant": "Organic Restaurant",
+      "eMobility": "E-Mobility",
+      "toskanaTherme": "Toskana Therme",
+      "auroraSpa": "Aurora Spa",
+      "gourmetRestaurant": "Gourmet Restaurant",
+      "wellnessPark": "Wellness Park",
+      "fitnessCenter": "Fitness Center",
+      "riverView": "River View"
     }
   },
   "FAQSection": {
@@ -891,6 +914,9 @@
     "newsletterTitle": "Subscribe to Newsletter",
     "emailPlaceholder": "Your email address",
     "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "subscribeSuccess": "Thank you for subscribing!",
+    "subscribeError": "An error occurred while subscribing. Please try again later.",
     "quickLinks": "Quick Links",
     "menuItems": [
       { "name": "Home", "href": "/" },
@@ -917,5 +943,52 @@
     "imprint": "Imprint",
     "privacy": "Privacy Policy",
     "terms": "Terms and Conditions"
+  },
+  "AllWellnessHotels": {
+    "title": "Our Wellness Partners",
+    "subtitle": "Discover our certified wellness hotels and health resorts",
+    "searchPlaceholder": "Search hotels by name or location...",
+    "partners": "Partners",
+    "home": "Home",
+    "searchButton": "Search",
+    "all": "All",
+    "learnMore": "Learn More",
+    "AllHotels": {
+      "centrovital": {
+        "name": "Centrovital Hotel | Spa & Sportclub",
+        "location": "Berlin-Spandau",
+        "description": "4-Star Superior Hotel with 158 rooms, Spa & Sports Club, pool and sauna landscape, wellness and Ayurveda center. Located at Spandauer See in the historic Schultheiss Brewery."
+      },
+      "ensana": {
+        "name": "Ensana Health Spa Hotels",
+        "location": "Multiple European Locations",
+        "description": "Europe's largest health spa operator with luxury hotels in 6 countries. Specializing in natural healing resources including thermal water, mineral water, salt water, healing mud, and natural CO₂ treatments."
+      },
+      "biohotelEggensberger": {
+        "name": "Biohotel Eggensberger",
+        "location": "Füssen - Hopfen am See, Allgäu",
+        "description": "4-star organic hotel with a fantastic view over the 'Allgäu Riviera'. Climate-positive, family-run hotel with organic vital cuisine, garden spa, therapy center and e-mobility."
+      },
+      "hotelElbresidenz": {
+        "name": "Hotel Elbresidenz an der Therme Bad Schandau",
+        "location": "Bad Schandau, Sächsische Schweiz",
+        "description": "Luxury hotel directly on the Elbe River, surrounded by the impressive natural scenery of the Elbe Sandstone Mountains. Located between Dresden and Prague."
+      },
+      "oceano": {
+        "name": "OCÉANO Health Spa Hotel",
+        "location": "Punta del Hidalgo, Tenerife",
+        "description": "Exclusive health spa hotel located directly on the Atlantic Ocean at the foot of the Anaga Biosphere Reserve. Family-run in third generation, offering F.X. Mayr Center."
+      },
+      "rondane": {
+        "name": "Rondane Høyfjellshotell",
+        "location": "Mysuseter - Rondane National Park, Norway",
+        "description": "Traditional mountain hotel closest to Rondane National Park, offering comprehensive wellness facilities and outdoor activities in pristine nature."
+      },
+      "hotelFlamingo": {
+        "name": "Flamingo Grand Hotel & SPA Albena",
+        "location": "Albena Resort, Black Sea, Bulgaria",
+        "description": "5-star luxury resort hotel in Albena, awarded with the Blue Flag eco-label. Part of a sustainable tourism complex with 6km beautiful beach and natural reserve."
+      }
+    }
   }
 }

@@ -79,14 +79,14 @@ export default function NewsDetail({
         <div className="mt-8 flex flex-col lg:flex-row gap-8">
           <main className="lg:w-2/3">
             <article className="bg-white shadow-sm rounded-lg overflow-hidden">
-              <div className="relative h-64 sm:h-80 md:h-96">
-                <Image
-                  src={news.image}
-                  alt={news.title[safeLocale]}
-                  fill
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
+              <Image
+                src={news.image}
+                alt={news.title[safeLocale]}
+                width={1920}
+                height={1080}
+                className="w-full h-auto"
+                quality={100}
+              />
               <div className="p-6">
                 <h1 className="text-3xl font-bold text-primary-800 mb-4">
                   {news.title[safeLocale]}
