@@ -1009,5 +1009,12 @@
         "description": "Hotel di lusso a 5 stelle ad Albena, premiato con il marchio ecologico Bandiera Blu. Fa parte di un complesso turistico sostenibile con una bellissima spiaggia lunga 6 km e una riserva naturale."
       }
     }
+  },
+  "cookies": {
+    "title": "Impostazioni dei cookie",
+    "description": "Utilizziamo i cookie per migliorare la tua esperienza di navigazione e analizzare il nostro traffico. Si prega di scegliere la tua preferenza qui sotto.",
+    "essentialOnly": "Solo essenziale",
+    "acceptAll": "Accettare tutto",
+    "privacyPolicy": "Politica sulla riservatezza"
   }
 }

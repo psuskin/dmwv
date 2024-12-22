@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -6,6 +8,59 @@ import { newsData, NewsItem, Locale } from "@/constants/newsData";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { unstable_setRequestLocale } from "next-intl/server";
 import { useTranslations } from "next-intl";
+
+export async function generateMetadata({
+  params: { id, locale },
+}: {
+  params: { id: string; locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations("metadata");
+  const news = newsData.find((item) => item.id.toString() === id);
+  const safeLocale = locale as Locale;
+
+  if (!news) {
+    return {
+      title: "News Not Found",
+    };
+  }
+
+  return {
+    metadataBase: new URL(
+      process.env.NODE_ENV === "production"
+        ? "https://dmwv.de"
+        : "http://localhost:3000"
+    ),
+    title: `${news.title[safeLocale]} | ${t("siteName")}`,
+    description: news.excerpt[safeLocale],
+    openGraph: {
+      title: news.title[safeLocale],
+      description: news.excerpt[safeLocale],
+      images: [
+        {
+          url: news.image,
+          width: 1200,
+          height: 630,
+          alt: news.title[safeLocale],
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: news.title[safeLocale],
+      description: news.excerpt[safeLocale],
+    },
+    keywords: [
+      "Medical Wellness News",
+      "Healthcare Updates",
+      "Wellness Industry News",
+      news.category[safeLocale],
+      "DMWV News",
+      "Medical News",
+      "Healthcare Insights",
+      "Wellness Developments",
+    ],
+  };
+}
 
 export function generateStaticParams() {
   return newsData.flatMap((news) => [

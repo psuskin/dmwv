@@ -1009,5 +1009,12 @@
         "description": "Albena'da, 5 yıldızlı lüks tatil köyü oteli, Mavi Bayrak ekolojik etiketi ile ödüllendirilmiştir. 6 km uzunluğunda güzel plaj ve doğal rezervle sürdürülebilir turizm kompleksinin bir parçasıdır."
       }
     }
+  },
+  "cookies": {
+    "title": "Çerez Ayarları",
+    "description": "Çerezleri kullanarak gezinme deneyiminizi ve trafiğimizi analiz ediyoruz. Lütfen aşağıda tercihinizi seçiniz.",
+    "essentialOnly": "Sadece gerekli",
+    "acceptAll": "Tümünü kabul et",
+    "privacyPolicy": "Gizlilik Politikası"
   }
 }

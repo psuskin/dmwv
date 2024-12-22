@@ -8,6 +8,12 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Messages } from "@/types/MetaMessages";
 import { Inter } from "next/font/google";
+import { CookieConsent } from "@/components/CookieConsent";
+import {
+  GoogleTagManager,
+  GoogleTagManagerNoScript,
+} from "@/components/GoogleTagManager";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +48,11 @@ export async function generateMetadata({
   }
 
   return {
+    metadataBase: new URL(
+      process.env.NODE_ENV === "production"
+        ? "https://dmwv.de"
+        : "http://localhost:3000"
+    ),
     title: {
       default: metadata.defaultTitle,
       template: `%s | ${metadata.defaultTitle}`,
@@ -91,7 +102,6 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-
   // Set the request locale
   unstable_setRequestLocale(locale);
   // Check if the locale is valid
@@ -109,15 +119,21 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="h-full">
+      <head>
+        <GoogleTagManager />
+      </head>
       <body
         className={`h-full bg-background text-foreground ${inter.className}`}
       >
+        <GoogleTagManagerNoScript />
+        <GoogleAnalytics />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex flex-col min-h-screen">
             <Navbar />
             <main className="flex-grow">{children}</main>
             <Footer />
           </div>
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>

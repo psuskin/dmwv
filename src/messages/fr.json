@@ -1009,5 +1009,12 @@
         "description": "Complexe hôtelier de luxe 5 étoiles à Albena, récompensé par le label écologique Drapeau Bleu. Faisant partie d'un complexe touristique durable avec 6 km de plage magnifique et une réserve naturelle."
       }
     }
+  },
+  "cookies": {
+    "title": "Paramètres des cookies",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience de navigation et analyser notre trafic. Veuillez choisir votre préférence ci-dessous.",
+    "essentialOnly": "Essentiel uniquement",
+    "acceptAll": "Accepter tout",
+    "privacyPolicy": "Politique de confidentialité"
   }
 }

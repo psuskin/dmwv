@@ -15,6 +15,60 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useTranslations } from "next-intl";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { metadataConfig } from "@/app/metadata.config";
+
+export async function generateMetadata({
+  params: { id },
+}: {
+  params: { id: string; locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations("partners");
+  const tMeta = await getTranslations("metadata");
+  const partner = partners.find((p) => p.id === id);
+
+  if (!partner) {
+    return {
+      title: "Partner Not Found",
+    };
+  }
+
+  return {
+    ...metadataConfig,
+    title: `${t(`partnerNames.${partner.id}`)} | ${tMeta("siteName")}`,
+    description: t(`partnerDescriptions.${partner.id}`),
+    openGraph: {
+      title: `${t(`partnerNames.${partner.id}`)} | ${tMeta("siteName")}`,
+      description: t(`partnerDescriptions.${partner.id}`),
+      images: [
+        {
+          url: partner.imageUrl,
+          width: 1200,
+          height: 630,
+          alt: t(`partnerNames.${partner.id}`),
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${t(`partnerNames.${partner.id}`)} | ${tMeta("siteName")}`,
+      description: t(`partnerDescriptions.${partner.id}`),
+    },
+    keywords: [
+      "Medical Wellness Partner",
+      "Healthcare Partnership",
+      partner.subcategory || partner.category,
+      "Medical Network Member",
+      "Healthcare Provider",
+      "Wellness Industry Partner",
+      "German Medical Wellness",
+      "Healthcare Collaboration",
+      t(`partnerNames.${partner.id}`),
+      "DMWV Partner",
+    ],
+  };
+}
 
 export default function PartnerDetails({ params }: { params: { id: string } }) {
   const t = useTranslations("partners");
@@ -53,7 +107,8 @@ export default function PartnerDetails({ params }: { params: { id: string } }) {
                   variant="secondary"
                   className="text-sm bg-primary-100 text-primary-700"
                 >
-                  {t(`subcategories.${partner.subcategory}`) || t(`categories.${partner.category}`)}
+                  {t(`subcategories.${partner.subcategory}`) ||
+                    t(`categories.${partner.category}`)}
                 </Badge>
                 {partner.date && (
                   <div className="text-gray-600 flex items-center text-sm">

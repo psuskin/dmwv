@@ -4,6 +4,52 @@ import { CheckCircle, Users, Megaphone, Search } from "lucide-react";
 import SubHeader from "@/components/SubHeader";
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { metadataConfig } from "@/app/metadata.config";
+
+// Generate metadata
+export async function generateMetadata({
+  params: {},
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations("expertise");
+  const tMeta = await getTranslations("metadata");
+
+  return {
+    ...metadataConfig,
+    title: `${t("title")} | ${tMeta("siteName")}`,
+    description: t("subtitle"),
+    openGraph: {
+      title: `${t("title")} | ${tMeta("siteName")}`,
+      description: t("subtitle"),
+      images: [
+        {
+          url: "/images/expertise-og.jpg",
+          width: 1200,
+          height: 630,
+          alt: t("title"),
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${t("title")} | ${tMeta("siteName")}`,
+      description: t("subtitle"),
+    },
+    keywords: [
+      "Medical Wellness Expertise",
+      "Healthcare Standards",
+      "Wellness Research",
+      "Medical Spa Standards",
+      "Healthcare Communication",
+      "German Medical Wellness Association",
+      "Wellness Industry Standards",
+      "Healthcare Quality Management",
+    ],
+  };
+}
 
 export default function ExpertisePage({
   params: { locale },

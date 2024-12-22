@@ -990,5 +990,12 @@
         "description": "5-star luxury resort hotel in Albena, awarded with the Blue Flag eco-label. Part of a sustainable tourism complex with 6km beautiful beach and natural reserve."
       }
     }
+  },
+  "cookies": {
+    "title": "Cookie Settings",
+    "description": "We use cookies to enhance your browsing experience and analyze our traffic. Please choose your preference below.",
+    "essentialOnly": "Essential Only",
+    "acceptAll": "Accept All",
+    "privacyPolicy": "Privacy Policy"
   }
 }

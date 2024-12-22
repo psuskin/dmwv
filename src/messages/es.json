@@ -1005,5 +1005,12 @@
         "description": "Hotel de montaña tradicional, el más cercano al Parque Nacional Rondane, que ofrece estructuras de bienestar completas y actividades al aire libre en la naturaleza incontaminada."
       }
     }
+  },
+  "cookies": {
+    "title": "Configuración de cookies",
+    "description": "Utilizamos cookies para mejorar su experiencia de navegación y analizar nuestro tráfico. Por favor, elija su preferencia a continuación.",
+    "essentialOnly": "Solo esencial",
+    "acceptAll": "Aceptar todo",
+    "privacyPolicy": "Política de privacidad"
   }
 }
