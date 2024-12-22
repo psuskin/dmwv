@@ -1011,6 +1011,7 @@
     "description": "Utilizamos cookies para mejorar su experiencia de navegación y analizar nuestro tráfico. Por favor, elija su preferencia a continuación.",
     "essentialOnly": "Solo esencial",
     "acceptAll": "Aceptar todo",
+    "declineAll": "Rechazar todo",
     "privacyPolicy": "Política de privacidad"
   }
 }

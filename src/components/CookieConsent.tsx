@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import { initGA } from "@/lib/analytics";
 import { motion, AnimatePresence } from "framer-motion";
-import { Shield, Cookie, ChevronRight } from "lucide-react";
+import { Shield, Cookie, ChevronRight, X } from "lucide-react";
 
 export function CookieConsent() {
   const [showConsent, setShowConsent] = useState(false);
@@ -31,6 +31,11 @@ export function CookieConsent() {
     setShowConsent(false);
   };
 
+  const declineAll = () => {
+    localStorage.setItem("cookie-consent", "none");
+    setShowConsent(false);
+  };
+
   if (!showConsent) return null;
 
   return (
@@ -44,13 +49,15 @@ export function CookieConsent() {
           className="fixed bottom-6 right-6 z-50 w-[400px] bg-white dark:bg-gray-900 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700"
         >
           <div className="p-6">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="bg-primary-100 dark:bg-primary-900 p-2 rounded-lg">
-                <Cookie className="w-6 h-6 text-primary-600 dark:text-primary-400" />
+            <div className="flex items-center justify-between gap-3 mb-4">
+              <div className="flex items-center gap-3">
+                <div className="bg-primary-100 dark:bg-primary-900 p-2 rounded-lg">
+                  <Cookie className="w-6 h-6 text-primary-600 dark:text-primary-400" />
+                </div>
+                <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                  {t("title")}
+                </h2>
               </div>
-              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-                {t("title")}
-              </h2>
             </div>
 
             <p className="text-gray-600 dark:text-gray-300 mb-6">
@@ -74,6 +81,15 @@ export function CookieConsent() {
                   className="w-full border-gray-300 hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-800 py-5"
                 >
                   {t("essentialOnly")}
+                </Button>
+
+                <Button
+                  onClick={declineAll}
+                  variant="ghost"
+                  className="w-full text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 flex items-center justify-center gap-2"
+                >
+                  <X className="w-4 h-4" />
+                  {t("declineAll")}
                 </Button>
               </div>
 

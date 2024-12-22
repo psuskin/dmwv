@@ -3,11 +3,11 @@ import { newsData } from '@/constants/newsData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = process.env.NODE_ENV === "production"
-        ? "https://dmwv.de"
+        ? "https://www.dmwv.de"
         : "http://localhost:3000";
 
     // Base routes for each language
-    const routes = ['de', 'en'].flatMap((lang) => [
+    const routes = ['de', 'en', 'es', 'fr', 'it'].flatMap((lang) => [
         {
             url: `${baseUrl}/${lang}`,
             lastModified: new Date(),
@@ -35,12 +35,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ]);
 
     // Add news article routes
-    const newsRoutes = newsData.flatMap((news) => ['de', 'en'].map((lang) => ({
-        url: `${baseUrl}/${lang}/news/${news.id}`,
-        lastModified: new Date(news.date),
-        changeFrequency: 'monthly' as const,
-        priority: 0.6,
-    })));
+    const newsRoutes = newsData.flatMap((news) =>
+        ['de', 'en', 'es', 'fr', 'it'].map((lang) => ({
+            url: `${baseUrl}/${lang}/news/${news.id}`,
+            lastModified: new Date(news.date),
+            changeFrequency: 'monthly' as const,
+            priority: 0.6,
+        }))
+    );
+
+    if (process.env.NODE_ENV === "development") {
+        console.log('Generated Sitemap URLs:', {
+            baseRoutes: routes.length,
+            newsRoutes: newsRoutes.length,
+            totalUrls: [...routes, ...newsRoutes].length,
+            sampleUrls: [...routes, ...newsRoutes].slice(0, 3),
+        });
+    }
 
     return [...routes, ...newsRoutes];
 } 

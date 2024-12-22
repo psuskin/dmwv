@@ -1015,6 +1015,7 @@
     "description": "Çerezleri kullanarak gezinme deneyiminizi ve trafiğimizi analiz ediyoruz. Lütfen aşağıda tercihinizi seçiniz.",
     "essentialOnly": "Sadece gerekli",
     "acceptAll": "Tümünü kabul et",
+    "declineAll": "Tümünü reddet",
     "privacyPolicy": "Gizlilik Politikası"
   }
 }

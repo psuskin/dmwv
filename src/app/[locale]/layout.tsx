@@ -47,10 +47,12 @@ export async function generateMetadata({
     };
   }
 
+  const canonicalBase = "https://www.dmwv.de";
+
   return {
     metadataBase: new URL(
       process.env.NODE_ENV === "production"
-        ? "https://dmwv.de"
+        ? "https://www.dmwv.de"
         : "http://localhost:3000"
     ),
     title: {
@@ -75,10 +77,10 @@ export async function generateMetadata({
       creator: "@dmwv",
     },
     alternates: {
-      canonical: `https://dmwv.de/${locale}`,
+      canonical: `${canonicalBase}/${locale}`,
       languages: {
-        "en-US": `https://dmwv.de/en`,
-        "de-DE": `https://dmwv.de/de`,
+        "en-US": `${canonicalBase}/en`,
+        "de-DE": `${canonicalBase}/de`,
       },
     },
     robots: {

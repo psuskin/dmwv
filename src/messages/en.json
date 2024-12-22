@@ -996,6 +996,7 @@
     "description": "We use cookies to enhance your browsing experience and analyze our traffic. Please choose your preference below.",
     "essentialOnly": "Essential Only",
     "acceptAll": "Accept All",
+    "declineAll": "Decline All",
     "privacyPolicy": "Privacy Policy"
   }
 }
