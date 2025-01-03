@@ -278,7 +278,7 @@ const ContactPage: React.FC = () => {
                           {t("emailTitle")}
                         </p>
                         <a
-                          href="mailto:info@dmwv.de"
+                          href="mailto:lutz.lungwitz@mwmg.de"
                           className="text-primary-100 hover:underline"
                         >
                           {t("emailAddress")}
