@@ -46,8 +46,13 @@ export function CookieConsent() {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 20 }}
-          className="fixed bottom-6 right-6 z-50 w-[400px] bg-white dark:bg-gray-900 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700
-          max-md:w-[calc(100vw-2rem)] max-md:bottom-4 max-md:right-4 max-md:left-4 max-md:mx-auto"
+        className="fixed bottom-6 left-6 z-50 w-[400px]
+  bg-white dark:bg-gray-900 rounded-xl shadow-2xl
+  border border-gray-200 dark:border-gray-700
+  max-md:bottom-[25%]
+  max-md:left-4 max-md:-translate-x-1/2
+  max-md:w-[calc(100vw-2rem)]
+"
         >
           <div className="p-6">
             <div className="flex items-center justify-between gap-3 mb-4">
