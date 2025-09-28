@@ -1,21 +1,76 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Calendar, Search, ChevronDown } from "lucide-react";
-import { newsData, NewsItem, Locale } from "@/constants/newsData";
+import { newsData, Locale, type LocalizedString } from "@/constants/newsData";
 import SubHeader from "@/components/SubHeader";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
+import type { ApiNewsItem } from "@/types/news";
 
-const NewsContent: React.FC = () => {
+const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL || "https://dmwv-news.susko.ai";
+
+type DisplayItem = {
+  id: string;
+  title: LocalizedString;
+  excerpt: LocalizedString;
+  date: string;
+  category: LocalizedString;
+  image: string;
+};
+
+type Props = {
+  items?: ApiNewsItem[];
+};
+
+const NewsContent: React.FC<Props> = ({ items }) => {
   const locale = useLocale() as Locale;
   const t = useTranslations("NewsPage");
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = React.useRef<HTMLDivElement>(null);
+
+  const displayItems: DisplayItem[] = useMemo(() => {
+    if (items && items.length > 0) {
+      const cat: LocalizedString = {
+        de: "News",
+        en: "News",
+        es: "News",
+        fr: "News",
+        it: "News",
+        ru: "News",
+        ar: "News",
+        tr: "News",
+      };
+      return items.map(
+        (n): DisplayItem => ({
+          id: n._id,
+          title: n.title as LocalizedString,
+          excerpt: n.content as LocalizedString,
+          date: n.createdAt,
+          category: cat,
+          image: n.coverImage
+            ? n.coverImage.startsWith("http")
+              ? n.coverImage
+              : `${API_BASE}${n.coverImage}`
+            : "/images/placeholder.svg",
+        })
+      );
+    }
+    // Fallback to existing static data
+    return newsData.map((n) => ({
+      id: String(n.id),
+      title: n.title,
+      excerpt: n.excerpt,
+      date: n.date,
+      category: n.category,
+      image: n.image,
+    }));
+  }, [items]);
 
   React.useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -50,17 +105,25 @@ const NewsContent: React.FC = () => {
     return new Intl.DateTimeFormat(locale, options).format(date);
   };
 
-  const filteredNews = newsData.filter((item) => {
+  const htmlToText = (html?: string, max = 180) => {
+    const text = (html || "")
+      .replace(/<[^>]*>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    return text.length > max ? text.slice(0, max) + "…" : text;
+  };
+
+  const filteredNews = displayItems.filter((item) => {
     const matchesSearch =
-      item.title[locale].toLowerCase().includes(searchTerm.toLowerCase()) ||
-      item.excerpt[locale].toLowerCase().includes(searchTerm.toLowerCase());
+      item.title[locale]?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      item.excerpt[locale]?.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCategory =
       selectedCategory === "" || item.category[locale] === selectedCategory;
     return matchesSearch && matchesCategory;
   });
 
   const categories = Array.from(
-    new Set(newsData.map((item) => item.category[locale]))
+    new Set(displayItems.map((item) => item.category[locale]))
   );
 
   return (
@@ -134,7 +197,7 @@ const NewsContent: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredNews.map((item: NewsItem) => (
+            {filteredNews.map((item: DisplayItem) => (
               <div
                 key={item.id}
                 className="bg-white rounded-xl border border-primary-100 overflow-hidden transition-all duration-300 hover:shadow-md transform hover:-translate-y-1"
@@ -143,8 +206,8 @@ const NewsContent: React.FC = () => {
                   <Image
                     src={item.image}
                     alt={item.title[locale]}
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    className="object-cover"
                   />
                   <div className="absolute top-0 left-0 bg-primary-500 text-white text-xs font-bold px-3 py-1 m-2 rounded-full">
                     {item.category[locale]}
@@ -156,7 +219,7 @@ const NewsContent: React.FC = () => {
                       {item.title[locale]}
                     </h2>
                     <p className="text-primary-600 mb-4 line-clamp-3">
-                      {item.excerpt[locale]}
+                      {htmlToText(item.excerpt[locale] || item.excerpt.en)}
                     </p>
                     <div className="flex items-center justify-between">
                       <div className="flex items-center text-primary-500 text-sm">
