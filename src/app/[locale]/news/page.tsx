@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import NewsContent from "./NewsContent";
+import { fetchAllNews } from "@/lib/fetchNews";
+import { ApiNewsItem } from "@/types/news";
 
 export async function generateMetadata({
   params: {},
@@ -48,6 +50,7 @@ export async function generateMetadata({
   };
 }
 
-export default function NewsPage() {
-  return <NewsContent />;
+export default async function NewsPage() {
+  const items: ApiNewsItem[] = await fetchAllNews();
+  return <NewsContent items={items} />;
 }
