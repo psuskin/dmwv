@@ -7,7 +7,7 @@ import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import type { Locale } from "@/constants/newsData";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { unstable_setRequestLocale } from "next-intl/server";
-import { fetchNewsById, fetchNews } from "@/lib/fetchNews";
+import { fetchNewsById, fetchAllNews } from "@/lib/fetchNews";
 import type { ApiNewsItem } from "@/types/news";
 
 export async function generateMetadata({
@@ -119,7 +119,7 @@ export default async function NewsDetail({
   // Fetch related news (exclude current)
   let relatedNews: ApiNewsItem[] = [];
   try {
-    const all = await fetchNews(1);
+    const all = await fetchAllNews();
     relatedNews = all.filter((n) => n._id !== item._id).slice(0, 3);
   } catch (_) {}
 
