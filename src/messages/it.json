@@ -78,6 +78,8 @@
     "Contact": {
         "title": "Contattaci",
         "subtitle": "Ci piacerebbe sentire la tua opinione! Utilizza il modulo o i nostri recapiti per contattarci.",
+        "home": "Home",
+        "contact": "Contattaci",
         "formTitle": "Inviaci un messaggio",
         "nameLabel": "Il tuo nome",
         "namePlaceholder": "Giovanni Rossi",

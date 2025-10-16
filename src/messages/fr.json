@@ -78,6 +78,8 @@
     "Contact": {
         "title": "Contactez-nous",
         "subtitle": "Nous serions ravis de vous entendre ! Utilisez le formulaire ou nos coordonnées pour nous contacter.",
+        "home": "Home",
+        "contact": "Contactez-nous",
         "formTitle": "Envoyez-nous un message",
         "nameLabel": "Votre nom",
         "namePlaceholder": "Jean Dupont",

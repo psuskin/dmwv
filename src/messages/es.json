@@ -78,6 +78,8 @@
   "Contact": {
     "title": "Contáctenos",
     "subtitle": "¡Nos encantaría saber de usted! Utilice el formulario o nuestros datos de contacto para comunicarse con nosotros.",
+    "home": "Home",
+    "contact": "Contáctenos",
     "formTitle": "Envíanos un mensaje",
     "nameLabel": "Su nombre",
     "namePlaceholder": "Juan Pérez",

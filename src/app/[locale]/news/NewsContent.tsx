@@ -133,8 +133,8 @@ const NewsContent: React.FC<Props> = ({ items }) => {
         subtitle={t("subtitle")}
         backgroundImage="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         breadcrumbs={[
-          { label: t("home"), href: `/${locale}` },
-          { label: t("news"), href: `/${locale}/news` },
+          { label: t("home"), href: "/" },
+          { label: t("news"), href: "/news" },
         ]}
       />
       <div className="bg-gradient-to-br from-primary-50 to-white min-h-screen py-12 px-4 sm:px-6 lg:px-8">

@@ -78,6 +78,8 @@
   "Contact": {
     "title": "Kontaktieren Sie uns",
     "subtitle": "Wir freuen uns, von Ihnen zu hören! Nutzen Sie das Formular oder unsere Kontaktdaten, um uns zu erreichen.",
+    "home": "Home",
+    "contact": "Kontaktieren Sie uns",
     "formTitle": "Senden Sie uns eine Nachricht",
     "nameLabel": "Ihr Name",
     "namePlaceholder": "Max Mustermann",
