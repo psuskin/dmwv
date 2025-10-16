@@ -1,14 +1,13 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { ChevronDown, Search, Menu, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
-import SearchModal from "@/components/SearchModal";
 
 const menuItems = [
   { name: "Home", href: "/" },
@@ -39,7 +38,6 @@ export default function Navbar() {
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const submenuTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
 
   const openSubmenu = (itemName: string) => {
     if (submenuTimeoutRef.current) {
@@ -90,10 +88,6 @@ export default function Navbar() {
       pathname === `/${locale}${href}` ||
       pathname.startsWith(`/${locale}${href}/`)
     );
-  };
-
-  const toggleSearchModal = () => {
-    setIsSearchModalOpen(!isSearchModalOpen);
   };
 
   const getLogoPath = () => {
@@ -183,25 +177,11 @@ export default function Navbar() {
               ))}
             </div>
           </div>
-          <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
-            <button
-              onClick={toggleSearchModal}
-              className="p-3 rounded-full hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
-              aria-label="Toggle search"
-            >
-              <Search className="h-6 w-6 lg:h-7 lg:w-7 text-white" />
-            </button>
+          <div className="hidden md:flex items-center">
             <LanguageSwitcher />
           </div>
           <div className="md:hidden flex items-center space-x-2">
             <LanguageSwitcher />
-            <button
-              onClick={toggleSearchModal}
-              className="p-3 rounded-md text-white hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
-              aria-label="Toggle search"
-            >
-              <Search className="h-8 w-8" />
-            </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-3 rounded-md text-white hover:bg-[#5C69A8] focus:outline-none focus:ring-2 transition-colors duration-200"
@@ -275,10 +255,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      <SearchModal
-        isOpen={isSearchModalOpen}
-        onClose={() => setIsSearchModalOpen(false)}
-      />
     </nav>
   );
 }

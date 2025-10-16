@@ -78,6 +78,8 @@
   "Contact": {
     "title": "Bize Ulaşın",
     "subtitle": "Sizden haber almak isteriz! İletişime geçmek için formu veya iletişim bilgilerimizi kullanın.",
+    "home": "Home",
+    "contact": "Bize Ulaşın",
     "formTitle": "Bize bir mesaj gönderin",
     "nameLabel": "Adınız",
     "namePlaceholder": "John Doe",

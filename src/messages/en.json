@@ -79,6 +79,8 @@
   "Contact": {
     "title": "Contact Us",
     "subtitle": "We'd love to hear from you! Use the form or our contact details to reach out.",
+    "home": "Home",
+    "contact": "Contact Us",
     "formTitle": "Send us a message",
     "nameLabel": "Your Name",
     "namePlaceholder": "John Doe",
