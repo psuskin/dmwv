@@ -2,16 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  ArrowRight,
-} from "lucide-react";
+import { Facebook, Linkedin, Mail, MapPin, Phone, ArrowRight } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
@@ -132,10 +123,21 @@ export default function Footer() {
               </li>
             </ul>
             <div className="flex space-x-4">
-              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
+              {[
+                {
+                  Icon: Linkedin,
+                  href: "https://www.linkedin.com/in/lutz-lungwitz-98999335",
+                },
+                {
+                  Icon: Facebook,
+                  href: "https://www.facebook.com/dmwv.de",
+                },
+              ].map(({ Icon, href }) => (
                 <a
-                  key={index}
-                  href="#"
+                  key={href}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white hover:text-primary-200 transition-colors p-2 bg-primary-800/50 rounded-full hover:bg-primary-700/50"
                 >
                   <Icon size={24} />
@@ -176,12 +178,6 @@ export default function Footer() {
                 className="text-sm text-white hover:text-primary-200 transition-colors"
               >
                 {t("privacy")}
-              </Link>
-              <Link
-                href={`/${locale}/agb`}
-                className="text-sm text-white hover:text-primary-200 transition-colors"
-              >
-                {t("terms")}
               </Link>
             </nav>
           </div>
