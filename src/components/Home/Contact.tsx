@@ -10,7 +10,6 @@ import {
   MapPin,
   Send,
   Facebook,
-  Instagram,
   Linkedin,
   CheckCircle,
 } from "lucide-react";
@@ -34,6 +33,7 @@ interface SocialIcon {
   icon: React.ElementType;
   name: string;
   color: string;
+  href: string;
 }
 
 const formsparkUrl = `https://submit-form.com/${process.env.NEXT_PUBLIC_FORMSPARK_ID}`;
@@ -107,9 +107,18 @@ const ContactPage: React.FC = () => {
   };
 
   const socialIcons: SocialIcon[] = [
-    { icon: Facebook, name: "Facebook", color: "bg-blue-600" },
-    { icon: Instagram, name: "Instagram", color: "bg-pink-600" },
-    { icon: Linkedin, name: "LinkedIn", color: "bg-blue-700" },
+    {
+      icon: Linkedin,
+      name: "LinkedIn",
+      color: "bg-blue-700",
+      href: "https://www.linkedin.com/in/lutz-lungwitz-98999335/",
+    },
+    {
+      icon: Facebook,
+      name: "Facebook",
+      color: "bg-blue-600",
+      href: "https://www.facebook.com/dmwv.de",
+    },
   ];
 
   return (
@@ -325,11 +334,7 @@ const ContactPage: React.FC = () => {
                     {socialIcons.map((social) => (
                       <a
                         key={social.name}
-                        href={
-                          social.name.toLowerCase() === "linkedin"
-                            ? "https://www.linkedin.com/in/lutz-lungwitz-98999335/"
-                            : `https://${social.name.toLowerCase()}.com/lutz.lungwitz.dmwv`
-                          }
+                        href={social.href}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`${social.color} p-3 rounded-full hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center`}
